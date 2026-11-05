@@ -1,0 +1,28 @@
+name: Validate reports
+
+on:
+  pull_request:
+    paths:
+      - "data/reports/**"
+      - "data/forks.json"
+      - "scripts/reports.py"
+      - "docs/REPORTS.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate report files
+        run: python -I scripts/reports.py validate
+      - name: Check generated report table is up to date
+        run: |
+          python -I scripts/reports.py render --out /tmp/REPORTS.md
+          diff -u docs/REPORTS.md /tmp/REPORTS.md

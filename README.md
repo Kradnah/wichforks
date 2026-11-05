@@ -60,6 +60,7 @@ Claims in this repo are labelled, because the scene is full of "60 FPS trust me 
 | Label | Meaning |
 |---|---|
 | **Documented** | The fork's README or release notes state it. |
+| **Corroborated** | Two or more independent [experience reports](docs/REPORTS.md) on the same game + fork + GPU class agree. |
 | **Community-reported** | Comes from the 5 Nov 2026 community update or third-party posts; not independently reproduced here. |
 | **Source-only** | No prebuilt binary at check time; build it yourself. |
 
@@ -159,7 +160,7 @@ Lower confidence, but relevant depending on hardware:
 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port · 195★ · GPL-3.0 | Community-reported |
 | [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Niche build named for one GPU · 11★ | Unverified |
 
-> A missing license (ZendNevs) matters if you plan to redistribute or bundle the build. GPL-3.0 forks must publish source; check before trusting a binary-only repack.
+> A missing license matters if you plan to redistribute or bundle a build: ZendNevs declares none, while GPL-3.0 forks must publish source. Check before trusting a binary-only repack.
 
 ---
 
@@ -181,6 +182,25 @@ Lower confidence, but relevant depending on hardware:
 > Game names are used only to describe compatibility targets. No game files, keys, or firmware are hosted or linked here.
 
 ---
+
+## Community reports — help improve the ranking
+
+The matrix above is a snapshot of documentation and community claims. Reports from people who actually ran a build are what turn it into a ranking that can be trusted.
+
+**Two ways to contribute**
+
+1. **Issue form (2 minutes)** — [open an experience report](../../issues/new?template=experience-report.yml). Dropdowns and fields cover fork, build, game, platform, CPU/GPU/driver, RAM, settings, FPS, and outcome.
+2. **Pull request (structured)** — add a JSON file to [`data/reports/`](data/reports/README.md). CI validates it, and `scripts/reports.py render` refreshes [`docs/REPORTS.md`](docs/REPORTS.md).
+
+**How reports change the ranking**
+
+- One report is an anecdote: it is published but does not move a recommendation.
+- Two or more independent reports on the same game + fork + GPU class make a claim **corroborated**; the first-pick column can then change.
+- Reports with a real build tag, a log, or a screenshot weigh more.
+- Negative reports (won't boot, crashes) demote a fork for that game — they are as useful as positive ones.
+- Configs are compared by GPU class (vendor + generation), not exact card, so one RX 9070 XT report still helps other RDNA4 users.
+
+Reports are public. Don't post keys, firmware, ROMs, or personal information.
 
 ## Setup checklist
 
@@ -256,10 +276,11 @@ All links checked 5 Nov 2026. Release metadata read from the GitHub/Forgejo APIs
 
 Found a fork that deserves a row, or a link that died? Read [CONTRIBUTING.md](CONTRIBUTING.md) and open a PR. Rules: one fork per PR, link the upstream repo, state platform + tested game + build + GPU/driver, and no ROM/key/firmware links.
 
-Data lives in [`data/forks.json`](data/forks.json). Run the link checker before submitting:
+Data lives in [`data/forks.json`](data/forks.json) and reports live in [`data/reports/`](data/reports/README.md). Run both checks before submitting:
 
 ```bash
 python -I scripts/check_links.py
+python -I scripts/reports.py validate
 ```
 
 ## Update log
@@ -268,3 +289,4 @@ python -I scripts/check_links.py
 |---|---|
 | 2026-11-05 | Initial guide: 11 forks + 4 niche builds, release endpoints verified, game matrix from documented + community-reported claims. |
 | 2026-11-05 | Broke ZendNevs/Eglantine out into its own section (frame generation, DynamicFPS, 30 FPS lock). |
+| 2026-11-05 | Added community reports: issue form, JSON schema + validator, generated `docs/REPORTS.md`, CI check. |

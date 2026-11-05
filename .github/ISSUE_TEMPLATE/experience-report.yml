@@ -1,0 +1,161 @@
+name: Experience report
+description: Report how a specific build runs a specific game on your hardware
+title: "[Report] "
+labels: ["experience-report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing. Reports feed the ranking in the main guide and are published in the aggregated table.
+
+        **Do not attach or link game files, keys, firmware, or anything copyrighted.** A game title, a build number, and your hardware are enough.
+
+  - type: dropdown
+    id: fork
+    attributes:
+      label: Fork
+      description: Which build are you reporting on?
+      options:
+        - "Djihads80/Eglantine (central)"
+        - "SmileyTatsu/Eglantine (MKW)"
+        - "MythosOfs/Orchid (AMD)"
+        - "PokeDinner (Franseven)"
+        - "notsapinho/Eglantine (Pokopia)"
+        - "zortos293/Lichii"
+        - "rdenno/Eglantine (nx2-merged)"
+        - "ZendNevs/Eglantine (frame generation)"
+        - "moceure/eden-nx2-android"
+        - "sylvieistaken/selevet-eglantine"
+        - "heydemoura/EglantinePS5"
+        - "astralbeexd/Eglantine-3060Ti-16GB"
+        - "Other / not listed"
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: Build / release tag
+      description: Use the exact tag or build number shown in the release (e.g. build-212, v0.7.2, 2.7.7).
+      placeholder: "build-212"
+    validations:
+      required: true
+
+  - type: input
+    id: game
+    attributes:
+      label: Game
+      description: Game title only. Do not include file names, title IDs, or download links.
+      placeholder: "Mario Kart World"
+    validations:
+      required: true
+
+  - type: input
+    id: game_version
+    attributes:
+      label: Game version (optional)
+      placeholder: "1.0.0"
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - "Windows 11"
+        - "Windows 10"
+        - "Linux"
+        - "macOS"
+        - "Android"
+        - "PS5"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU
+      placeholder: "Ryzen 7 5800X3D"
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      placeholder: "Radeon RX 9070 XT"
+    validations:
+      required: true
+
+  - type: input
+    id: driver
+    attributes:
+      label: GPU driver
+      description: Driver version, or "Mesa RADV git" / "Turnip" for Linux and Android.
+      placeholder: "Adrenalin 25.10.1"
+    validations:
+      required: true
+
+  - type: input
+    id: ram
+    attributes:
+      label: RAM (GB)
+      placeholder: "32"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - "Perfect — full speed, no visible issues"
+        - "Playable — works with glitches or drops"
+        - "Broken — boots but unplayable"
+        - "Won't boot / crashes immediately"
+    validations:
+      required: true
+
+  - type: input
+    id: fps
+    attributes:
+      label: Typical FPS
+      description: Your usual framerate after the shader cache is warm, not the best spike.
+      placeholder: "45 (range 35-55)"
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Settings
+      description: Resolution, graphics API, upscaler, FPS cap, any per-game tweak.
+      placeholder: "Vulkan, 1440p, 60 FPS cap, TAA, default accuracy"
+
+  - type: checkboxes
+    id: issues
+    attributes:
+      label: Issues observed
+      options:
+        - label: Shader stutter
+        - label: Crashes
+        - label: Audio problems
+        - label: Visual glitches
+        - label: Input / controller problems
+        - label: Performance drops
+        - label: Other (explain below)
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything useful — how long you played, workarounds, what changed between builds. Drag screenshots or logs here if relevant.
+      placeholder: "Played 30 minutes after warm-up; stutter gone after the first track."
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I dumped my own game, keys, and firmware, and this report contains no copyrighted files or links to them.
+          required: true
+        - label: I agree to have this report summarized publicly in the repo's report table.
+          required: true

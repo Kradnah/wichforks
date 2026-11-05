@@ -14,6 +14,28 @@ Thanks for helping keep this list useful. The Switch 2 emulation scene changes h
 6. **No aggregator-only links** unless the aggregator itself links upstream for every entry and bundles nothing copyrighted.
 7. **Update, don't duplicate.** If a fork already has a row, edit the row and bump its release/build fields.
 
+## Reporting your experience
+
+You don't need to write JSON to contribute a data point.
+
+- **Fast path:** open an [experience report](issues/new?template=experience-report.yml) issue. Use the exact build tag, game title, CPU/GPU/driver, RAM, settings, and outcome.
+- **Structured path:** add `data/reports/YYYY-MM-DD-<fork-id>-<slug>.json` following [data/reports/README.md](data/reports/README.md), then run:
+
+```bash
+python -I scripts/reports.py validate
+python -I scripts/reports.py render
+```
+
+Rules:
+
+- One report per build + game + config. Duplicates from the same reporter are collapsed.
+- No ROMs, keys, firmware, or links to them.
+- Reports are public; use your GitHub handle.
+- Don't edit someone else's report — add a new one or open an issue with a correction.
+- A recommendation changes only after two independent reports on the same game + fork + GPU class agree.
+
+Maintainers: create the `experience-report` label if it doesn't exist, and regenerate `docs/REPORTS.md` after merging reports.
+
 ## Adding a fork
 
 Add an entry to `data/forks.json`:
@@ -41,13 +63,14 @@ Allowed `confidence` values: `documented`, `community-reported`, `source-only`, 
 
 Then add the fork to the relevant README tables and, if necessary, the game matrix. Use the same wording as the JSON so the two don't drift.
 
-## Checking links
+## Checking links and reports
 
 ```bash
 python -I scripts/check_links.py
+python -I scripts/reports.py validate
 ```
 
-The script exits non-zero on dead (404/410) or unreachable URLs. Rate limits and 5xx answers are retried, then reported as INCONCLUSIVE without failing the run. Fix dead links or mark the fork as archived/removed in the same PR.
+The link checker exits non-zero on dead (404/410) or unreachable URLs. Rate limits and 5xx answers are retried, then reported as INCONCLUSIVE without failing the run. The report validator exits non-zero on schema errors. Fix dead links or mark the fork as archived/removed in the same PR.
 
 ## Removing a fork
 
