@@ -196,10 +196,10 @@ Lower confidence, but relevant depending on hardware:
 | Fork | Platform | Why it exists | Confidence |
 |---|---|---|---|
 | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | Windows/Linux | Zen 3-tuned, PGO + ThinLTO, faster GPU mapping. 121 stars. Build 6 (3 Nov). | Documented |
-| [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. | Community-reported |
-| [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Niche build named for one GPU. 11 stars. | Unverified |
+| [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. Source only, no release assets at check. | Community-reported |
+| [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Patch set plus a binary release, not a full source tree. 11 stars. | Unverified |
 
-A missing license matters if you plan to redistribute or bundle a build: ZendNevs declares none, while GPL-3.0 forks must publish source. Check before trusting a binary-only repack.
+A missing license or a source zip without a source tree matters: ZendNevs declares no license and publishes source only as a release zip, while the 3060Ti build is a patch set with a binary release. Both stay out of the first picks. See the [source audit](docs/SOURCE-AUDIT.md).
 
 ---
 
@@ -282,12 +282,19 @@ Reports are public. Don't post keys, firmware, ROMs or personal information.
 
 Forks are full emulator copies, not plugins. Before trusting one:
 
-- Does it link upstream? A fork should name its base (Eglantine, Eden, Yuzu, Sudachi) and publish source if it is GPL.
+- Does it link upstream? A fork should name its base (Eglantine, Eden, Yuzu, Sudachi) and publish source in the repo if it is GPL.
 - Does it publish real release notes? "Performance boost" with no commit or build detail is noise.
 - Does it have public history? Check the commit count, license and source. A release-only repo with two commits can still ship a working build, but its claims need independent confirmation.
+- Is the full source in the repo? A source zip attached to a release is not a public source tree. Check `LICENSE`, `src/` and `CMakeLists.txt` or `Makefile`.
 - Does it bundle keys, firmware or games? That is a red flag. Don't use it.
 - Is it current? Compare its last push or release date with upstream. A fork that stopped a week ago is already stale in this scene.
 - Can you reproduce the claim? Same game, same save, same route, warm cache. Otherwise treat FPS numbers as anecdotes.
+
+### Source check
+
+A source audit of every fork in this guide is in [source audit](docs/SOURCE-AUDIT.md). All first picks publish their full source in the repository under GPL-3.0.
+
+ZendNevs is the exception: its repo has 2 commits, no license, and only a README plus a workflow. The source is a zip in the release, not a source tree. The 3060Ti build is a patch set with a binary release, not a full emulator fork. Neither is a first pick.
 
 ### Reading FPS claims
 
@@ -367,3 +374,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added `docs/POKOPIA.md` with Pokopia configs, black sky and 120fps workarounds, and memory limits. |
 | 2026-11-05 | Added a normalized performance dataset, SVG charts and a coverage page for what was tested on which setup. |
 | 2026-11-05 | Added a recency policy and downgraded ZendNevs from first pick after reviewing its 2-commit repo history. Recent independent reports now drive the MKW and DK picks. |
+| 2026-11-05 | Added a source audit and a source-in-repo rule; ZendNevs and the 3060Ti build are no longer treated as auditable. |

@@ -12,6 +12,7 @@ Thanks for helping keep this list useful. The Switch 2 emulation scene changes h
 4. Include context: platform, GPU and driver, build tag, and game tested.
 5. No copyrighted files. No ROMs, keys, firmware or links to them. No "repack" or ad-gated download links.
 6. Update, don't duplicate. If a fork already has a row, edit the row and bump its release or build fields.
+7. First picks must publish full source in the repo under a license. A source zip in a release or a binary-only fork is not enough: mark it unverified and keep it out of the first-pick rows.
 
 ## Reporting your experience
 
