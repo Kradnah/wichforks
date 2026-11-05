@@ -147,7 +147,7 @@ def md(value) -> str:
 
 def fmt_fps(values: list[int]) -> str:
     if not values:
-        return "—"
+        return "n/a"
     median = statistics.median(values)
     return f"{median:g}"
 
@@ -206,7 +206,7 @@ def cmd_render(args) -> int:
         games = {report["game"].strip().lower() for report in reports}
         used_forks = {report["fork_id"] for report in reports}
         lines += [
-            f"**{len(reports)} report(s) · {len(games)} game(s) · {len(used_forks)} fork(s)**",
+            f"{len(reports)} reports, {len(games)} games, {len(used_forks)} forks",
             "",
             "## Best reported combinations",
             "",
@@ -273,7 +273,7 @@ def cmd_render(args) -> int:
             if report.get("source_url"):
                 reporter = f"[{reporter}]({report['source_url']})"
             fps = report.get("fps_typical")
-            fps_text = str(fps) if is_int(fps) else "—"
+            fps_text = str(fps) if is_int(fps) else "n/a"
             lines.append(
                 "| {date} | {game} | {fork} | {build} | {platform} | {cpu} | {gpu} | {status} | {fps} | {reporter} |".format(
                     date=report["date"],

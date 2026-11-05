@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for testing. Reports feed the ranking in the main guide and are published in the aggregated table.
 
-        **Do not attach or link game files, keys, firmware, or anything copyrighted.** A game title, a build number, and your hardware are enough.
+        Do not attach or link game files, keys, firmware or anything copyrighted. A game title, a build number and your hardware are enough.
 
   - type: dropdown
     id: fork
@@ -109,10 +109,10 @@ body:
     attributes:
       label: Status
       options:
-        - "Perfect — full speed, no visible issues"
-        - "Playable — works with glitches or drops"
-        - "Broken — boots but unplayable"
-        - "Won't boot / crashes immediately"
+        - "Perfect: full speed, no visible issues"
+        - "Playable: works with glitches or drops"
+        - "Broken: boots but unplayable"
+        - "Won't boot or crashes immediately"
     validations:
       required: true
 
@@ -139,7 +139,7 @@ body:
         - label: Crashes
         - label: Audio problems
         - label: Visual glitches
-        - label: Input / controller problems
+        - label: Input or controller problems
         - label: Performance drops
         - label: Other (explain below)
 
@@ -147,7 +147,7 @@ body:
     id: notes
     attributes:
       label: Notes
-      description: Anything useful — how long you played, workarounds, what changed between builds. Drag screenshots or logs here if relevant.
+      description: Anything useful, such as how long you played, workarounds, or what changed between builds. Drag screenshots or logs here if relevant.
       placeholder: "Played 30 minutes after warm-up; stutter gone after the first track."
 
   - type: checkboxes
@@ -155,7 +155,7 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I dumped my own game, keys, and firmware, and this report contains no copyrighted files or links to them.
+        - label: I dumped my own game, keys and firmware, and this report contains no copyrighted files or links to them.
           required: true
         - label: I agree to have this report summarized publicly in the repo's report table.
           required: true
