@@ -31,6 +31,10 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | unplayable, very bad stutter | SigHya; did not start a race |
+| 3 Nov | unspecified | i7-14700K | RTX 5070 | 32 GB | 60 FPS 98% of the time | SigHya; no flicker or dropped frames; fork not named |
+| 3 Nov | unspecified | Ryzen 5 3600 | GTX 1660 Super | 16 GB | 34-45 FPS | SigHya; Mario Circuit; fork not named |
+| 3 Nov | unspecified | Ryzen 7 2700 | RTX 4060 8 GB | 32 GB | close to 30 FPS, unstable frametimes | SigHya; fork not named |
 | 3 Nov | ZendNevs v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | release notes; 2-commit repo; 1x handheld, DynamicFPS, not locked 60 |
 | 5 Nov | Orchid v0.7.2 | 5800X3D | RX 9070 XT | 32 GB | 30-40 FPS | release notes; Linux, Mesa RADV git; asset glitches |
 | 31 Oct | unspecified | i7-13620H | RTX 4070 Laptop | 16 GB DDR5 | 43 FPS | community preset, handheld |
@@ -61,6 +65,8 @@ These reports are missing the CPU, RAM, build or a combination. They are still u
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
+| 3 Nov | PokeDinner latest | Z1 Extreme | Z1 Extreme | not stated | 20-30 FPS | SigHya; ROG Ally; Lossless Scaling only works on loading |
+| 3 Nov | unspecified | Ryzen 7 3800X | RX 9070 XT | not stated | 25-50 FPS | SigHya; user said 8 GB; depends on camera |
 | 31 Oct | unspecified | Ryzen 5 5600 | RTX 3050 | not stated | 20-30 FPS |  |
 | 31 Oct | unspecified | Ryzen 7 7800X3D | RTX 5070 | not stated | 20-30 FPS |  |
 | 31 Oct | unspecified | Ryzen 5 5600X | RTX 2060 Super | not stated | about 7 FPS |  |

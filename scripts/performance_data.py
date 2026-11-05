@@ -185,7 +185,9 @@ def normalize(row: dict, game: str) -> dict | None:
     source = clean(row.get("Source", ""))
     if not source:
         build_lower = build.lower()
-        if "zendnevs" in build_lower:
+        if "sighya" in notes.lower():
+            source = f"SigHya Discord, {date}" if date else "SigHya Discord"
+        elif "zendnevs" in build_lower:
             source = "ZendNevs release notes"
         elif "orchid" in build_lower:
             source = "Orchid README"

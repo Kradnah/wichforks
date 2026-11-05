@@ -38,7 +38,7 @@ A few representative rows:
 
 ## Pokemon Pokopia
 
-Pokopia has its own page because the workarounds matter: [Pokopia notes](POKOPIA.md). It covers the black sky, the 120fps mod, memory limits and 13 configs.
+Pokopia has its own page because the workarounds matter: [Pokopia notes](POKOPIA.md). It covers the black sky, the 120fps mod, memory limits and 15 configs.
 
 A few representative rows:
 

@@ -37,7 +37,7 @@ If you only read one line: install Djihads80/Eglantine first. Switch forks only 
 
 ## Stats at a glance
 
-105 reports, 14 games, 59 CPU and GPU setups, and 28 reports in the 3-5 Nov window used for the first picks. 53 reports are NVIDIA, 32 AMD, 3 Steam Deck, and 17 have no named GPU.
+114 reports, 14 games, 63 CPU and GPU setups, and 37 reports in the 3-5 Nov window used for the first picks. 57 reports are NVIDIA, 34 AMD, 6 Steam Deck, and 17 have no named GPU.
 
 ![Reports by date](docs/charts/dates.svg)
 
@@ -380,3 +380,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added a recency policy and downgraded ZendNevs from first pick after reviewing its 2-commit repo history. Recent independent reports now drive the MKW and DK picks. |
 | 2026-11-05 | Added a source audit and a source-in-repo rule; ZendNevs and the 3060Ti build are no longer treated as auditable. |
 | 2026-11-05 | Moved stats and charts to the top and reordered the page around fork choice, then data, then setup. |
+| 2026-11-05 | Added recent SigHya community reports for Steam Deck, ROG Ally and low-end GPUs. |

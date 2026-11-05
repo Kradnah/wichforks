@@ -32,25 +32,27 @@
 <text x="783.3" y="646" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">4</text>
 <line x1="1010.0" y1="106" x2="1010.0" y2="628" stroke="#e5e7eb" stroke-width="1"/>
 <text x="1010.0" y="646" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">6</text>
-<text x="318" y="130" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7700X + RX 7900 XTX</text>
-<rect x="330.0" y="114" width="113.3" height="24" fill="#dc2626"/>
-<rect x="443.3" y="114" width="113.3" height="24" fill="#db2777"/>
-<rect x="556.7" y="114" width="113.3" height="24" fill="#4f46e5"/>
-<rect x="670.0" y="114" width="226.7" height="24" fill="#16a34a"/>
-<rect x="896.7" y="114" width="113.3" height="24" fill="#d97706"/>
+<text x="318" y="130" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Steam Deck APU + Steam Deck</text>
+<rect x="330.0" y="114" width="113.3" height="24" fill="#2563eb"/>
+<rect x="443.3" y="114" width="113.3" height="24" fill="#7c3aed"/>
+<rect x="556.7" y="114" width="340.0" height="24" fill="#65a30d"/>
+<rect x="896.7" y="114" width="113.3" height="24" fill="#ea580c"/>
 <text x="1018.0" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">6</text>
-<text x="318" y="164" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7800X3D + RX 9070 XT</text>
-<rect x="330.0" y="148" width="340.0" height="24" fill="#2563eb"/>
-<rect x="670.0" y="148" width="113.3" height="24" fill="#7c3aed"/>
-<text x="791.3" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
-<text x="318" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5800X3D + RX 9070 XT</text>
-<rect x="330.0" y="182" width="113.3" height="24" fill="#7c3aed"/>
-<rect x="443.3" y="182" width="113.3" height="24" fill="#0891b2"/>
-<rect x="556.7" y="182" width="113.3" height="24" fill="#2563eb"/>
-<text x="678.0" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
-<text x="318" y="232" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Steam Deck APU + Steam Deck</text>
-<rect x="330.0" y="216" width="226.7" height="24" fill="#65a30d"/>
-<rect x="556.7" y="216" width="113.3" height="24" fill="#ea580c"/>
+<text x="318" y="164" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7700X + RX 7900 XTX</text>
+<rect x="330.0" y="148" width="113.3" height="24" fill="#dc2626"/>
+<rect x="443.3" y="148" width="113.3" height="24" fill="#db2777"/>
+<rect x="556.7" y="148" width="113.3" height="24" fill="#4f46e5"/>
+<rect x="670.0" y="148" width="226.7" height="24" fill="#16a34a"/>
+<rect x="896.7" y="148" width="113.3" height="24" fill="#d97706"/>
+<text x="1018.0" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">6</text>
+<text x="318" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7800X3D + RX 9070 XT</text>
+<rect x="330.0" y="182" width="340.0" height="24" fill="#2563eb"/>
+<rect x="670.0" y="182" width="113.3" height="24" fill="#7c3aed"/>
+<text x="791.3" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
+<text x="318" y="232" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5800X3D + RX 9070 XT</text>
+<rect x="330.0" y="216" width="113.3" height="24" fill="#7c3aed"/>
+<rect x="443.3" y="216" width="113.3" height="24" fill="#0891b2"/>
+<rect x="556.7" y="216" width="113.3" height="24" fill="#2563eb"/>
 <text x="678.0" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
 <text x="318" y="266" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5800XT + RX 9070 XT</text>
 <rect x="330.0" y="250" width="113.3" height="24" fill="#2563eb"/>
@@ -59,32 +61,33 @@
 <text x="318" y="300" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i5-14400F + RTX 4060</text>
 <rect x="330.0" y="284" width="226.7" height="24" fill="#7c3aed"/>
 <text x="564.7" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="334" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7700X + RX 6700 XT</text>
-<rect x="330.0" y="318" width="113.3" height="24" fill="#2563eb"/>
+<text x="318" y="334" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen Z1 Extreme + Z1 Extreme</text>
+<rect x="330.0" y="318" width="113.3" height="24" fill="#7c3aed"/>
 <rect x="443.3" y="318" width="113.3" height="24" fill="#65a30d"/>
 <text x="564.7" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="368" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5700X3D + RTX 5070 Ti</text>
-<rect x="330.0" y="352" width="226.7" height="24" fill="#2563eb"/>
+<text x="318" y="368" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7700X + RX 6700 XT</text>
+<rect x="330.0" y="352" width="113.3" height="24" fill="#2563eb"/>
+<rect x="443.3" y="352" width="113.3" height="24" fill="#65a30d"/>
 <text x="564.7" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="402" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7800X3D + RTX 5090</text>
+<text x="318" y="402" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5700X3D + RTX 5070 Ti</text>
 <rect x="330.0" y="386" width="226.7" height="24" fill="#2563eb"/>
 <text x="564.7" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="436" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i5-12400F + RTX 3060</text>
+<text x="318" y="436" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7800X3D + RTX 5090</text>
 <rect x="330.0" y="420" width="226.7" height="24" fill="#2563eb"/>
 <text x="564.7" y="436" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 5500X3D + RTX 4070</text>
-<rect x="330.0" y="454" width="113.3" height="24" fill="#7c3aed"/>
-<text x="451.3" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i7-13620H + RTX 4070</text>
+<text x="318" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i5-12400F + RTX 3060</text>
+<rect x="330.0" y="454" width="226.7" height="24" fill="#2563eb"/>
+<text x="564.7" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="318" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i7-14700K + RTX 5070</text>
 <rect x="330.0" y="488" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="504" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 5600 + RTX 3060 Ti</text>
+<text x="318" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 3600 + GTX 1660 Super</text>
 <rect x="330.0" y="522" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="538" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Core Ultra 9 185H + RTX 4070</text>
+<text x="318" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 2700 + RTX 4060</text>
 <rect x="330.0" y="556" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="606" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i5-14600KF + RTX 3060</text>
+<text x="318" y="606" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 5500X3D + RTX 4070</text>
 <rect x="330.0" y="590" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="606" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
 </svg>

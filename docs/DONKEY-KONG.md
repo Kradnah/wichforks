@@ -31,6 +31,7 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 10-15 FPS | SigHya; otherwise seems okay |
 | 31 Oct | unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 30-40 FPS accurate, 40-50 fast, 60 in corners | area dependent |
 | 1 Nov | zortos build 31 | 5700X3D | RTX 5070 Ti | 32 GB | 17 FPS looking north | before Selevet |
 | 1 Nov | Selevet perf 3 | 5700X3D | RTX 5070 Ti | 32 GB | 30 FPS cap, 60 with smooth motion | default 0.5x, 1x works |

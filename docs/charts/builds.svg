@@ -32,55 +32,58 @@
 <text x="39" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Zelda: Ocarina of Time remake</text>
 <line x1="220.0" y1="122" x2="220.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
 <text x="220.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
-<line x1="483.3" y1="122" x2="483.3" y2="372" stroke="#e5e7eb" stroke-width="1"/>
-<text x="483.3" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
-<line x1="746.7" y1="122" x2="746.7" y2="372" stroke="#e5e7eb" stroke-width="1"/>
-<text x="746.7" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">40</text>
+<line x1="417.5" y1="122" x2="417.5" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="417.5" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
+<line x1="615.0" y1="122" x2="615.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="615.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">40</text>
+<line x1="812.5" y1="122" x2="812.5" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="812.5" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">60</text>
 <line x1="1010.0" y1="122" x2="1010.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
-<text x="1010.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">60</text>
+<text x="1010.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">80</text>
 <text x="208" y="146" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Unspecified</text>
-<rect x="220.0" y="130" width="131.7" height="24" fill="#2563eb"/>
-<rect x="351.7" y="130" width="13.2" height="24" fill="#dc2626"/>
-<rect x="364.8" y="130" width="13.2" height="24" fill="#16a34a"/>
-<rect x="378.0" y="130" width="13.2" height="24" fill="#d97706"/>
-<rect x="391.2" y="130" width="447.7" height="24" fill="#7c3aed"/>
-<rect x="838.8" y="130" width="13.2" height="24" fill="#db2777"/>
-<rect x="852.0" y="130" width="92.2" height="24" fill="#65a30d"/>
-<rect x="944.2" y="130" width="13.2" height="24" fill="#ea580c"/>
-<rect x="957.3" y="130" width="13.2" height="24" fill="#4f46e5"/>
-<rect x="970.5" y="130" width="13.2" height="24" fill="#2563eb"/>
-<rect x="983.7" y="130" width="13.2" height="24" fill="#dc2626"/>
-<rect x="996.8" y="130" width="13.2" height="24" fill="#16a34a"/>
-<text x="1018.0" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">60</text>
-<text x="208" y="180" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Other fork</text>
-<rect x="220.0" y="164" width="39.5" height="24" fill="#2563eb"/>
-<rect x="259.5" y="164" width="13.2" height="24" fill="#7c3aed"/>
-<rect x="272.7" y="164" width="13.2" height="24" fill="#0891b2"/>
-<rect x="285.8" y="164" width="39.5" height="24" fill="#65a30d"/>
-<rect x="325.3" y="164" width="13.2" height="24" fill="#2563eb"/>
-<rect x="338.5" y="164" width="105.3" height="24" fill="#d97706"/>
-<text x="451.8" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
-<text x="208" y="214" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Eglantine build</text>
-<rect x="220.0" y="198" width="13.2" height="24" fill="#2563eb"/>
-<rect x="233.2" y="198" width="118.5" height="24" fill="#7c3aed"/>
-<rect x="351.7" y="198" width="13.2" height="24" fill="#65a30d"/>
-<rect x="364.8" y="198" width="13.2" height="24" fill="#ea580c"/>
-<rect x="378.0" y="198" width="26.3" height="24" fill="#16a34a"/>
-<rect x="404.3" y="198" width="13.2" height="24" fill="#d97706"/>
-<text x="425.5" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">15</text>
+<rect x="220.0" y="130" width="98.8" height="24" fill="#2563eb"/>
+<rect x="318.8" y="130" width="9.9" height="24" fill="#dc2626"/>
+<rect x="328.6" y="130" width="9.9" height="24" fill="#16a34a"/>
+<rect x="338.5" y="130" width="9.9" height="24" fill="#d97706"/>
+<rect x="348.4" y="130" width="375.2" height="24" fill="#7c3aed"/>
+<rect x="723.6" y="130" width="9.9" height="24" fill="#db2777"/>
+<rect x="733.5" y="130" width="69.1" height="24" fill="#65a30d"/>
+<rect x="802.6" y="130" width="9.9" height="24" fill="#ea580c"/>
+<rect x="812.5" y="130" width="9.9" height="24" fill="#4f46e5"/>
+<rect x="822.4" y="130" width="9.9" height="24" fill="#2563eb"/>
+<rect x="832.2" y="130" width="9.9" height="24" fill="#dc2626"/>
+<rect x="842.1" y="130" width="9.9" height="24" fill="#16a34a"/>
+<text x="860.0" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">64</text>
+<text x="208" y="180" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Eglantine build</text>
+<rect x="220.0" y="164" width="19.8" height="24" fill="#2563eb"/>
+<rect x="239.8" y="164" width="98.8" height="24" fill="#7c3aed"/>
+<rect x="338.5" y="164" width="19.8" height="24" fill="#65a30d"/>
+<rect x="358.2" y="164" width="9.9" height="24" fill="#ea580c"/>
+<rect x="368.1" y="164" width="19.8" height="24" fill="#16a34a"/>
+<rect x="387.9" y="164" width="9.9" height="24" fill="#d97706"/>
+<text x="405.8" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">18</text>
+<text x="208" y="214" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Other fork</text>
+<rect x="220.0" y="198" width="29.6" height="24" fill="#2563eb"/>
+<rect x="249.6" y="198" width="9.9" height="24" fill="#7c3aed"/>
+<rect x="259.5" y="198" width="9.9" height="24" fill="#0891b2"/>
+<rect x="269.4" y="198" width="29.6" height="24" fill="#65a30d"/>
+<rect x="299.0" y="198" width="9.9" height="24" fill="#2563eb"/>
+<rect x="308.9" y="198" width="79.0" height="24" fill="#d97706"/>
+<text x="395.9" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
 <text x="208" y="248" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">PokeDinner</text>
-<rect x="220.0" y="232" width="26.3" height="24" fill="#2563eb"/>
-<rect x="246.3" y="232" width="13.2" height="24" fill="#7c3aed"/>
-<rect x="259.5" y="232" width="26.3" height="24" fill="#65a30d"/>
-<text x="293.8" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">5</text>
+<rect x="220.0" y="232" width="19.8" height="24" fill="#2563eb"/>
+<rect x="239.8" y="232" width="19.8" height="24" fill="#7c3aed"/>
+<rect x="259.5" y="232" width="19.8" height="24" fill="#65a30d"/>
+<text x="287.2" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">6</text>
 <text x="208" y="282" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Selevet</text>
-<rect x="220.0" y="266" width="52.7" height="24" fill="#2563eb"/>
-<text x="280.7" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
+<rect x="220.0" y="266" width="39.5" height="24" fill="#2563eb"/>
+<text x="267.5" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
 <text x="208" y="316" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">ZendNevs</text>
-<rect x="220.0" y="300" width="13.2" height="24" fill="#2563eb"/>
-<rect x="233.2" y="300" width="13.2" height="24" fill="#7c3aed"/>
-<text x="254.3" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<rect x="220.0" y="300" width="9.9" height="24" fill="#2563eb"/>
+<rect x="229.9" y="300" width="9.9" height="24" fill="#7c3aed"/>
+<rect x="239.8" y="300" width="9.9" height="24" fill="#65a30d"/>
+<text x="257.6" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
 <text x="208" y="350" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">SmileyTatsu</text>
-<rect x="220.0" y="334" width="26.3" height="24" fill="#7c3aed"/>
-<text x="254.3" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<rect x="220.0" y="334" width="19.8" height="24" fill="#7c3aed"/>
+<text x="247.8" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
 </svg>

@@ -27,6 +27,7 @@ These are user reports, not benchmarks. The same build can show a black sky, mis
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 40-50 FPS, dips to 30 | SigHya; game 2.0.1; never below 30 |
 | 1 Nov | PokeDinner, unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 50-60 FPS, feels like 40-50 | accurate GPU |
 | 1 Nov | unspecified | 5800X3D | RX 7900 XT Linux | not stated | 60 FPS with 2x frame gen, worse than real 60 | frame gen caveat |
 | 2 Nov | build 135 | not stated | GTX 1080 | not stated | 60 FPS with stutter, black sky, no audio |  |
@@ -42,6 +43,7 @@ These reports are missing the CPU, RAM, build or a combination. Treat them as ro
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
+| 3 Nov | ZendNevs v2.0.4 | Ryzen 5 2600 | GTX 1660 Super | not stated | 60 FPS, drops to 50 | SigHya; Pokopia |
 | 1 Nov | PokeDinner 2.0.1 | Steam Deck APU | Steam Deck APU | 16 GB | 30-40 FPS | power settings reduced |
 | 1 Nov | unspecified | not stated | not stated | 8 GB | 60 FPS but crashes when other apps open |  |
 | 1 Nov | unspecified | not stated | not stated | not stated | 1440p 60 FPS |  |
