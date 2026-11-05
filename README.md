@@ -128,6 +128,8 @@ A 5 Nov community PSA calls build-80 the most playable OoT remake build so far �
 - **RTX 2070 + 9800X3D** reportedly holds 60 FPS while a **7900 XTX + 13400F** does not — the pattern points to a single-core CPU bottleneck rather than GPU power.
 - **Black screen:** try the **non-PGO** Windows artifact first (the PGO build caused black screens for several users), then docked mode. Some cutscenes stay black with audio only.
 
+**Reality check (second 5 Nov thread):** the 60 FPS clips are not sustained gameplay. They tend to come from specific areas on high-end hardware, and flicker/bloom can make 60 FPS unplayable anyway. A 4070 Ti + 14th-gen i7 owner still describes the game as emulator-bound, and NVIDIA users report both good and bad results — the GPU vendor is not a guarantee.
+
 - **Pick it if:** you want OoT remake or the other titles attributed to it, and you have a fast CPU.
 - **Watch out:** verify the game in the release/commit notes of the build you download; the project still uses the historical "Eglantine" name internally. Actions artifacts are not releases — keep the zip if a build works.
 
@@ -180,7 +182,7 @@ Lower confidence, but relevant depending on hardware:
 | Donkey Kong Bananza | PokeDinner | Lichii | PokeDinner release notes (terrain, black-hole rendering); Lichii community-reported |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items/sky/reflections |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox/texture/HDR fixes; upstream says variable performance |
-| Zelda: OoT remake | Lichii build-80 | PokeDinner | Build-80 playable with heavy visual bugs; 54–60 FPS on 9800X3D, 20–24 on i3-10100/3060 (field reports, 5 Nov) |
+| Zelda: OoT remake | Lichii build-80 | PokeDinner | Playable with heavy visual bugs; 60 FPS clips are area-specific/high-end, 20–24 FPS on i3-10100/3060 (field reports, 5 Nov) |
 | Star Fox | Lichii | Djihads80 | Community-reported |
 | Mario Tennis Fever | Lichii | Orchid | Community-reported; Orchid measured 60 FPS |
 | Hyrule Warriors: AoI | Djihads80 build 202+ | rdenno nx2-merged | Build 202 fix set; 46–49 FPS median reported |
@@ -238,6 +240,14 @@ Forks are full emulator copies, not plugins. Before trusting one:
 - **Does it bundle keys, firmware, or games?** That's a red flag — don't use it.
 - **Is it current?** Compare its last push/release date with upstream. A fork that stopped a week ago is already stale in this scene.
 - **Can you reproduce the claim?** Same game, same save, same route, warm cache. Otherwise treat FPS numbers as anecdotes.
+
+### Reading FPS claims
+
+- "60 FPS" means nothing without the area, build, CPU, settings, and duration. Menus and cutscenes are not gameplay.
+- A clip from one zone on a 9800X3D is a best-case sample, not an average.
+- Low GPU **and** low CPU usage usually means the emulator is the bottleneck, not your settings.
+- Frame generation (FSR 3/LSFG) inflates the counter; it does not raise the simulation rate.
+- High FPS with flicker, bloom, or black-screen flashes is still unplayable for many people.
 
 ### About "Amazing-*" / "Awesome-*" aggregator repos
 
@@ -299,3 +309,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Broke ZendNevs/Eglantine out into its own section (frame generation, DynamicFPS, 30 FPS lock). |
 | 2026-11-05 | Added community reports: issue form, JSON schema + validator, generated `docs/REPORTS.md`, CI check. |
 | 2026-11-05 | Added Lichii build-80 field reports for OoT remake (Actions-only artifact, PGO black-screen workaround, CPU-bound pattern). |
+| 2026-11-05 | OoT reality check + "Reading FPS claims": 60 FPS clips are area-specific, not sustained. |

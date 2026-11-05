@@ -96,7 +96,7 @@
       "license": "GPL-3.0",
       "stars_at_check": 1500,
       "confidence": "community-reported",
-      "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
+      "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. 60 FPS clips are area-specific, flicker can make them unplayable, and NVIDIA alone is not a guarantee. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
     },
     {
       "id": "rdenno-eglantine",
