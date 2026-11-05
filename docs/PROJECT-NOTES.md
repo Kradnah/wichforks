@@ -1,8 +1,8 @@
 # Project notes
 
-Notes pulled from the Eglantine Discord `#discussion` between 30 Oct and 5 Nov 2026. This is not official documentation. Reports are unverified, build numbers move fast, and results change with the GPU, driver and game version.
+Notes pulled from public community reports between 30 Oct and 5 Nov 2026. This is not official documentation. Reports are unverified, build numbers move fast, and results change with the GPU, driver and game version.
 
-The raw chat is not committed here. It contains hundreds of usernames and a lot of off-topic messages. This page keeps the technical claims that affect which fork or build to use. For the fork shortlist, go back to the [main guide](../README.md).
+This page keeps the technical claims that affect which fork or build to use. For the fork shortlist, go back to the [main guide](../README.md).
 
 ## Build timeline
 
@@ -40,7 +40,7 @@ NUP is a container format for decrypted game dumps, started by a55uka and merged
 Build 189 added DLSS support through Streamline.
 
 - NVIDIA only.
-- Use it only for games that actually use DLSS. Fire Emblem Fortune's Weave is the example in the Discord.
+- Use it only for games that actually use DLSS. Fire Emblem Fortune's Weave is the example in community reports.
 - DLSS and Streamline versions need to match the installed driver. Avoid random DLL bundles from file hosts.
 - On AMD, one Fire Emblem crash log showed the emulator trying DLSS, then failing to fall back to FSR.
 
@@ -70,7 +70,7 @@ The Android build is experimental and was not an official target at check time.
 
 ### Online
 
-The documented route for online play is [Droplet with Reservoir](https://gitlab.com/seighttt/droplet). Discord users experimented with online on PokeDinner and Eglantine, but that was not the supported path. Treat those experiments as unstable.
+The documented route for online play is [Droplet with Reservoir](https://gitlab.com/seighttt/droplet). Community users experimented with online on PokeDinner and Eglantine, but that was not the supported path. Treat those experiments as unstable.
 
 ### Fork merging
 
@@ -118,6 +118,6 @@ A different GPU, driver or game version can change every result in this table.
 
 ## Sources
 
-- Eglantine Discord `#discussion`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
+- Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
 - [Eglantine releases](https://github.com/Djihads80/Eglantine/releases) for build tags and release notes.
 - [Droplet and Reservoir](https://gitlab.com/seighttt/droplet) for the documented online path.

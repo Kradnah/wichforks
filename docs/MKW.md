@@ -1,6 +1,6 @@
 # Mario Kart World notes
 
-Reports from the Eglantine Discord `#mario-kart-world` between 30 Oct and 5 Nov 2026, plus the documented ZendNevs and Orchid results already used in the main guide. The channel had about 25,900 user messages. This page keeps the performance reports and settings that matter.
+Reports from public community posts between 30 Oct and 5 Nov 2026, plus the documented ZendNevs and Orchid results already used in the main guide. This page keeps the performance reports and settings that matter.
 
 These are user reports, not benchmarks. A build that works for one GPU can fail on another, and the same config can lose or gain 20 FPS between two builds.
 
@@ -25,16 +25,16 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 - SmileyTatsu build 11 and 12: build 11 gave 45-50 FPS average on an RX 7800 XT; build 12 was almost locked 60 on AMD when docked for another user.
 - ZendNevs v2.0.5: 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070. This is a release-note claim from a 2-commit, unlicensed repo.
 - PokeDinner: 60 FPS at 270p on an RX 9070 XT in one report; 25-30 FPS in races on an RTX 3050 laptop in another.
-- Selevet Eglantine: one user on an older Zen CPU gained about 8 FPS over the build in the channel.
+- Selevet Eglantine: one user on an older Zen CPU gained about 8 FPS over the build in community reports.
 
 ## Complete configs
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | unplayable, very bad stutter | SigHya; did not start a race |
-| 3 Nov | unspecified | i7-14700K | RTX 5070 | 32 GB | 60 FPS 98% of the time | SigHya; no flicker or dropped frames; fork not named |
-| 3 Nov | unspecified | Ryzen 5 3600 | GTX 1660 Super | 16 GB | 34-45 FPS | SigHya; Mario Circuit; fork not named |
-| 3 Nov | unspecified | Ryzen 7 2700 | RTX 4060 8 GB | 32 GB | close to 30 FPS, unstable frametimes | SigHya; fork not named |
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | unplayable, very bad stutter | community; did not start a race |
+| 3 Nov | unspecified | i7-14700K | RTX 5070 | 32 GB | 60 FPS 98% of the time | community; no flicker or dropped frames; fork not named |
+| 3 Nov | unspecified | Ryzen 5 3600 | GTX 1660 Super | 16 GB | 34-45 FPS | community; Mario Circuit; fork not named |
+| 3 Nov | unspecified | Ryzen 7 2700 | RTX 4060 8 GB | 32 GB | close to 30 FPS, unstable frametimes | community; fork not named |
 | 3 Nov | ZendNevs v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | release notes; 2-commit repo; 1x handheld, DynamicFPS, not locked 60 |
 | 5 Nov | Orchid v0.7.2 | 5800X3D | RX 9070 XT | 32 GB | 30-40 FPS | release notes; Linux, Mesa RADV git; asset glitches |
 | 31 Oct | unspecified | i7-13620H | RTX 4070 Laptop | 16 GB DDR5 | 43 FPS | community preset, handheld |
@@ -65,8 +65,8 @@ These reports are missing the CPU, RAM, build or a combination. They are still u
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 3 Nov | PokeDinner latest | Z1 Extreme | Z1 Extreme | not stated | 20-30 FPS | SigHya; ROG Ally; Lossless Scaling only works on loading |
-| 3 Nov | unspecified | Ryzen 7 3800X | RX 9070 XT | not stated | 25-50 FPS | SigHya; user said 8 GB; depends on camera |
+| 3 Nov | PokeDinner latest | Z1 Extreme | Z1 Extreme | not stated | 20-30 FPS | community; ROG Ally; Lossless Scaling only works on loading |
+| 3 Nov | unspecified | Ryzen 7 3800X | RX 9070 XT | not stated | 25-50 FPS | community; user said 8 GB; depends on camera |
 | 31 Oct | unspecified | Ryzen 5 5600 | RTX 3050 | not stated | 20-30 FPS |  |
 | 31 Oct | unspecified | Ryzen 7 7800X3D | RTX 5070 | not stated | 20-30 FPS |  |
 | 31 Oct | unspecified | Ryzen 5 5600X | RTX 2060 Super | not stated | about 7 FPS |  |
@@ -106,6 +106,6 @@ These reports are missing the CPU, RAM, build or a combination. They are still u
 
 ## Sources
 
-- Eglantine Discord `#mario-kart-world`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
+- Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW result.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT result.

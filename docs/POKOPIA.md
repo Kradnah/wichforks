@@ -1,6 +1,6 @@
 # Pokopia notes
 
-Reports from the Eglantine Discord `#pokopia` between 31 Oct and 5 Nov 2026. The channel had about 3,800 user messages and 89 messages with FPS mentions. This page keeps the reports and workarounds that matter.
+Reports from public community posts between 31 Oct and 5 Nov 2026. This page keeps the reports and workarounds that matter.
 
 These are user reports, not benchmarks. The same build can show a black sky, missing audio or 60 FPS depending on the GPU and the fork.
 
@@ -13,21 +13,21 @@ These are user reports, not benchmarks. The same build can show a black sky, mis
 - 8 GB of RAM can boot the game, but it crashes when other apps use memory. 16 GB is the practical floor.
 - NUP support is inconsistent. Some users converted Pokopia to NUP successfully, others could not run it on PokeDinner, and the version metadata can be wrong.
 - Frame generation gives 60 displayed FPS but not real 60. One user called it worse than real 60 FPS; input lag is the tradeoff.
-- DLSS 4.5 support was mentioned in the channel, but it is not a fix for the underlying emulator performance.
+- DLSS 4.5 support was mentioned in community reports, but it is not a fix for the underlying emulator performance.
 
 ## Fork notes
 
 - At first, Pokopia only booted on PokeDinner, with black textures and invisible furniture. Fixes were paused while the team worked on MKW, then resumed.
 - notsapinho builds became the Pokopia pick: AMD fixes, Linux support and the 120 FPS mod. One RTX 4060 Mobile user reached 80+ FPS with accurate GPU, docked mode and the 120fps mod.
 - ZendNevs v2.0.4 fixed a Pokopia startup freeze and v2.0.5 reached 60 FPS for about a minute in the release test. Longer play was not tested.
-- Users were still asking whether PokeDinner 2.5 fixes the black sky; the channel did not show a confirmed answer.
+- Users were still asking whether PokeDinner 2.5 fixes the black sky; community reports did not show a confirmed answer.
 - Build 135 ran at 60 FPS on a GTX 1080 for one user, but with stutter, a black sky and no audio.
 
 ## Complete configs
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 40-50 FPS, dips to 30 | SigHya; game 2.0.1; never below 30 |
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 40-50 FPS, dips to 30 | community; game 2.0.1; never below 30 |
 | 1 Nov | PokeDinner, unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 50-60 FPS, feels like 40-50 | accurate GPU |
 | 1 Nov | unspecified | 5800X3D | RX 7900 XT Linux | not stated | 60 FPS with 2x frame gen, worse than real 60 | frame gen caveat |
 | 2 Nov | build 135 | not stated | GTX 1080 | not stated | 60 FPS with stutter, black sky, no audio |  |
@@ -43,7 +43,7 @@ These reports are missing the CPU, RAM, build or a combination. Treat them as ro
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 3 Nov | ZendNevs v2.0.4 | Ryzen 5 2600 | GTX 1660 Super | not stated | 60 FPS, drops to 50 | SigHya; Pokopia |
+| 3 Nov | ZendNevs v2.0.4 | Ryzen 5 2600 | GTX 1660 Super | not stated | 60 FPS, drops to 50 | community; Pokopia |
 | 1 Nov | PokeDinner 2.0.1 | Steam Deck APU | Steam Deck APU | 16 GB | 30-40 FPS | power settings reduced |
 | 1 Nov | unspecified | not stated | not stated | 8 GB | 60 FPS but crashes when other apps open |  |
 | 1 Nov | unspecified | not stated | not stated | not stated | 1440p 60 FPS |  |
@@ -62,7 +62,7 @@ These reports are missing the CPU, RAM, build or a combination. Treat them as ro
 
 ## Sources
 
-- Eglantine Discord `#pokopia`, 31 Oct to 5 Nov 2026. The export is local and is not committed.
+- Public community reports, 31 Oct to 5 Nov 2026. Usernames are not reproduced.
 - [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine) for the Pokopia build and 120fps mod.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented startup test.
 - [PokeDinner releases](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases).

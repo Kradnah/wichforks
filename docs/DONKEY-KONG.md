@@ -1,6 +1,6 @@
 # Donkey Kong Bananza notes
 
-Reports from the Eglantine Discord `#donkey-kong-bananza` between 30 Oct and 5 Nov 2026. The channel had about 5,400 user messages and 255 messages with FPS mentions. This page keeps the reports and workarounds that matter.
+Reports from public community posts between 30 Oct and 5 Nov 2026. This page keeps the reports and workarounds that matter.
 
 These are user reports, not benchmarks. A build that works on one GPU can show missing terrain, a purple screen or slow motion on another.
 
@@ -31,7 +31,7 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 10-15 FPS | SigHya; otherwise seems okay |
+| 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 10-15 FPS | community; otherwise seems okay |
 | 31 Oct | unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 30-40 FPS accurate, 40-50 fast, 60 in corners | area dependent |
 | 1 Nov | zortos build 31 | 5700X3D | RTX 5070 Ti | 32 GB | 17 FPS looking north | before Selevet |
 | 1 Nov | Selevet perf 3 | 5700X3D | RTX 5070 Ti | 32 GB | 30 FPS cap, 60 with smooth motion | default 0.5x, 1x works |
@@ -73,6 +73,6 @@ These reports are missing the CPU, GPU, RAM or build. Treat them as rough signal
 
 ## Sources
 
-- Eglantine Discord `#donkey-kong-bananza`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
+- Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented DK result.
 - [PokeDinner releases](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) and [Selevet releases](https://github.com/sylvieistaken/selevet-eglantine/releases).

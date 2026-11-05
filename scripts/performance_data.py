@@ -184,17 +184,18 @@ def normalize(row: dict, game: str) -> dict | None:
     date = clean(row.get("Date", ""))
     source = clean(row.get("Source", ""))
     if not source:
-        build_lower = build.lower()
-        if "sighya" in notes.lower():
-            source = f"SigHya Discord, {date}" if date else "SigHya Discord"
-        elif "zendnevs" in build_lower:
-            source = "ZendNevs release notes"
-        elif "orchid" in build_lower:
-            source = "Orchid README"
-        elif "lichii" in build_lower:
-            source = "Lichii reports"
+        if "community" in notes.lower():
+            source = f"Community, {date}" if date else "Community"
         else:
-            source = f"Discord, {date}" if date else "Discord"
+            build_lower = build.lower()
+            if "zendnevs" in build_lower:
+                source = "ZendNevs release notes"
+            elif "orchid" in build_lower:
+                source = "Orchid README"
+            elif "lichii" in build_lower:
+                source = "Lichii reports"
+            else:
+                source = f"Community, {date}" if date else "Community"
     low, high, mid = parse_fps(performance)
     recent = date in {"3 Nov", "4 Nov", "5 Nov"}
     return {

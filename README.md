@@ -93,7 +93,7 @@ Runs on Windows, Linux and macOS, with NVIDIA, AMD and Intel GPUs. Claims here a
 
 The reference Eglantine build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
 
-Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. Build-by-build notes from the project Discord are in [project notes](docs/PROJECT-NOTES.md).
+Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. Build-by-build notes from community reports are in [project notes](docs/PROJECT-NOTES.md).
 
 Start here if you want the default, the widest game coverage, and the build most forks rebase on. One caveat: "stable" is relative here. These are pre-releases, so pin a build that works for your game and don't update mid-playthrough.
 
@@ -139,7 +139,7 @@ Windows, Linux and macOS builds for NVIDIA and AMD. Community-reported.
 
 A large Eglantine-derived fork (~1.5k stars) that also handles Switch 1 titles. Latest at check: build-80 (5 Nov 2026, commit `7459f10`), published as GitHub Actions artifacts while the Releases page still showed build-75. Artifacts cover Windows x86_64 (PGO and non-PGO), Linux x86_64 and aarch64, and macOS arm64. You need a GitHub account to download them, and they expire.
 
-A community PSA from 5 Nov calls build-80 the most playable OoT remake build so far, with caveats. Field reports from that thread:
+A community PSA from 5 Nov calls build-80 the most playable OoT remake build so far, with caveats. Field reports from the community:
 
 - On a 9800X3D, players report about 54-60 FPS, with heavy bloom, sunrays, texture flicker and intermittent black-screen flashes.
 - An i3-10100 with an RTX 3060 12 GB and 24 GB RAM gets 20-24 FPS in Kokiri Forest.
@@ -147,7 +147,7 @@ A community PSA from 5 Nov calls build-80 the most playable OoT remake build so 
 - An RTX 2070 with a 9800X3D reportedly holds 60 FPS, while a 7900 XTX with a 13400F does not. CPU single-core speed looks like the limiting factor.
 - For black screens, try the non-PGO Windows artifact first; the PGO build caused black screens for several users. Docked mode helped some setups. Some cutscenes stay black with audio only.
 
-A second thread from 5 Nov pushes back on the 60 FPS clips. They are not sustained gameplay: they tend to come from specific areas on high-end hardware, and flicker or bloom can make 60 FPS unplayable anyway. An owner of a 4070 Ti and a 14th-gen i7 still describes the game as emulator-bound, and NVIDIA users report both good and bad results, so the GPU vendor is not a guarantee.
+A second community report from 5 Nov pushes back on the 60 FPS clips. They are not sustained gameplay: they tend to come from specific areas on high-end hardware, and flicker or bloom can make 60 FPS unplayable anyway. An owner of a 4070 Ti and a 14th-gen i7 still describes the game as emulator-bound, and NVIDIA users report both good and bad results, so the GPU vendor is not a guarantee.
 
 Lichii is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
 
@@ -167,7 +167,7 @@ docker compose up -d
 docker compose exec reservoir set-admin-password
 ```
 
-The [server README](https://gitlab.com/seighttt/droplet/-/tree/server) lists the ports to open (8443, 8444, 3478/3479, 10025, 10125, 33334, 34343). Keep the admin panel on 127.0.0.1:8090; it is plain HTTP. Droplet 0.1.2 and later fetch the server certificate automatically. The project runs no official servers and no official Discord; every Reservoir server is independent.
+The [server README](https://gitlab.com/seighttt/droplet/-/tree/server) lists the ports to open (8443, 8444, 3478/3479, 10025, 10125, 33334, 34343). Keep the admin panel on 127.0.0.1:8090; it is plain HTTP. Droplet 0.1.2 and later fetch the server certificate automatically. The project runs no official servers and no official community chat; every Reservoir server is independent.
 
 At check time the v0.1.2 tag exists but GitLab has no v0.1.2 binary release. The v0.1.1 Windows and Arch Linux binaries are still online, marked old/outdated. Build from source for v0.1.2; Windows uses MSYS2, and the Linux binary only targets Arch-based systems.
 
@@ -369,15 +369,15 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added Lichii build-80 field reports for OoT remake (Actions-only artifact, PGO black-screen workaround, CPU-bound pattern). |
 | 2026-11-05 | OoT reality check and "Reading FPS claims": 60 FPS clips are area-specific, not sustained. |
 | 2026-11-05 | Added Droplet and Reservoir for private online MKW and Splatoon Raiders, with build status and P2P caveats. |
-| 2026-11-05 | Added `docs/PROJECT-NOTES.md` from the project Discord: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |
+| 2026-11-05 | Added `docs/PROJECT-NOTES.md` from community reports: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |
 | 2026-11-05 | Added `docs/PERFORMANCE.md` with hardware, build and FPS reports for MKW, Splatoon Raiders, Pokopia, DK Bananza, Yoshi and OoT. |
 | 2026-11-05 | Corrected the DK Bananza pick to ZendNevs and clarified its three merged codebases. This was later superseded by the recency review. |
 | 2026-11-05 | Added Orchid v0.7.4 OoT visual fixes and noted that OoT performance on Orchid is still unmeasured. |
-| 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from the MKW channel. |
+| 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from community reports. |
 | 2026-11-05 | Added `docs/DONKEY-KONG.md` with DK configs, 30 FPS and DynamicFPS workarounds, and terrain or purple-screen notes. |
 | 2026-11-05 | Added `docs/POKOPIA.md` with Pokopia configs, black sky and 120fps workarounds, and memory limits. |
 | 2026-11-05 | Added a normalized performance dataset, SVG charts and a coverage page for what was tested on which setup. |
 | 2026-11-05 | Added a recency policy and downgraded ZendNevs from first pick after reviewing its 2-commit repo history. Recent independent reports now drive the MKW and DK picks. |
 | 2026-11-05 | Added a source audit and a source-in-repo rule; ZendNevs and the 3060Ti build are no longer treated as auditable. |
 | 2026-11-05 | Moved stats and charts to the top and reordered the page around fork choice, then data, then setup. |
-| 2026-11-05 | Added recent SigHya community reports for Steam Deck, ROG Ally and low-end GPUs. |
+| 2026-11-05 | Added recent community reports for Steam Deck, ROG Ally and low-end GPUs. |
