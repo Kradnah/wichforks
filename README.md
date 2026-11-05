@@ -21,6 +21,7 @@ A use-case guide to Nintendo Switch 2 emulator forks: which build to pick for yo
 | Donkey Kong Bananza | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Release notes explicitly target DK terrain and rendering |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
+| Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
 | Zelda OoT remake, Star Fox, Mario Tennis | [zortos293/Lichii](https://github.com/zortos293/Lichii/releases) | Community-reported game-focused builds |
 | Hyrule Warriors: Age of Imprisonment | [Djihads80 build 202+](https://github.com/Djihads80/Eglantine/releases) or [rdenno](https://github.com/rdenno/Eglantine/releases) | Build 202 was the Hyrule Warriors fix set (46-49 FPS median reported) |
 | Android phone or tablet | [moceure/eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android/tags) | The maintained NX2 Android build found at check time |
@@ -50,6 +51,8 @@ flowchart TD
     I -->|Hyrule Warriors| M[Djihads80 build 202+ or rdenno]
     I -->|Everything else| N[Djihads80 Eglantine]
 ```
+
+The tree covers offline play. For private online Mario Kart World or Splatoon Raiders, see Droplet below.
 
 ---
 
@@ -126,6 +129,30 @@ A second thread from 5 Nov pushes back on the 60 FPS clips. They are not sustain
 
 Lichii is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
 
+### Droplet: private online servers
+
+Windows 10/11 and Linux. NVIDIA and AMD. Documented.
+
+Droplet is a modified eden-nx2 build with Eglantine and PokeDinner work, focused on Splatoon Raiders and Mario Kart World. It adds Reservoir, a private replacement for Nintendo's NPLN service. The emulator redirects server calls to a server you host, with friend codes, matchmaking, rooms and room IDs, without modifying game binaries. Online play is emulator-only for now; real hardware cannot join.
+
+Reservoir is the server branch of the same GitLab project and runs with Docker Compose:
+
+```bash
+git clone -b server https://gitlab.com/seighttt/droplet.git reservoir
+cd reservoir
+cp .env.example .env
+docker compose up -d
+docker compose exec reservoir set-admin-password
+```
+
+The [server README](https://gitlab.com/seighttt/droplet/-/tree/server) lists the ports to open (8443, 8444, 3478/3479, 10025, 10125, 33334, 34343). Keep the admin panel on 127.0.0.1:8090; it is plain HTTP. Droplet 0.1.2 and later fetch the server certificate automatically. The project runs no official servers and no official Discord; every Reservoir server is independent.
+
+At check time the v0.1.2 tag exists but GitLab has no v0.1.2 binary release. The v0.1.1 Windows and Arch Linux binaries are still online, marked old/outdated. Build from source for v0.1.2; Windows uses MSYS2, and the Linux binary only targets Arch-based systems.
+
+Droplet is stricter than most forks: it cannot load keys or encrypted NCA, NAX, NSP or XCI files, and runs decrypted folders, NRO, NSO and KIP files only. It never connects to Nintendo's servers.
+
+Use it for private online Mario Kart World or Splatoon Raiders with people you trust. Switch 2 online play is peer to peer, so players can see each other's IP addresses; host on a network you control and invite only people you trust. Online CameraPlay and GameChat are not supported. Splatoon Raiders sometimes turns the top of the sky black after loading the beach, and NUP-packed games run slower than folder dumps. The announcement describes the work as AI-assisted, so read the source if that matters.
+
 ### rdenno/Eglantine: nx2-merged and Hyrule Warriors
 
 Windows, Linux and macOS builds for NVIDIA and AMD. Community-reported.
@@ -169,9 +196,11 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 | Game | First pick | Also try | Evidence |
 |---|---|---|---|
 | Mario Kart World | SmileyTatsu | Djihads80; Orchid (AMD); ZendNevs (frame gen) | Documented MKW fixes; Orchid reports 30-40 FPS with asset glitches |
+| Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
 | Donkey Kong Bananza | PokeDinner | Lichii | PokeDinner release notes (terrain, black-hole rendering); Lichii community-reported |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items, sky and reflections |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
+| Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
 | Zelda: OoT remake | Lichii build-80 | PokeDinner | Playable with heavy visual bugs; 60 FPS clips are area-specific and high-end, 20-24 FPS on i3-10100/3060 (field reports, 5 Nov) |
 | Star Fox | Lichii | Djihads80 | Community-reported |
 | Mario Tennis Fever | Lichii | Orchid | Community-reported; Orchid measured 60 FPS |
@@ -272,6 +301,7 @@ All links checked 5 Nov 2026. Release metadata read from the GitHub and Forgejo 
 - Game-specific lab: [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork), [releases](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases)
 - Pokopia build: [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine), [releases](https://github.com/notsapinho/Eglantine/releases)
 - Game patches: [zortos293/Lichii](https://github.com/zortos293/Lichii), [releases](https://github.com/zortos293/Lichii/releases), [build-80 Actions run](https://github.com/zortos293/Lichii/actions/runs/42021953813)
+- Private online: [Droplet](https://gitlab.com/seighttt/droplet), [releases](https://gitlab.com/seighttt/droplet/-/releases), [Reservoir server branch](https://gitlab.com/seighttt/droplet/-/tree/server)
 - Hyrule Warriors and nx2-merged: [rdenno/Eglantine](https://github.com/rdenno/Eglantine), [releases](https://github.com/rdenno/Eglantine/releases)
 - Android: [moceure/eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android), [tags](https://git.eden-emu.dev/moceure/eden-nx2-android/tags)
 - Zen 3 build: [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine), [releases](https://github.com/sylvieistaken/selevet-eglantine/releases)
@@ -300,3 +330,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added community reports: issue form, JSON schema and validator, generated `docs/REPORTS.md`, CI check. |
 | 2026-11-05 | Added Lichii build-80 field reports for OoT remake (Actions-only artifact, PGO black-screen workaround, CPU-bound pattern). |
 | 2026-11-05 | OoT reality check and "Reading FPS claims": 60 FPS clips are area-specific, not sustained. |
+| 2026-11-05 | Added Droplet and Reservoir for private online MKW and Splatoon Raiders, with build status and P2P caveats. |

@@ -99,6 +99,22 @@
       "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. 60 FPS clips are area-specific, flicker can make them unplayable, and NVIDIA alone is not a guarantee. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
     },
     {
+      "id": "droplet",
+      "name": "Droplet",
+      "repo": "https://gitlab.com/seighttt/droplet",
+      "releases": "https://gitlab.com/seighttt/droplet/-/releases",
+      "host": "GitLab",
+      "role": "private online servers (Reservoir)",
+      "platforms": ["Windows 10/11", "Linux"],
+      "gpu": ["NVIDIA", "AMD"],
+      "best_for": ["Mario Kart World online", "Splatoon Raiders online", "LAN play", "private servers"],
+      "latest_release": { "tag": "v0.1.2 (tag only; v0.1.1 binaries)", "date": "2026-11-03", "prerelease": true },
+      "license": "GPL-3.0-or-later",
+      "stars_at_check": 7,
+      "confidence": "documented",
+      "notes": "Modified eden-nx2 with Eglantine and PokeDinner work. Reservoir server branch adds a private NPLN replacement for MKW and Splatoon Raiders (friend codes, matchmaking, rooms, events) with Docker Compose. No keys or encrypted formats; decrypted folders, NRO/NSO/KIP only. v0.1.2 tag has no binary release; v0.1.1 binaries are marked old/outdated. P2P play exposes player IPs (per announcement); online CameraPlay unsupported; Splatoon sky bug; NUP archives slower."
+    },
+    {
       "id": "rdenno-eglantine",
       "name": "Eglantine nx2-merged (rdenno)",
       "repo": "https://github.com/rdenno/Eglantine",
