@@ -270,6 +270,8 @@ Forks are full emulator copies, not plugins. Before trusting one:
 - Frame generation (FSR 3 or LSFG) inflates the counter; it does not raise the simulation rate.
 - High FPS with flicker, bloom or black-screen flashes is still unplayable for many people.
 
+The reports behind these numbers, with hardware and build details, are in [performance reports](docs/PERFORMANCE.md).
+
 Forks also vanish overnight (DMCA, renames, account deletion). If a link 404s, search the project name plus "fork" and prefer a repo that still publishes source.
 
 ---
@@ -324,3 +326,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | OoT reality check and "Reading FPS claims": 60 FPS clips are area-specific, not sustained. |
 | 2026-11-05 | Added Droplet and Reservoir for private online MKW and Splatoon Raiders, with build status and P2P caveats. |
 | 2026-11-05 | Added `docs/PROJECT-NOTES.md` from the project Discord: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |
+| 2026-11-05 | Added `docs/PERFORMANCE.md` with hardware, build and FPS reports for MKW, Splatoon Raiders, Pokopia, DK Bananza, Yoshi and OoT. |
