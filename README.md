@@ -220,6 +220,8 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 
 Game names are used only to describe compatibility targets. No game files, keys or firmware are hosted or linked here.
 
+For MKW settings and the full performance table, see [Mario Kart World notes](docs/MKW.md).
+
 ---
 
 ## Community reports: help improve the ranking
@@ -337,3 +339,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added `docs/PERFORMANCE.md` with hardware, build and FPS reports for MKW, Splatoon Raiders, Pokopia, DK Bananza, Yoshi and OoT. |
 | 2026-11-05 | Corrected the DK Bananza pick: ZendNevs first for performance, PokeDinner for compatibility. Clarified ZendNevs' three merged codebases. |
 | 2026-11-05 | Added Orchid v0.7.4 OoT visual fixes and noted that OoT performance on Orchid is still unmeasured. |
+| 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from the MKW channel. |

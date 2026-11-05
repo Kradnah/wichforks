@@ -15,22 +15,17 @@ Hardware, game, build and FPS reports collected from the Eglantine Discord, the 
 
 ## Mario Kart World
 
+MKW has its own page because the report volume is much larger: [Mario Kart World notes](MKW.md). It covers settings, build regressions and nearly 50 configs.
+
+A few representative rows:
+
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
 | v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | 1x handheld, DynamicFPS; not locked 60 | ZendNevs release notes |
 | Orchid v0.7.2 | 5800X3D | RX 9070 XT | 32 GB | 30-40 FPS | Linux, Mesa RADV git; asset glitches | Orchid README |
 | build 122 to 135 | R5 7600 | RX 7800 XT | not stated | 23 average to 40+ FPS | Windows 11 | Discord, 2 Nov |
-| build 131 | not stated | GTX 1660 Ti 6 GB | not stated | 30-60 FPS | | Discord, 3 Nov |
 | unspecified | i5-14400F | RTX 4060 | 32 GB DDR4 | 43-50 FPS, 60 only in menus and intro | NVMe | Discord, 4 Nov |
-| unspecified | i5-14400F | RTX 4060 | 16 GB | 3 FPS on the highway, then crash | 8 GB VRAM setting | Discord, 31 Oct |
-| unspecified | 7800X3D | RX 9070 XT | not stated | 20 FPS with heavy stutter | | Discord, 1 Nov |
-| unspecified | not stated | RTX 3060 Ti | not stated | 20-60 FPS, 60 in tunnels | | Discord, 1 Nov |
-| unspecified | i5-13400F | RTX 2060 Super | not stated | about 30 FPS with spikes | | Discord, 2 Nov |
-| unspecified | Ryzen 5 5600 | RTX 3060 | not stated | capped at 27 FPS | | Discord, 31 Oct |
 | unspecified | i5-6500 | Quadro P1000 | 16 GB DDR4 | 5-25 FPS, heavy stutter | | Discord, 31 Oct |
-| unspecified | not stated | RTX 3050 laptop | 16 GB | 40-60 FPS | config adjusted | Discord, 31 Oct |
-| unspecified | not stated | GTX 1650 laptop | not stated | 25 FPS, 50-60 after settings, 40 in races | settings changed between reports | Discord, 31 Oct |
-| unspecified | not stated | GTX 970 | not stated | up to 30 FPS | | Discord, 31 Oct |
 
 ## Splatoon Raiders
 
@@ -121,6 +116,7 @@ Most Discord reports do not include the GPU driver, game version or 1% lows. A r
 
 - Eglantine Discord `#discussion`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
+- [Mario Kart World notes](MKW.md) for the full MKW table, settings and build notes.
 - Ocarina of Time Reddit threads, 5 Nov 2026. Usernames are not reproduced here.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT results.
 - [Orchid releases](https://github.com/MythosOfs/Orchid/releases) for the OoT exposure, fog and vegetation fixes.
