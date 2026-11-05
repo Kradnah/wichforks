@@ -84,6 +84,8 @@ Forks disappear (DMCA, renames, abandoned accounts). If a link is dead:
 
 - English, short sentences, no hype.
 - Use "community-reported" instead of presenting unverified FPS numbers as fact.
+- Prefer recent reports. A 31 Oct report on an old build is history, not evidence for the current build.
+- A self-reported release note from a release-only repo needs independent confirmation before it changes a first pick.
 - Keep the confidence labels and the `Last verified` date honest.
 
 ## Update log

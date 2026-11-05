@@ -5,14 +5,14 @@
   "reports": [
     {
       "game": "Mario Kart World",
-      "date": "5 Nov",
+      "date": "3 Nov",
       "build": "ZendNevs v2.0.5",
       "cpu": "5500X3D",
       "gpu": "RTX 4070",
       "ram": "16 GB",
       "performance": "56 FPS average, 44-50 in the lowest 10%",
-      "notes": "release notes; 1x handheld, DynamicFPS, not locked 60",
-      "source": "Discord, 5 Nov",
+      "notes": "release notes; 2-commit repo; 1x handheld, DynamicFPS, not locked 60",
+      "source": "ZendNevs release notes",
       "gpu_vendor": "NVIDIA",
       "cpu_vendor": "AMD",
       "gpu_model": "RTX 4070",
@@ -21,7 +21,8 @@
       "fps_min": 56,
       "fps_max": 56,
       "fps_mid": 56,
-      "build_family": "ZendNevs"
+      "build_family": "ZendNevs",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -32,7 +33,7 @@
       "ram": "32 GB",
       "performance": "30-40 FPS",
       "notes": "release notes; Linux, Mesa RADV git; asset glitches",
-      "source": "Discord, 5 Nov",
+      "source": "Orchid README",
       "gpu_vendor": "AMD",
       "cpu_vendor": "AMD",
       "gpu_model": "RX 9070 XT",
@@ -41,7 +42,8 @@
       "fps_min": 30,
       "fps_max": 40,
       "fps_mid": 35,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -61,7 +63,8 @@
       "fps_min": 43,
       "fps_max": 43,
       "fps_mid": 43,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -81,7 +84,8 @@
       "fps_min": 5,
       "fps_max": 15,
       "fps_mid": 10,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -101,7 +105,8 @@
       "fps_min": 15,
       "fps_max": 15,
       "fps_mid": 15,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -121,7 +126,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -141,7 +147,8 @@
       "fps_min": 10,
       "fps_max": 20,
       "fps_mid": 15,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -161,7 +168,8 @@
       "fps_min": 40,
       "fps_max": 40,
       "fps_mid": 40,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -181,7 +189,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -201,7 +210,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -221,7 +231,8 @@
       "fps_min": 40,
       "fps_max": 60,
       "fps_mid": 50,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -241,7 +252,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -261,7 +273,8 @@
       "fps_min": 40,
       "fps_max": 40,
       "fps_mid": 40,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -281,7 +294,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -301,7 +315,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -321,7 +336,8 @@
       "fps_min": 30,
       "fps_max": 45,
       "fps_mid": 38,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -341,7 +357,8 @@
       "fps_min": 45,
       "fps_max": 55,
       "fps_mid": 50,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -361,7 +378,8 @@
       "fps_min": 16,
       "fps_max": 25,
       "fps_mid": 20,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -381,7 +399,8 @@
       "fps_min": 25,
       "fps_max": 30,
       "fps_mid": 28,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -401,7 +420,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -421,7 +441,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -441,7 +462,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -461,7 +483,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -481,7 +504,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -501,7 +525,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -521,7 +546,8 @@
       "fps_min": 7,
       "fps_max": 7,
       "fps_mid": 7,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -541,7 +567,8 @@
       "fps_min": 27,
       "fps_max": 27,
       "fps_mid": 27,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -561,7 +588,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -581,7 +609,8 @@
       "fps_min": 20,
       "fps_max": 20,
       "fps_mid": 20,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -601,7 +630,8 @@
       "fps_min": 27,
       "fps_max": 27,
       "fps_mid": 27,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -621,7 +651,8 @@
       "fps_min": 3,
       "fps_max": 3,
       "fps_mid": 3,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -641,7 +672,8 @@
       "fps_min": 40,
       "fps_max": 60,
       "fps_mid": 50,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -661,7 +693,8 @@
       "fps_min": 25,
       "fps_max": 25,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -681,7 +714,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -701,7 +735,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "PokeDinner"
+      "build_family": "PokeDinner",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -721,7 +756,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -741,7 +777,8 @@
       "fps_min": 20,
       "fps_max": 60,
       "fps_mid": 40,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -761,7 +798,8 @@
       "fps_min": 12,
       "fps_max": 15,
       "fps_mid": 14,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Kart World",
@@ -781,7 +819,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -801,7 +840,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "SmileyTatsu"
+      "build_family": "SmileyTatsu",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -821,7 +861,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -841,7 +882,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -861,7 +903,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "SmileyTatsu"
+      "build_family": "SmileyTatsu",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -881,7 +924,8 @@
       "fps_min": 55,
       "fps_max": 60,
       "fps_mid": 58,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -901,7 +945,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -921,7 +966,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -941,7 +987,8 @@
       "fps_min": 20,
       "fps_max": 20,
       "fps_mid": 20,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Mario Kart World",
@@ -961,7 +1008,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -981,7 +1029,8 @@
       "fps_min": 30,
       "fps_max": 40,
       "fps_mid": 35,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1001,7 +1050,8 @@
       "fps_min": 17,
       "fps_max": 17,
       "fps_mid": 17,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1021,7 +1071,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Selevet"
+      "build_family": "Selevet",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1041,7 +1092,8 @@
       "fps_min": 20,
       "fps_max": 20,
       "fps_mid": 20,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1061,7 +1113,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1081,7 +1134,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1101,7 +1155,8 @@
       "fps_min": 50,
       "fps_max": 50,
       "fps_mid": 50,
-      "build_family": "Selevet"
+      "build_family": "Selevet",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1121,7 +1176,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Selevet"
+      "build_family": "Selevet",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1132,7 +1188,7 @@
       "ram": "32 GB DDR4",
       "performance": "playable",
       "notes": "",
-      "source": "Discord, 3 Nov",
+      "source": "ZendNevs release notes",
       "gpu_vendor": "AMD",
       "cpu_vendor": "AMD",
       "gpu_model": "RX 9070 XT",
@@ -1141,7 +1197,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "ZendNevs"
+      "build_family": "ZendNevs",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1161,7 +1218,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "PokeDinner"
+      "build_family": "PokeDinner",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1181,7 +1239,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1201,7 +1260,8 @@
       "fps_min": 10,
       "fps_max": 10,
       "fps_mid": 10,
-      "build_family": "PokeDinner"
+      "build_family": "PokeDinner",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1221,7 +1281,8 @@
       "fps_min": 10,
       "fps_max": 10,
       "fps_mid": 10,
-      "build_family": "Selevet"
+      "build_family": "Selevet",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1241,7 +1302,8 @@
       "fps_min": 20,
       "fps_max": 25,
       "fps_mid": 22,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1261,7 +1323,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1281,7 +1344,8 @@
       "fps_min": 20,
       "fps_max": 60,
       "fps_mid": 40,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1301,7 +1365,8 @@
       "fps_min": 18,
       "fps_max": 18,
       "fps_mid": 18,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1321,7 +1386,8 @@
       "fps_min": 30,
       "fps_max": 30,
       "fps_mid": 30,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1341,7 +1407,8 @@
       "fps_min": 14,
       "fps_max": 14,
       "fps_mid": 14,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1361,7 +1428,8 @@
       "fps_min": 12,
       "fps_max": 12,
       "fps_mid": 12,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Donkey Kong Bananza",
@@ -1381,7 +1449,8 @@
       "fps_min": 20,
       "fps_max": 30,
       "fps_mid": 25,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1401,7 +1470,8 @@
       "fps_min": 50,
       "fps_max": 60,
       "fps_mid": 55,
-      "build_family": "PokeDinner"
+      "build_family": "PokeDinner",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1421,7 +1491,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1441,7 +1512,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1461,7 +1533,8 @@
       "fps_min": 80,
       "fps_max": 80,
       "fps_mid": 80,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": true
     },
     {
       "game": "Pokemon Pokopia",
@@ -1481,7 +1554,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1501,7 +1575,8 @@
       "fps_min": 45,
       "fps_max": 45,
       "fps_mid": 45,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1521,7 +1596,8 @@
       "fps_min": 30,
       "fps_max": 40,
       "fps_mid": 35,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1541,7 +1617,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": true
     },
     {
       "game": "Pokemon Pokopia",
@@ -1561,7 +1638,8 @@
       "fps_min": 30,
       "fps_max": 40,
       "fps_mid": 35,
-      "build_family": "PokeDinner"
+      "build_family": "PokeDinner",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1581,7 +1659,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1601,7 +1680,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Pokemon Pokopia",
@@ -1621,7 +1701,8 @@
       "fps_min": 120,
       "fps_max": 120,
       "fps_mid": 120,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": true
     },
     {
       "game": "Pokemon Pokopia",
@@ -1641,7 +1722,8 @@
       "fps_min": 80,
       "fps_max": 80,
       "fps_mid": 80,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": true
     },
     {
       "game": "Splatoon Raiders",
@@ -1661,7 +1743,8 @@
       "fps_min": 50,
       "fps_max": 50,
       "fps_mid": 50,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Splatoon Raiders",
@@ -1681,7 +1764,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Yoshi and the Mysterious Book",
@@ -1701,7 +1785,8 @@
       "fps_min": 45,
       "fps_max": 60,
       "fps_mid": 52,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Yoshi and the Mysterious Book",
@@ -1721,7 +1806,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Yoshi and the Mysterious Book",
@@ -1741,7 +1827,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1761,7 +1848,8 @@
       "fps_min": 54,
       "fps_max": 60,
       "fps_mid": 57,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1781,7 +1869,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1801,7 +1890,8 @@
       "fps_min": 40,
       "fps_max": 50,
       "fps_mid": 45,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1821,7 +1911,8 @@
       "fps_min": 20,
       "fps_max": 24,
       "fps_mid": 22,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1841,7 +1932,8 @@
       "fps_min": 20,
       "fps_max": 20,
       "fps_mid": 20,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1861,7 +1953,8 @@
       "fps_min": 15,
       "fps_max": 15,
       "fps_mid": 15,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1881,7 +1974,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1901,7 +1995,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Zelda: Ocarina of Time remake",
@@ -1921,7 +2016,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Eglantine build"
+      "build_family": "Eglantine build",
+      "recent": false
     },
     {
       "game": "Mario Tennis Fever",
@@ -1941,7 +2037,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Super Mario Bros. Wonder",
@@ -1961,7 +2058,8 @@
       "fps_min": 60,
       "fps_max": 60,
       "fps_mid": 60,
-      "build_family": "Other fork"
+      "build_family": "Other fork",
+      "recent": false
     },
     {
       "game": "Hyrule Warriors: Age of Imprisonment",
@@ -1981,7 +2079,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Star Fox",
@@ -2001,7 +2100,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Fire Emblem Fortune's Weave",
@@ -2021,7 +2121,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Orbitals",
@@ -2041,7 +2142,8 @@
       "fps_min": 3,
       "fps_max": 10,
       "fps_mid": 6,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Super Mario Bros. Wonder",
@@ -2061,7 +2163,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Switch Sports",
@@ -2081,7 +2184,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     },
     {
       "game": "Kirby Air Riders",
@@ -2101,7 +2205,8 @@
       "fps_min": null,
       "fps_max": null,
       "fps_mid": null,
-      "build_family": "Unspecified"
+      "build_family": "Unspecified",
+      "recent": false
     }
   ]
 }

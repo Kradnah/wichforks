@@ -2,7 +2,7 @@
 
 Hardware, game, build and FPS reports collected from the Eglantine Discord, the Ocarina of Time Reddit threads and the Orchid README. These are user reports, not benchmarks. The same GPU can produce very different numbers with another driver, game version, settings or shader cache.
 
-Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The normalized data is in [`data/performance-reports.json`](../data/performance-reports.json).
+Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The normalized data is in [`data/performance-reports.json`](../data/performance-reports.json). The first-pick recommendations use the 3-5 Nov 2026 window and the newest builds; older rows are historical context.
 
 `Not stated` means the report did not include that field. `Unspecified` means no build number was given. Rows are grouped by game, with the most complete configs first.
 
@@ -10,7 +10,7 @@ Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The
 
 - CPU single-core speed matters a lot. OoT remake runs at 54-60 FPS on a 9800X3D, 20-24 FPS on an i3-10100, and an RTX 2070 with a 9800X3D beats a 7900 XTX with a 13400F.
 - Build choice can double performance. Mario Kart World went from about 23 FPS on build 122 to 40+ FPS on build 135 for one tester.
-- Compatibility fixes are not the same as speed. PokeDinner documents DK rendering fixes; ZendNevs documents higher average FPS with correct game speed.
+- Compatibility fixes are not the same as speed. PokeDinner documents DK rendering fixes; recent independent DK reports favor Selevet and PokeDinner 2.5, while ZendNevs numbers are self-reported.
 - 8 GB of RAM can boot a game, but it crashes when other apps use memory. 16 GB is a practical floor, 32 GB is safer.
 - 4 GB of VRAM can run games at low settings; 6 GB and up is more comfortable at higher resolution.
 - A fast GPU alone does not guarantee 60 FPS. Emulator builds and drivers decide a large part of the result.

@@ -10,7 +10,7 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 - DynamicFPS is a separate mod made by ZendNevs (DynamicFPS.-DonkeyKong-Bananza v1.1). It fixes the speed changes for some users but not all, and one user notes it needs the matching game update.
 - Selevet performance build 3 and 4 are popular with a 30 FPS cap. One 5700X3D and RTX 5070 Ti user got 30 FPS with 60 FPS smooth motion, at the default 0.5x resolution; 1x also worked.
 - PokeDinner 2.5 with the 30 FPS option was the best result for one Ryzen 5 9600X and RX 6800 user: no glitches, smooth frame rate and correct speed.
-- ZendNevs v2.0.3 was called the best AMD build by one user, and v2.0.5 was called the best DK fork yet by several users in the channel.
+- ZendNevs v2.0.3 was called the best AMD build by one user, and v2.0.5 got positive comments. The repo has only 2 commits and no license, so treat its release-note results as self-reported. Recent independent reports favor Selevet perf 3/4 and PokeDinner 2.5.
 - Terrain is a known AMD problem. OpenGL renders no terrain, Vulkan renders it but crashes more. PokeDinner, Zortos and Selevet differ in how much terrain they show.
 - Purple screen: press down on the d-pad or enter Photo Mode and go back. Some builds fixed the purple screen; the latest SmileyTatsu build still showed it for one user.
 - Build 204's d-pad fix caused continuous stutters and black texture flicker for one AMD user. PokeDinner 2.5 was the fallback.
@@ -23,7 +23,7 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 - At first, the game only booted on PokeDinner, with black textures and missing terrain.
 - Zortos build 31 gave full AMD textures but only 20-25 FPS on an RX 6900 XT and had a memory leak. A 5700X3D and RTX 5070 Ti user hit 17 FPS looking north.
 - Selevet performance 3 and 4 became the stable pick for several users, especially with the 30 FPS cap and smooth motion.
-- ZendNevs v2.0.3 was called the best AMD build, and v2.0.5 was praised as the best DK fork yet by multiple users.
+- ZendNevs v2.0.3 was called the best AMD build by one user, and v2.0.5 got positive comments. Its repo has 2 commits and no license; treat the release-note numbers as self-reported.
 - PokeDinner 2.5 with the 30 FPS option was the cleanest result for one full AMD system.
 - Build 202 and 204 had purple-screen, texture and stutter reports. Keep a known-good build.
 

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="348" viewBox="0 0 1100 348">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Reports by date</text>
+<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per day, split by game. The 3-5 Nov window drives the first-pick recommendations.</text>
+<rect x="24" y="67" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Donkey Kong Bananza</text>
+<rect x="171.8" y="67" width="10" height="10" fill="#7c3aed"/>
+<text x="186.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Kart World</text>
+<rect x="301.0" y="67" width="10" height="10" fill="#65a30d"/>
+<text x="316.0" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Pokemon Pokopia</text>
+<line x1="180.0" y1="90" x2="180.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="180.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
+<line x1="346.0" y1="90" x2="346.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="346.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">5</text>
+<line x1="512.0" y1="90" x2="512.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="512.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">10</text>
+<line x1="678.0" y1="90" x2="678.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="678.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">15</text>
+<line x1="844.0" y1="90" x2="844.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="844.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
+<line x1="1010.0" y1="90" x2="1010.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
+<text x="1010.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">25</text>
+<text x="168" y="114" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">31 Oct</text>
+<rect x="180.0" y="98" width="33.2" height="24" fill="#2563eb"/>
+<rect x="213.2" y="98" width="531.2" height="24" fill="#7c3aed"/>
+<text x="752.4" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
+<text x="168" y="148" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">1 Nov</text>
+<rect x="180.0" y="132" width="265.6" height="24" fill="#2563eb"/>
+<rect x="445.6" y="132" width="265.6" height="24" fill="#7c3aed"/>
+<rect x="711.2" y="132" width="232.4" height="24" fill="#65a30d"/>
+<text x="951.6" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">23</text>
+<text x="168" y="182" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">2 Nov</text>
+<rect x="180.0" y="166" width="132.8" height="24" fill="#2563eb"/>
+<rect x="312.8" y="166" width="265.6" height="24" fill="#7c3aed"/>
+<rect x="578.4" y="166" width="66.4" height="24" fill="#65a30d"/>
+<text x="652.8" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">14</text>
+<text x="168" y="216" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">3 Nov</text>
+<rect x="180.0" y="200" width="166.0" height="24" fill="#2563eb"/>
+<rect x="346.0" y="200" width="232.4" height="24" fill="#7c3aed"/>
+<rect x="578.4" y="200" width="33.2" height="24" fill="#65a30d"/>
+<text x="619.6" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">13</text>
+<text x="168" y="250" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">4 Nov</text>
+<rect x="180.0" y="234" width="99.6" height="24" fill="#2563eb"/>
+<rect x="279.6" y="234" width="199.2" height="24" fill="#7c3aed"/>
+<rect x="478.8" y="234" width="66.4" height="24" fill="#65a30d"/>
+<text x="553.2" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">11</text>
+<text x="168" y="284" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">5 Nov</text>
+<rect x="180.0" y="268" width="99.6" height="24" fill="#7c3aed"/>
+<rect x="279.6" y="268" width="33.2" height="24" fill="#65a30d"/>
+<text x="320.8" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
+</svg>

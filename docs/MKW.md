@@ -23,7 +23,7 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 - Build 196: last stable build for one tester, 55-60 FPS on an Intel Ultra 255HX.
 - Builds 202 to 212: one tester reports force-closes and one third of the FPS; another says 212 works after a rebuild. Keep a known-good build.
 - SmileyTatsu build 11 and 12: build 11 gave 45-50 FPS average on an RX 7800 XT; build 12 was almost locked 60 on AMD when docked for another user.
-- ZendNevs v2.0.5: 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070.
+- ZendNevs v2.0.5: 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070. This is a release-note claim from a 2-commit, unlicensed repo.
 - PokeDinner: 60 FPS at 270p on an RX 9070 XT in one report; 25-30 FPS in races on an RTX 3050 laptop in another.
 - Selevet Eglantine: one user on an older Zen CPU gained about 8 FPS over the build in the channel.
 
@@ -31,7 +31,7 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
-| 5 Nov | ZendNevs v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | release notes; 1x handheld, DynamicFPS, not locked 60 |
+| 3 Nov | ZendNevs v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | release notes; 2-commit repo; 1x handheld, DynamicFPS, not locked 60 |
 | 5 Nov | Orchid v0.7.2 | 5800X3D | RX 9070 XT | 32 GB | 30-40 FPS | release notes; Linux, Mesa RADV git; asset glitches |
 | 31 Oct | unspecified | i7-13620H | RTX 4070 Laptop | 16 GB DDR5 | 43 FPS | community preset, handheld |
 | 31 Oct | unspecified | Ryzen 5 5600 | RTX 3060 Ti | 16 GB DDR4 | 5-15 FPS | lowest settings, 0.5x resolution |
