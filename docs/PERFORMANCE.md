@@ -49,16 +49,17 @@ A few representative rows:
 
 ## Donkey Kong Bananza
 
+DK has its own page because the workarounds matter as much as the FPS: [Donkey Kong Bananza notes](DONKEY-KONG.md). It covers the 30 FPS cap, DynamicFPS, terrain and purple-screen issues, and about 20 configs.
+
+A few representative rows:
+
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
-| v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 33 FPS average, 20.6 low, 99% game speed | 1x handheld; v2.0.1 gave 40 FPS at 83% speed | ZendNevs release notes |
+| ZendNevs v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 33 FPS average, 20.6 low, 99% game speed | 1x handheld; v2.0.1 gave 40 FPS at 83% speed | ZendNevs release notes |
+| PokeDinner 2.5 | Ryzen 5 9600X | RX 6800 16 GB | 16 GB DDR5 | 30 FPS option, no glitches, smooth | full AMD system | Discord, 4 Nov |
+| Selevet perf 3 | 5700X3D | RTX 5070 Ti | 32 GB | 30 FPS cap, 60 with smooth motion | default 0.5x, 1x works | Discord, 1 Nov |
 | v0.1.0-rc1 PGO | 7700X | RX 7900 XTX | not stated | 30+ FPS, purple screen absent, music and rumble present | Linux Nobara | Discord, 5 Nov |
-| PokeDinner, unspecified | 5800X | RX 6800 XT | 32 GB | about 30 FPS | | Discord, 3 Nov |
 | 202 | 7700X | RX 7900 XTX | not stated | choppy with texture glitches; purple screen fixed by Photo Mode | Linux Nobara | Discord, 4 Nov |
-| unspecified | AMD 5700 | RTX 3070 Ti | 64 GB | barely 30 FPS or less | | Discord, 4 Nov |
-| v0.1.0-rc1 | not stated | not stated | not stated | 20 FPS | Vulkan accurate handheld | Discord, 5 Nov |
-| PokeDinner, unspecified | not stated | RX 6700 XT | not stated | poor FPS and slowdowns | author name lists RX 6700 XT | Discord, 3 Nov |
-| unspecified | not stated | not stated | not stated | 15-30 FPS, no crashes | | Discord, 1 Nov |
 
 ## Yoshi and the Mysterious Book
 
@@ -117,6 +118,7 @@ Most Discord reports do not include the GPU driver, game version or 1% lows. A r
 - Eglantine Discord `#discussion`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - [Mario Kart World notes](MKW.md) for the full MKW table, settings and build notes.
+- [Donkey Kong Bananza notes](DONKEY-KONG.md) for the full DK table, 30 FPS and DynamicFPS workarounds, and terrain issues.
 - Ocarina of Time Reddit threads, 5 Nov 2026. Usernames are not reproduced here.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT results.
 - [Orchid releases](https://github.com/MythosOfs/Orchid/releases) for the OoT exposure, fog and vegetation fixes.

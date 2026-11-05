@@ -176,7 +176,7 @@
       "license": null,
       "stars_at_check": 94,
       "confidence": "documented",
-      "notes": "Merges Eglantine build-104, PokeDinner and Selevet Eglantine into one build (three codebases, not three executables). FSR 3/LSFG frame generation, DynamicFPS and a 30 FPS lock. v2.0.5 documents MKW at about 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070 with 16 GB, DK Bananza at about 33 FPS average and 20.6 low with 99% game speed, and Pokopia startup at 60 FPS. DK still has hitches up to 0.6 s. No license declared at check time."
+      "notes": "Merges Eglantine build-104, PokeDinner and Selevet Eglantine into one build (three codebases, not three executables). FSR 3/LSFG frame generation, DynamicFPS and a 30 FPS lock. v2.0.5 documents MKW at about 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070 with 16 GB, DK Bananza at about 33 FPS average and 20.6 low with 99% game speed, and Pokopia startup at 60 FPS. DK channel users call v2.0.5 the best DK build so far. DK still has hitches up to 0.6 s. No license declared at check time."
     },
     {
       "id": "eglantine-ps5",

@@ -175,7 +175,7 @@ Windows only, for NVIDIA and AMD. Documented.
 
 An Eglantine fork that merges Eglantine build-104, PokeDinner and Selevet Eglantine into one build. The "3 builds in 1" label means those three codebases, not three executables. It adds FSR 3 and LSFG frame generation, DynamicFPS and a 30 FPS lock. Latest at check: v2.0.5 (3 Nov 2026), 94 stars, Windows only.
 
-The release notes document results on a Ryzen 5 5500X3D, RTX 4070 and 16 GB: MKW about 56 FPS average and 44-50 in the lowest 10% in 1x handheld with DynamicFPS; Donkey Kong Bananza about 33 FPS average, 20.6 low, with game speed at 99%. Pokopia startup reached 60 FPS, and frame generation took the display to 116-120 FPS.
+The release notes document results on a Ryzen 5 5500X3D, RTX 4070 and 16 GB: MKW about 56 FPS average and 44-50 in the lowest 10% in 1x handheld with DynamicFPS; Donkey Kong Bananza about 33 FPS average, 20.6 low, with game speed at 99%. Pokopia startup reached 60 FPS, and frame generation took the display to 116-120 FPS. Users in the DK channel also call v2.0.5 the best DK build so far, and v2.0.3 the best AMD build.
 
 Use it for MKW or Donkey Kong Bananza if you want DynamicFPS or frame generation. For DK it is the current performance pick; PokeDinner remains the compatibility option. One caveat: DK still has hitches up to 0.6 seconds, frame generation adds latency, and the build shares settings with other Eden and Eglantine builds in `%APPDATA%\eden`. Back that folder up or use a separate user folder. No license is declared on the repo at check time, which matters if you redistribute it.
 
@@ -221,6 +221,8 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 Game names are used only to describe compatibility targets. No game files, keys or firmware are hosted or linked here.
 
 For MKW settings and the full performance table, see [Mario Kart World notes](docs/MKW.md).
+
+For DK settings and build notes, see [Donkey Kong Bananza notes](docs/DONKEY-KONG.md).
 
 ---
 
@@ -340,3 +342,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Corrected the DK Bananza pick: ZendNevs first for performance, PokeDinner for compatibility. Clarified ZendNevs' three merged codebases. |
 | 2026-11-05 | Added Orchid v0.7.4 OoT visual fixes and noted that OoT performance on Orchid is still unmeasured. |
 | 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from the MKW channel. |
+| 2026-11-05 | Added `docs/DONKEY-KONG.md` with DK configs, 30 FPS and DynamicFPS workarounds, and terrain or purple-screen notes. |
