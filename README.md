@@ -1,13 +1,13 @@
 # Which Forks?
 
-A use-case guide to Nintendo Switch 2 emulator forks: which build to pick for your GPU, OS, and the game you want to play.
+A use-case guide to Nintendo Switch 2 emulator forks and adjacent native ports: which build to pick for your GPU, OS, and the game you want to play.
 
-[![Last verified](https://img.shields.io/badge/last%20verified-2026--11--05-blue)](#update-log)
+[![Last verified](https://img.shields.io/badge/last%20verified-2026--11--06-blue)](#update-log)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 > [!WARNING]
-> Everything here is experimental. Builds land several times a day, regress without notice, and fork rankings depend on the game and driver. "Best" below means "best documented starting point for that use case on 5 Nov 2026", nothing more.
+> Everything here is experimental. Builds land several times a day, regress without notice, and fork rankings depend on the game and driver. "Best" below means "best documented starting point for that use case on 6 Nov 2026", nothing more.
 
 The page is ordered by what people ask first: which fork to use, what has been tested, then setup and trust checks.
 
@@ -26,7 +26,7 @@ The page is ordered by what people ask first: which fork to use, what has been t
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
 | Zelda OoT remake, Star Fox, Mario Tennis | [zortos293/Lichii](https://github.com/zortos293/Lichii/releases) | Community-reported game-focused builds |
 | Hyrule Warriors: Age of Imprisonment | [Djihads80 build 202+](https://github.com/Djihads80/Eglantine/releases) or [rdenno](https://github.com/rdenno/Eglantine/releases) | Build 202 was the Hyrule Warriors fix set (46-49 FPS median reported) |
-| Android phone or tablet | [moceure/eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android/tags) | The maintained NX2 Android build found at check time |
+| Android 13+, Snapdragon 12 GB+ | [Banana Native](https://github.com/moceure/BananaNative/releases) | Native port, not an emulator; DK Bananza works, Pokopia about 60 FPS, MKW in progress |
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
@@ -52,7 +52,7 @@ The full [coverage page](docs/COVERAGE.md) has the game-by-GPU, game-by-CPU, bui
 ```mermaid
 flowchart TD
     A[Where are you playing?] --> B{Platform}
-    B -->|Android| C[eden-nx2-android]
+    B -->|Android| C[Banana Native]
     B -->|PS5| D[EglantinePS5]
     B -->|Windows / Linux / macOS| E{GPU vendor}
     E -->|AMD| F{Main game?}
@@ -195,13 +195,17 @@ Repo check: at the time of writing the GitHub repo has 2 commits, no license, an
 
 It is an alternative for MKW or DK if you want DynamicFPS or frame generation. Recent independent reports favor SmileyTatsu for MKW and Selevet or PokeDinner 2.5 for DK. One caveat: DK still has hitches up to 0.6 seconds, frame generation adds latency, and the build shares settings with other Eden and Eglantine builds in `%APPDATA%\eden`. Back that folder up or use a separate user folder. No license is declared, so check before redistributing.
 
-### moceure/eden-nx2-android: Android
+### Banana Native: Android native port
 
-Android on ARM64. Documented.
+Android 13+, Snapdragon/Adreno, 12 GB RAM. Source in repo. Not an emulator.
 
-The maintained Android NX2 build found at check time, on the Eden Forgejo. Latest at check: v0.3.2 (2 Nov 2026), with seven releases in the v0.3.x line. It is hosted on Forgejo, not GitHub.
+Banana Native is not an emulator and not a fork. It runs the game's own ARM64 code on the phone and rebuilds the NVN graphics on Vulkan. It is an Android port of nxnative. The former moceure/eden-nx2-android emulator is unmaintained and now points here.
 
-Use it on Android phones and tablets. The catch: desktop parity is not there. Snapdragon or Adreno with current Turnip drivers is the path of least resistance; Mali is hit or miss. Expect thermal throttling to dominate long sessions.
+Latest at check: v0.1.5 (5 Nov 2026), 325 stars, MIT repository license. Donkey Kong Bananza works at about 30 FPS, Pokopia runs at about 60 FPS, and Mario Kart World is in progress with graphics problems. Only the listed game versions run.
+
+It needs your own dump as a folder, with base, updates and DLC. No keys or firmware. Preparation takes 10-15 minutes on a Mac or about an hour on the phone; MKW needs a Mac. It was tested on one phone, a Snapdragon 8 Elite Gen 5 with 16 GB, so other phones are unverified.
+
+Pick it if you have a recent Snapdragon phone and want native performance without an emulator. The catch: experimental, one tested phone, a black sky in Pokopia, texture glitches in DK, graphics problems in MKW, and heavy heating.
 
 ### Other forks worth knowing
 
@@ -235,6 +239,8 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 | Fire Emblem Fortune's Weave | PokeDinner | None | Initial support, explicitly "not ready" |
 
 Game names are used only to describe compatibility targets. No game files, keys or firmware are hosted or linked here.
+
+On Android, Banana Native is a native port, not an emulator: DK Bananza works, Pokopia runs at about 60 FPS, and MKW is in progress.
 
 For MKW settings and the full performance table, see [Mario Kart World notes](docs/MKW.md).
 
@@ -275,10 +281,10 @@ Reports are public. Don't post keys, firmware, ROMs or personal information.
 
 ### Android specifics
 
-- Prefer Snapdragon or Adreno, and use a current Turnip driver if the app allows a custom driver.
-- 8 GB RAM is the minimum; 12 GB or more is realistic for Switch 2 titles.
-- Expect throttling. A 10-minute benchmark is more honest than a 30-second one.
-- The Android build tracks desktop NX2 work with a lag, so don't expect the same game list on day one.
+- Banana Native requires Android 13+, a Snapdragon/Adreno GPU and at least 12 GB of RAM. It was tested on a Snapdragon 8 Elite Gen 5 with 16 GB.
+- The game must be prepared once: 10-15 minutes on a Mac, or about an hour on the phone. Mario Kart World needs a Mac.
+- Use the system driver or a current Turnip driver. A phone cooler helps; heat throttles hard.
+- Only the listed versions run: Donkey Kong Bananza update 458752, Mario Kart World 1.8.0 base, and Pokopia 2.0.1.
 
 ---
 
@@ -296,9 +302,9 @@ Forks are full emulator copies, not plugins. Before trusting one:
 
 ### Source check
 
-A source audit of every fork in this guide is in [source audit](docs/SOURCE-AUDIT.md). All first picks publish their full source in the repository under GPL-3.0.
+A source audit of every project in this guide is in [source audit](docs/SOURCE-AUDIT.md). All first picks publish source in the repository. Most are GPL-3.0; Banana Native is MIT on GitHub and GPL-3.0-or-later in its release notes.
 
-ZendNevs is the exception: its repo has 2 commits, no license, and only a README plus a workflow. The source is a zip in the release, not a source tree. The 3060Ti build is a patch set with a binary release, not a full emulator fork. Neither is a first pick.
+ZendNevs is a different case: its repo has 2 commits, no license, and only a README plus a workflow. The source is a zip in the release, not a source tree. The 3060Ti build is a patch set with a binary release, not a full emulator fork. Neither is a first pick.
 
 ### Reading FPS claims
 
@@ -341,7 +347,7 @@ All links checked 5 Nov 2026. Release metadata read from the GitHub and Forgejo 
 - Game patches: [zortos293/Lichii](https://github.com/zortos293/Lichii), [releases](https://github.com/zortos293/Lichii/releases), [build-80 Actions run](https://github.com/zortos293/Lichii/actions/runs/42021953813)
 - Private online: [Droplet](https://gitlab.com/seighttt/droplet), [releases](https://gitlab.com/seighttt/droplet/-/releases), [Reservoir server branch](https://gitlab.com/seighttt/droplet/-/tree/server)
 - Hyrule Warriors and nx2-merged: [rdenno/Eglantine](https://github.com/rdenno/Eglantine), [releases](https://github.com/rdenno/Eglantine/releases)
-- Android: [moceure/eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android), [tags](https://git.eden-emu.dev/moceure/eden-nx2-android/tags)
+- Android: [Banana Native](https://github.com/moceure/BananaNative), [releases](https://github.com/moceure/BananaNative/releases). The old [eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android) is unmaintained and points here.
 - Zen 3 build: [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine), [releases](https://github.com/sylvieistaken/selevet-eglantine/releases)
 - Frame-gen build: [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs), [releases](https://github.com/ZendNevs/Eglantine-ZendNevs/releases)
 - PS5 port: [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5)
@@ -381,3 +387,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added a source audit and a source-in-repo rule; ZendNevs and the 3060Ti build are no longer treated as auditable. |
 | 2026-11-05 | Moved stats and charts to the top and reordered the page around fork choice, then data, then setup. |
 | 2026-11-05 | Added recent community reports for Steam Deck, ROG Ally and low-end GPUs. |
+| 2026-11-06 | Replaced the unmaintained Android emulator with Banana Native, a native Android port, and documented its supported games and requirements. |

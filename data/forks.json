@@ -131,20 +131,20 @@
       "notes": "Fork of Djihads80 with its own nx2-merged builds. Hyrule Warriors fixes also exist upstream from build 202 onward."
     },
     {
-      "id": "eden-nx2-android",
-      "name": "eden-nx2-android (moceure)",
-      "repo": "https://git.eden-emu.dev/moceure/eden-nx2-android",
-      "releases": "https://git.eden-emu.dev/moceure/eden-nx2-android/tags",
-      "host": "Eden Forgejo",
-      "role": "Android build",
-      "platforms": ["Android / ARM64"],
-      "gpu": ["Adreno (recommended)", "Mali (hit-or-miss)"],
-      "best_for": ["Android phones/tablets"],
-      "latest_release": { "tag": "v0.3.2", "date": "2026-11-02", "prerelease": true },
-      "license": "GPL-3.0",
-      "stars_at_check": 17,
+      "id": "banana-native",
+      "name": "Banana Native (moceure)",
+      "repo": "https://github.com/moceure/BananaNative",
+      "releases": "https://github.com/moceure/BananaNative/releases",
+      "host": "GitHub",
+      "role": "native Android port (not an emulator)",
+      "platforms": ["Android 13+ / ARM64"],
+      "gpu": ["Adreno / Snapdragon"],
+      "best_for": ["Donkey Kong Bananza on Android", "Pokemon Pokopia on Android", "Mario Kart World on Android (WIP)"],
+      "latest_release": { "tag": "v0.1.5", "date": "2026-11-05", "prerelease": false },
+      "license": "MIT (repo); GPL-3.0-or-later (release notes)",
+      "stars_at_check": 325,
       "confidence": "documented",
-      "notes": "Maintained Android NX2 build found at check time. Desktop parity not expected; thermal throttling dominates long sessions."
+      "notes": "Not an emulator: runs the game's ARM64 code natively and rebuilds NVN on Vulkan. Android 13+, Snapdragon/Adreno, 12 GB RAM. DK Bananza about 30 FPS, Pokopia about 60 FPS, MKW in progress with graphics problems. Requires own dump folder; no keys or firmware. Tested on one phone (Snapdragon 8 Elite Gen 5, 16 GB). The old eden-nx2-android is unmaintained and points here."
     },
     {
       "id": "selevet-eglantine",
