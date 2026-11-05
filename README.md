@@ -9,9 +9,11 @@ A use-case guide to Nintendo Switch 2 emulator forks: which build to pick for yo
 > [!WARNING]
 > Everything here is experimental. Builds land several times a day, regress without notice, and fork rankings depend on the game and driver. "Best" below means "best documented starting point for that use case on 5 Nov 2026", nothing more.
 
+The page is ordered by what people ask first: which fork to use, what has been tested, then setup and trust checks.
+
 ---
 
-## The 30-second answer
+## Which fork should I use?
 
 | Your situation | Start here | Why |
 |---|---|---|
@@ -30,6 +32,18 @@ A use-case guide to Nintendo Switch 2 emulator forks: which build to pick for yo
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
 
 If you only read one line: install Djihads80/Eglantine first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
+
+---
+
+## Stats at a glance
+
+105 reports, 14 games, 59 CPU and GPU setups, and 28 reports in the 3-5 Nov window used for the first picks. 53 reports are NVIDIA, 32 AMD, 3 Steam Deck, and 17 have no named GPU.
+
+![Reports by date](docs/charts/dates.svg)
+
+![Reports by GPU model](docs/charts/gpu-models.svg)
+
+The full [coverage page](docs/COVERAGE.md) has the game-by-GPU, game-by-CPU, build and setup tables. The normalized data is in [data/performance-reports.json](data/performance-reports.json).
 
 ---
 
@@ -230,16 +244,6 @@ For Pokopia settings and workarounds, see [Pokopia notes](docs/POKOPIA.md).
 
 ---
 
-## Coverage and charts
-
-The normalized report data is in [data/performance-reports.json](data/performance-reports.json). The [coverage page](docs/COVERAGE.md) shows which game was tested on which GPU, CPU and build, with charts for the setups used. The 3-5 Nov window is highlighted; older reports are historical context.
-
-![Reports by date](docs/charts/dates.svg)
-
-![Reports by GPU model](docs/charts/gpu-models.svg)
-
----
-
 ## Community reports: help improve the ranking
 
 The game matrix above is a snapshot of documentation and community claims. Reports from people who actually ran a build are what turn it into a ranking that can be trusted.
@@ -375,3 +379,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added a normalized performance dataset, SVG charts and a coverage page for what was tested on which setup. |
 | 2026-11-05 | Added a recency policy and downgraded ZendNevs from first pick after reviewing its 2-commit repo history. Recent independent reports now drive the MKW and DK picks. |
 | 2026-11-05 | Added a source audit and a source-in-repo rule; ZendNevs and the 3060Ti build are no longer treated as auditable. |
+| 2026-11-05 | Moved stats and charts to the top and reordered the page around fork choice, then data, then setup. |
