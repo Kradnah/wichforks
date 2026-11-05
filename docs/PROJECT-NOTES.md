@@ -90,7 +90,7 @@ These are single-user reports from build 202 and the 0.1.0-rc1 build on 4 and 5 
 | Star Fox | 202, rc1 | Infinite loading |
 | Yoshi | 202, rc1 | Choppy but loads; rc1 has a green glitch at 45-60 FPS, skips the cutscene and hard-crashes on Plasma and X11 |
 | Fire Emblem Fortune's Weave | 202, rc1 | Black screen and crash; on AMD the crash log shows a DLSS attempt and a failed FSR fallback |
-| Zelda: OoT remake | rc1 | Infinite loading; use Lichii build 80 for this game |
+| Zelda: OoT remake | rc1 | Infinite loading on Eglantine; use Lichii build 80. Orchid v0.7.4 fixes exposure, fog and vegetation, but OoT performance there is unmeasured |
 | Orbitals | 202, rc1 | Black screen; 3-10 FPS with no shader-building indicator |
 | Super Mario Bros. Wonder | NUP | DLC did not work after converting the game to NUP |
 | Yoshi | 3 Nov | Full game boots, not just the demo |

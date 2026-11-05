@@ -89,6 +89,8 @@ All rows use Lichii build 80 unless noted.
 | Lichii build 80 | 14th-gen i7 | RTX 4070 Ti | not stated | emulator-bound, no FPS given | | Reddit, 5 Nov |
 | Eglantine v0.1.0-rc1 | 7700X | RX 7900 XTX | not stated | infinite loading | | Discord, 5 Nov |
 
+Orchid v0.7.3 and v0.7.4 fix OoT exposure, fog and vegetation. There is no OoT FPS report for Orchid yet. The Reddit comment that called performance questionable also said the build had not been tried.
+
 ## Other games
 
 | Game | Build | CPU | GPU | RAM | Performance | Notes | Source |
@@ -121,3 +123,4 @@ Most Discord reports do not include the GPU driver, game version or 1% lows. A r
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - Ocarina of Time Reddit threads, 5 Nov 2026. Usernames are not reproduced here.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT results.
+- [Orchid releases](https://github.com/MythosOfs/Orchid/releases) for the OoT exposure, fog and vegetation fixes.

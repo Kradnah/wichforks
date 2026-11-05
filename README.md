@@ -95,7 +95,11 @@ This is the one if Mario Kart World is your main game, on either GPU vendor. The
 
 Windows and Linux builds, plus an experimental macOS arm64 build. AMD only. Documented.
 
-Started as an Eglantine fork and now independent. It adds Ampere shader-instruction lowerings, Switch 2 font handling, kernel thread-race fixes, and graphics fixes for texture copies, descriptor buffers and geometry shaders. Latest at check: v0.7.2 (5 Nov 2026), GPL-3.0, with Windows zip, Linux AppImage (PGO variants) and an experimental macOS 15+ arm64 build.
+Started as an Eglantine fork and now independent. It adds Ampere shader-instruction lowerings, Switch 2 font handling, kernel thread-race fixes, and graphics fixes for texture copies, descriptor buffers and geometry shaders. Latest at check: v0.7.4 (5 Nov 2026), GPL-3.0, with Windows zip, Linux AppImage and tar.gz (PGO variants), and an experimental macOS 15+ arm64 build.
+
+Ocarina of Time is the current focus: v0.7.2 brought gameplay rendering, v0.7.3 fixed exposure, haze and sky ambient light, and v0.7.4 restored trees, bushes, vines and grass. The exposure and fog change is a visual workaround; it also thins fog in interiors and can be disabled with `EDEN_NX2_OOT_VISUAL_WORKAROUND=0`. No FPS report for OoT on Orchid was available at check time.
+
+If you want the OoT fog, exposure and vegetation fixes, try v0.7.4; performance on OoT is still unmeasured.
 
 Go for Orchid if you're on AMD. The performance table was measured on a 5800X3D with an RX 9070 XT and Mesa RADV from git, with 60 FPS reported in Mario Tennis Fever and Super Mario Bros. Wonder, and 30-40 FPS in MKW with asset glitches. Keep in mind: release builds can lag commits, so self-build for the newest code.
 
@@ -207,7 +211,7 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items, sky and reflections |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
-| Zelda: OoT remake | Lichii build-80 | PokeDinner | Playable with heavy visual bugs; 60 FPS clips are area-specific and high-end, 20-24 FPS on i3-10100/3060 (field reports, 5 Nov) |
+| Zelda: OoT remake | Lichii build-80 | PokeDinner; Orchid v0.7.4 | Lichii: playable with visual bugs, 20-24 FPS on i3-10100/3060; Orchid fixes exposure, fog and vegetation but OoT performance is unmeasured |
 | Star Fox | Lichii | Djihads80 | Community-reported |
 | Mario Tennis Fever | Lichii | Orchid | Community-reported; Orchid measured 60 FPS |
 | Hyrule Warriors: AoI | Djihads80 build 202+ | rdenno nx2-merged | Build 202 fix set; 46-49 FPS median reported |
@@ -332,3 +336,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added `docs/PROJECT-NOTES.md` from the project Discord: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |
 | 2026-11-05 | Added `docs/PERFORMANCE.md` with hardware, build and FPS reports for MKW, Splatoon Raiders, Pokopia, DK Bananza, Yoshi and OoT. |
 | 2026-11-05 | Corrected the DK Bananza pick: ZendNevs first for performance, PokeDinner for compatibility. Clarified ZendNevs' three merged codebases. |
+| 2026-11-05 | Added Orchid v0.7.4 OoT visual fixes and noted that OoT performance on Orchid is still unmeasured. |

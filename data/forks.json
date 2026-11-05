@@ -43,12 +43,12 @@
       "role": "AMD-focused independent fork",
       "platforms": ["Windows", "Linux", "macOS (Apple Silicon, 15+)"],
       "gpu": ["AMD"],
-      "best_for": ["AMD GPUs", "Mario Tennis Fever", "Super Mario Bros. Wonder", "Mario Kart World (30-40 FPS reported)"],
-      "latest_release": { "tag": "v0.7.2", "date": "2026-11-05", "prerelease": false },
+      "best_for": ["AMD GPUs", "Zelda OoT remake (visual fixes)", "Mario Tennis Fever", "Super Mario Bros. Wonder", "Mario Kart World (30-40 FPS reported)"],
+      "latest_release": { "tag": "v0.7.4", "date": "2026-11-05", "prerelease": false },
       "license": "GPL-3.0",
       "stars_at_check": 71,
       "confidence": "documented",
-      "notes": "Independent offshoot of Eglantine. Ampere shader lowerings, Switch 2 font handling, kernel thread-race and graphics fixes. Performance measured on 5800X3D + RX 9070 XT with Mesa RADV git. PGO Windows/Linux builds available."
+      "notes": "Independent offshoot of Eglantine. Ampere shader lowerings, Switch 2 font handling, kernel thread-race and graphics fixes. OoT: v0.7.2 gameplay rendering, v0.7.3 exposure/haze/sky ambient fix, v0.7.4 vegetation restored. Exposure/fog workaround thins interior fog; EDEN_NX2_OOT_VISUAL_WORKAROUND=0 disables it. OoT performance unmeasured. Performance table measured on 5800X3D + RX 9070 XT with Mesa RADV git. PGO Windows/Linux builds."
     },
     {
       "id": "pokedinner",
