@@ -89,14 +89,14 @@
       "releases": "https://github.com/zortos293/Lichii/releases",
       "host": "GitHub",
       "role": "game-patch fork",
-      "platforms": ["Windows"],
+      "platforms": ["Windows", "Linux", "macOS"],
       "gpu": ["NVIDIA", "AMD"],
-      "best_for": ["Zelda OoT remake", "Donkey Kong Bananza", "Star Fox", "Mario Tennis Fever"],
-      "latest_release": { "tag": "build-75", "date": "2026-11-05", "prerelease": true },
+      "best_for": ["Zelda OoT remake (build-80+)", "Donkey Kong Bananza", "Star Fox", "Mario Tennis Fever"],
+      "latest_release": { "tag": "build-80 (Actions)", "date": "2026-11-05", "prerelease": true },
       "license": "GPL-3.0",
       "stars_at_check": 1500,
       "confidence": "community-reported",
-      "notes": "Handles Switch 1 and Switch 2 titles. README does not publish a title list; game associations come from the community update. Still uses the historical Eglantine name internally."
+      "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
     },
     {
       "id": "rdenno-eglantine",

@@ -116,12 +116,20 @@ Independent Eglantine-based build. Every push to `main` is published. Latest: **
 
 ### zortos293/Lichii — game-patch fork
 
-**OoT remake · Bananza · Star Fox · Mario Tennis · Windows · Community-reported**
+**OoT remake · Bananza · Star Fox · Mario Tennis · Windows / Linux / macOS · Community-reported**
 
-A large Eglantine-derived fork (**~1.5k stars**) that also handles Switch 1 titles. Latest: **build-75** (5 Nov 2026). The repo README does not publish a title list, so the game associations above come from the community update, not from upstream docs.
+A large Eglantine-derived fork (**~1.5k stars**) that also handles Switch 1 titles. Latest at check: **build-80** (5 Nov 2026, commit `7459f10`), published as **GitHub Actions artifacts** — the Releases page still showed build-75. Artifacts cover Windows x86_64 (PGO and non-PGO), Linux x86_64/aarch64, and macOS arm64. A GitHub account is required to download them, and they expire.
 
-- **Pick it if:** you want the specific titles attributed to it.
-- **Watch out:** verify the game in the release notes of the build you download; the project still uses the historical "Eglantine" name internally.
+A 5 Nov community PSA calls build-80 the most playable OoT remake build so far — with caveats. Field reports from that thread:
+
+- **9800X3D:** ~54–60 FPS, but heavy bloom/sunrays, texture flicker and intermittent black-screen flashes.
+- **i3-10100 + RTX 3060 12 GB + 24 GB RAM:** 20–24 FPS in Kokiri Forest.
+- **3080 10 GB:** 40–50 FPS in Kokiri Forest, 40–60 inside the Deku Tree; CPU and GPU both under 50% — emulator-bound, not a settings problem.
+- **RTX 2070 + 9800X3D** reportedly holds 60 FPS while a **7900 XTX + 13400F** does not — the pattern points to a single-core CPU bottleneck rather than GPU power.
+- **Black screen:** try the **non-PGO** Windows artifact first (the PGO build caused black screens for several users), then docked mode. Some cutscenes stay black with audio only.
+
+- **Pick it if:** you want OoT remake or the other titles attributed to it, and you have a fast CPU.
+- **Watch out:** verify the game in the release/commit notes of the build you download; the project still uses the historical "Eglantine" name internally. Actions artifacts are not releases — keep the zip if a build works.
 
 ### rdenno/Eglantine — nx2-merged / Hyrule Warriors
 
@@ -172,7 +180,7 @@ Lower confidence, but relevant depending on hardware:
 | Donkey Kong Bananza | PokeDinner | Lichii | PokeDinner release notes (terrain, black-hole rendering); Lichii community-reported |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items/sky/reflections |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox/texture/HDR fixes; upstream says variable performance |
-| Zelda: OoT remake | Lichii | PokeDinner | Community-reported; PokeDinner lists initial OOT support |
+| Zelda: OoT remake | Lichii build-80 | PokeDinner | Build-80 playable with heavy visual bugs; 54–60 FPS on 9800X3D, 20–24 on i3-10100/3060 (field reports, 5 Nov) |
 | Star Fox | Lichii | Djihads80 | Community-reported |
 | Mario Tennis Fever | Lichii | Orchid | Community-reported; Orchid measured 60 FPS |
 | Hyrule Warriors: AoI | Djihads80 build 202+ | rdenno nx2-merged | Build 202 fix set; 46–49 FPS median reported |
@@ -263,7 +271,7 @@ All links checked 5 Nov 2026. Release metadata read from the GitHub/Forgejo APIs
 - AMD/independent: [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid) · [releases](https://github.com/MythosOfs/Orchid/releases)
 - Game-specific lab: [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork) · [releases](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases)
 - Pokopia build: [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine) · [releases](https://github.com/notsapinho/Eglantine/releases)
-- Game patches: [zortos293/Lichii](https://github.com/zortos293/Lichii) · [releases](https://github.com/zortos293/Lichii/releases)
+- Game patches: [zortos293/Lichii](https://github.com/zortos293/Lichii) · [releases](https://github.com/zortos293/Lichii/releases) · [build-80 Actions run](https://github.com/zortos293/Lichii/actions/runs/42021953813)
 - Hyrule Warriors / nx2-merged: [rdenno/Eglantine](https://github.com/rdenno/Eglantine) · [releases](https://github.com/rdenno/Eglantine/releases)
 - Android: [moceure/eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android) · [tags](https://git.eden-emu.dev/moceure/eden-nx2-android/tags)
 - Zen 3 build: [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine) · [releases](https://github.com/sylvieistaken/selevet-eglantine/releases)
@@ -290,3 +298,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Initial guide: 11 forks + 4 niche builds, release endpoints verified, game matrix from documented + community-reported claims. |
 | 2026-11-05 | Broke ZendNevs/Eglantine out into its own section (frame generation, DynamicFPS, 30 FPS lock). |
 | 2026-11-05 | Added community reports: issue form, JSON schema + validator, generated `docs/REPORTS.md`, CI check. |
+| 2026-11-05 | Added Lichii build-80 field reports for OoT remake (Actions-only artifact, PGO black-screen workaround, CPU-bound pattern). |
