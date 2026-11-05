@@ -11,8 +11,7 @@ Thanks for helping keep this list useful. The Switch 2 emulation scene changes h
    - a community report (community-reported), with a link and date.
 4. Include context: platform, GPU and driver, build tag, and game tested.
 5. No copyrighted files. No ROMs, keys, firmware or links to them. No "repack" or ad-gated download links.
-6. No aggregator-only links unless the aggregator itself links upstream for every entry and bundles nothing copyrighted.
-7. Update, don't duplicate. If a fork already has a row, edit the row and bump its release or build fields.
+6. Update, don't duplicate. If a fork already has a row, edit the row and bump its release or build fields.
 
 ## Reporting your experience
 

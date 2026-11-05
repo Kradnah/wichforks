@@ -75,7 +75,9 @@ Claims here are labelled, because the scene is full of "60 FPS trust me bro":
 
 Runs on Windows, Linux and macOS, with NVIDIA, AMD and Intel GPUs. Claims here are documented.
 
-The reference Eglantine build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. The "last stable build 196" figure in circulation is already behind; builds 200+ include the Hyrule Warriors fix set.
+The reference Eglantine build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
+
+Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. Build-by-build notes from the project Discord are in [project notes](docs/PROJECT-NOTES.md).
 
 Start here if you want the default, the widest game coverage, and the build most forks rebase on. One caveat: "stable" is relative here. These are pre-releases, so pin a build that works for your game and don't update mid-playthrough.
 
@@ -250,7 +252,7 @@ Reports are public. Don't post keys, firmware, ROMs or personal information.
 
 ---
 
-## How to judge a fork (and an aggregator)
+## How to judge a fork
 
 Forks are full emulator copies, not plugins. Before trusting one:
 
@@ -267,16 +269,6 @@ Forks are full emulator copies, not plugins. Before trusting one:
 - Low GPU and low CPU usage usually means the emulator is the bottleneck, not your settings.
 - Frame generation (FSR 3 or LSFG) inflates the counter; it does not raise the simulation rate.
 - High FPS with flicker, bloom or black-screen flashes is still unplayable for many people.
-
-### About "Amazing-*" and "Awesome-*" aggregator repos
-
-Repos that regroup forks, often with names like Amazing-*, Awesome-* or Mega-*, are indexes, not emulators. They can be useful for discovery, but they add a layer of latency and trust between you and the actual build.
-
-At the time of writing (5 Nov 2026) we could not verify any GitHub repository with an "Amazing-" prefix related to Switch 2 or Eglantine forks. If you know one, open an issue with the link. This repo will list an aggregator only if it:
-
-1. links to the upstream repo or release for every entry,
-2. states the build provenance and date, and
-3. does not bundle or link copyrighted files.
 
 Forks also vanish overnight (DMCA, renames, account deletion). If a link 404s, search the project name plus "fork" and prefer a repo that still publishes source.
 
@@ -331,3 +323,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added Lichii build-80 field reports for OoT remake (Actions-only artifact, PGO black-screen workaround, CPU-bound pattern). |
 | 2026-11-05 | OoT reality check and "Reading FPS claims": 60 FPS clips are area-specific, not sustained. |
 | 2026-11-05 | Added Droplet and Reservoir for private online MKW and Splatoon Raiders, with build status and P2P caveats. |
+| 2026-11-05 | Added `docs/PROJECT-NOTES.md` from the project Discord: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |

@@ -16,7 +16,7 @@
       "license": "GPL-3.0",
       "stars_at_check": 4116,
       "confidence": "documented",
-      "notes": "Derived from Eden, Yuzu and Sudachi; started by Camille LaVey. Also shipping daily builds and a v0.1.0-rc1 tag. Build 202 was the Hyrule Warriors fix set."
+      "notes": "Derived from Eden, Yuzu and Sudachi; started by Camille LaVey. Daily builds and v0.1.0-rc1. Build 135 added NUP metadata, 168 rumble, 189 DLSS/Streamline. Stability varies: 196 last stable for one tester, 202-212 regressions for another, 212 works after rebuild. Build 202 was the Hyrule Warriors fix set."
     },
     {
       "id": "smileytatsu-eglantine",
