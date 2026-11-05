@@ -36,16 +36,17 @@ A few representative rows:
 
 ## Pokemon Pokopia
 
+Pokopia has its own page because the workarounds matter: [Pokopia notes](POKOPIA.md). It covers the black sky, the 120fps mod, memory limits and 13 configs.
+
+A few representative rows:
+
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
 | v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 60 FPS game, 116-120 display with frame generation | startup test only, about one minute | ZendNevs release notes |
-| v0.1.0-rc1 PGO | 7700X | RX 7900 XTX | not stated | 60 FPS | Linux Nobara | Discord, 5 Nov |
-| PokeDinner, unspecified | not stated | RX 6700 XT | not stated | fully playable | author name lists RX 6700 XT | Discord, 2 Nov |
-| Steam Deck | Steam Deck APU | Steam Deck APU | 16 GB | 100% playable | | Discord, 1 Nov |
-| 202 | 7700X | RX 7900 XTX | not stated | loads, invisible Vespiqueen items, crashes | Linux Nobara | Discord, 4 Nov |
-| 129 | not stated | not stated | not stated | no graphical bug | | Discord, 2 Nov |
-| 96 | not stated | not stated | not stated | working | | Discord, 1 Nov |
-| unspecified | not stated | not stated | not stated | 40-45 FPS, against 80-90 on notsapinho | game inferred from context | Discord, 5 Nov |
+| notsapinho | 12th-gen i5 2.5 GHz | RTX 4060 Mobile 6 GB | 16 GB | 80+ FPS | accurate, docked, 120fps mod | Discord, 4 Nov |
+| PokeDinner, unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 50-60 FPS, feels like 40-50 | accurate GPU | Discord, 1 Nov |
+| build 135 | not stated | GTX 1080 | not stated | 60 FPS with stutter, black sky, no audio | | Discord, 2 Nov |
+| Steam Deck | Steam Deck APU | Steam Deck APU | 16 GB | 30-40 FPS, later 25-30 | uneven frame pacing | Discord, 2 Nov |
 
 ## Donkey Kong Bananza
 
@@ -119,6 +120,7 @@ Most Discord reports do not include the GPU driver, game version or 1% lows. A r
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - [Mario Kart World notes](MKW.md) for the full MKW table, settings and build notes.
 - [Donkey Kong Bananza notes](DONKEY-KONG.md) for the full DK table, 30 FPS and DynamicFPS workarounds, and terrain issues.
+- [Pokopia notes](POKOPIA.md) for the full Pokopia table, black sky and 120fps workarounds, and memory limits.
 - Ocarina of Time Reddit threads, 5 Nov 2026. Usernames are not reproduced here.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT results.
 - [Orchid releases](https://github.com/MythosOfs/Orchid/releases) for the OoT exposure, fog and vegetation fixes.

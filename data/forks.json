@@ -80,7 +80,7 @@
       "license": "GPL-3.0",
       "stars_at_check": 5,
       "confidence": "documented",
-      "notes": "Every push to main is published. x86_64 builds require AVX2 (Haswell+ / Ryzen). Pokopia listed as playable."
+      "notes": "Every push to main is published. x86_64 builds require AVX2 (Haswell+ / Ryzen). Pokopia listed as playable, with AMD-specific fixes, Linux support and a 120fps mod. One RTX 4060 Mobile user reached 80+ FPS with accurate GPU, docked mode and the 120fps mod. Stable 120 FPS is not possible on current Eglantine per the developer."
     },
     {
       "id": "lichii",

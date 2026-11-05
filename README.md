@@ -208,7 +208,7 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 | Mario Kart World | SmileyTatsu or ZendNevs | Djihads80; Orchid (AMD) | SmileyTatsu community pick; ZendNevs documents 56 FPS average on 5500X3D/4070 |
 | Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
 | Donkey Kong Bananza | ZendNevs v2.0.5 | PokeDinner; Lichii | ZendNevs: 33 FPS average, 20.6 low, 99% speed; PokeDinner for terrain fixes |
-| Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items, sky and reflections |
+| Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
 | Zelda: OoT remake | Lichii build-80 | PokeDinner; Orchid v0.7.4 | Lichii: playable with visual bugs, 20-24 FPS on i3-10100/3060; Orchid fixes exposure, fog and vegetation but OoT performance is unmeasured |
@@ -223,6 +223,8 @@ Game names are used only to describe compatibility targets. No game files, keys 
 For MKW settings and the full performance table, see [Mario Kart World notes](docs/MKW.md).
 
 For DK settings and build notes, see [Donkey Kong Bananza notes](docs/DONKEY-KONG.md).
+
+For Pokopia settings and workarounds, see [Pokopia notes](docs/POKOPIA.md).
 
 ---
 
@@ -343,3 +345,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added Orchid v0.7.4 OoT visual fixes and noted that OoT performance on Orchid is still unmeasured. |
 | 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from the MKW channel. |
 | 2026-11-05 | Added `docs/DONKEY-KONG.md` with DK configs, 30 FPS and DynamicFPS workarounds, and terrain or purple-screen notes. |
+| 2026-11-05 | Added `docs/POKOPIA.md` with Pokopia configs, black sky and 120fps workarounds, and memory limits. |
