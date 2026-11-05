@@ -228,9 +228,19 @@ For Pokopia settings and workarounds, see [Pokopia notes](docs/POKOPIA.md).
 
 ---
 
+## Coverage and charts
+
+The normalized report data is in [data/performance-reports.json](data/performance-reports.json). The [coverage page](docs/COVERAGE.md) shows which game was tested on which GPU, CPU and build, with charts for the setups used.
+
+![Reports by GPU model](docs/charts/gpu-models.svg)
+
+![Reports per game](docs/charts/games.svg)
+
+---
+
 ## Community reports: help improve the ranking
 
-The matrix above is a snapshot of documentation and community claims. Reports from people who actually ran a build are what turn it into a ranking that can be trusted.
+The game matrix above is a snapshot of documentation and community claims. Reports from people who actually ran a build are what turn it into a ranking that can be trusted.
 
 There are two ways to contribute:
 
@@ -346,3 +356,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added `docs/MKW.md` with nearly 50 MKW configs, settings notes and build regressions from the MKW channel. |
 | 2026-11-05 | Added `docs/DONKEY-KONG.md` with DK configs, 30 FPS and DynamicFPS workarounds, and terrain or purple-screen notes. |
 | 2026-11-05 | Added `docs/POKOPIA.md` with Pokopia configs, black sky and 120fps workarounds, and memory limits. |
+| 2026-11-05 | Added a normalized performance dataset, SVG charts and a coverage page for what was tested on which setup. |

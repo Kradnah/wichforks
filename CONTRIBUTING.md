@@ -67,9 +67,10 @@ Then add the fork to the relevant README tables and, if necessary, the game matr
 ```bash
 python -I scripts/check_links.py
 python -I scripts/reports.py validate
+python -I scripts/performance_data.py
 ```
 
-The link checker exits non-zero on dead (404/410) or unreachable URLs. Rate limits and 5xx answers are retried, then reported as INCONCLUSIVE without failing the run. The report validator exits non-zero on schema errors. Fix dead links or mark the fork as archived or removed in the same PR.
+The link checker exits non-zero on dead (404/410) or unreachable URLs. Rate limits and 5xx answers are retried, then reported as INCONCLUSIVE without failing the run. The report validator exits non-zero on schema errors. After editing a performance table, regenerate the JSON, SVG charts and coverage page, and commit them; CI checks that they are current. Fix dead links or mark the fork as archived or removed in the same PR.
 
 ## Removing a fork
 

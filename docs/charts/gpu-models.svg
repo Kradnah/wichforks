@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="636" viewBox="0 0 1100 636">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Reports by GPU model</text>
+<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per GPU, split by game. Reports without a named GPU are excluded.</text>
+<rect x="24" y="67" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Donkey Kong Bananza</text>
+<rect x="171.8" y="67" width="10" height="10" fill="#dc2626"/>
+<text x="186.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Fire Emblem Fortune's Weave</text>
+<rect x="369.20000000000005" y="67" width="10" height="10" fill="#7c3aed"/>
+<text x="384.20000000000005" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Kart World</text>
+<rect x="498.40000000000003" y="67" width="10" height="10" fill="#0891b2"/>
+<text x="513.4000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Tennis Fever</text>
+<rect x="640.0" y="67" width="10" height="10" fill="#db2777"/>
+<text x="655.0" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Orbitals</text>
+<rect x="719.6" y="67" width="10" height="10" fill="#65a30d"/>
+<text x="734.6" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Pokemon Pokopia</text>
+<rect x="842.6" y="67" width="10" height="10" fill="#ea580c"/>
+<text x="857.6" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Splatoon Raiders</text>
+<rect x="971.8" y="67" width="10" height="10" fill="#4f46e5"/>
+<text x="986.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Star Fox</text>
+<rect x="24" y="83" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Super Mario Bros. Wonder</text>
+<rect x="202.8" y="83" width="10" height="10" fill="#16a34a"/>
+<text x="217.8" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Yoshi and the Mysterious Book</text>
+<rect x="412.6" y="83" width="10" height="10" fill="#d97706"/>
+<text x="427.6" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Zelda: Ocarina of Time remake</text>
+<line x1="300.0" y1="106" x2="300.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="300.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
+<line x1="442.0" y1="106" x2="442.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="442.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">2</text>
+<line x1="584.0" y1="106" x2="584.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="584.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">4</text>
+<line x1="726.0" y1="106" x2="726.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="726.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">6</text>
+<line x1="868.0" y1="106" x2="868.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="868.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">8</text>
+<line x1="1010.0" y1="106" x2="1010.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
+<text x="1010.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">10</text>
+<text x="288" y="130" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 9070 XT</text>
+<rect x="300.0" y="114" width="284.0" height="24" fill="#2563eb"/>
+<rect x="584.0" y="114" width="284.0" height="24" fill="#7c3aed"/>
+<rect x="868.0" y="114" width="71.0" height="24" fill="#0891b2"/>
+<rect x="939.0" y="114" width="71.0" height="24" fill="#2563eb"/>
+<text x="1018.0" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">10</text>
+<text x="288" y="164" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 3060</text>
+<rect x="300.0" y="148" width="142.0" height="24" fill="#2563eb"/>
+<rect x="442.0" y="148" width="284.0" height="24" fill="#7c3aed"/>
+<rect x="726.0" y="148" width="71.0" height="24" fill="#d97706"/>
+<text x="805.0" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">7</text>
+<text x="288" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 7900 XTX</text>
+<rect x="300.0" y="182" width="71.0" height="24" fill="#dc2626"/>
+<rect x="371.0" y="182" width="71.0" height="24" fill="#db2777"/>
+<rect x="442.0" y="182" width="71.0" height="24" fill="#4f46e5"/>
+<rect x="513.0" y="182" width="142.0" height="24" fill="#16a34a"/>
+<rect x="655.0" y="182" width="142.0" height="24" fill="#d97706"/>
+<text x="805.0" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">7</text>
+<text x="288" y="232" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 3050</text>
+<rect x="300.0" y="216" width="355.0" height="24" fill="#7c3aed"/>
+<text x="663.0" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">5</text>
+<text x="288" y="266" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 4060</text>
+<rect x="300.0" y="250" width="284.0" height="24" fill="#7c3aed"/>
+<rect x="584.0" y="250" width="71.0" height="24" fill="#65a30d"/>
+<text x="663.0" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">5</text>
+<text x="288" y="300" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 4070</text>
+<rect x="300.0" y="284" width="213.0" height="24" fill="#7c3aed"/>
+<text x="521.0" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
+<text x="288" y="334" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 3060 Ti</text>
+<rect x="300.0" y="318" width="71.0" height="24" fill="#2563eb"/>
+<rect x="371.0" y="318" width="142.0" height="24" fill="#7c3aed"/>
+<text x="521.0" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
+<text x="288" y="368" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 5070 Ti</text>
+<rect x="300.0" y="352" width="142.0" height="24" fill="#2563eb"/>
+<rect x="442.0" y="352" width="71.0" height="24" fill="#7c3aed"/>
+<text x="521.0" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
+<text x="288" y="402" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Steam Deck</text>
+<rect x="300.0" y="386" width="142.0" height="24" fill="#65a30d"/>
+<rect x="442.0" y="386" width="71.0" height="24" fill="#ea580c"/>
+<text x="521.0" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
+<text x="288" y="436" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 5060</text>
+<rect x="300.0" y="420" width="71.0" height="24" fill="#2563eb"/>
+<rect x="371.0" y="420" width="71.0" height="24" fill="#7c3aed"/>
+<text x="450.0" y="436" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="288" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 6650 XT</text>
+<rect x="300.0" y="454" width="142.0" height="24" fill="#7c3aed"/>
+<text x="450.0" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="288" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 4070 Super</text>
+<rect x="300.0" y="488" width="142.0" height="24" fill="#7c3aed"/>
+<text x="450.0" y="504" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="288" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 5070</text>
+<rect x="300.0" y="522" width="142.0" height="24" fill="#7c3aed"/>
+<text x="450.0" y="538" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="288" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 2060 Super</text>
+<rect x="300.0" y="556" width="142.0" height="24" fill="#7c3aed"/>
+<text x="450.0" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+</svg>

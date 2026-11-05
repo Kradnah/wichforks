@@ -2,6 +2,8 @@
 
 Hardware, game, build and FPS reports collected from the Eglantine Discord, the Ocarina of Time Reddit threads and the Orchid README. These are user reports, not benchmarks. The same GPU can produce very different numbers with another driver, game version, settings or shader cache.
 
+Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The normalized data is in [`data/performance-reports.json`](../data/performance-reports.json).
+
 `Not stated` means the report did not include that field. `Unspecified` means no build number was given. Rows are grouped by game, with the most complete configs first.
 
 ## What the reports suggest

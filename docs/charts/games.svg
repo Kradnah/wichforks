@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Reports per game</text>
+<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per game, split by GPU vendor.</text>
+<rect x="24" y="67" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">AMD</text>
+<rect x="72.6" y="67" width="10" height="10" fill="#dc2626"/>
+<text x="87.6" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">NVIDIA</text>
+<rect x="139.8" y="67" width="10" height="10" fill="#16a34a"/>
+<text x="154.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Steam Deck</text>
+<rect x="231.8" y="67" width="10" height="10" fill="#d97706"/>
+<text x="246.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Unknown</text>
+<line x1="340.0" y1="90" x2="340.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="340.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
+<line x1="474.0" y1="90" x2="474.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="474.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">10</text>
+<line x1="608.0" y1="90" x2="608.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="608.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
+<line x1="742.0" y1="90" x2="742.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="742.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">30</text>
+<line x1="876.0" y1="90" x2="876.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="876.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">40</text>
+<line x1="1010.0" y1="90" x2="1010.0" y2="578" stroke="#e5e7eb" stroke-width="1"/>
+<text x="1010.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">50</text>
+<text x="328" y="114" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Mario Kart World</text>
+<rect x="340.0" y="98" width="147.4" height="24" fill="#2563eb"/>
+<rect x="487.4" y="98" width="482.4" height="24" fill="#dc2626"/>
+<rect x="969.8" y="98" width="13.4" height="24" fill="#d97706"/>
+<text x="991.2" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">48</text>
+<text x="328" y="148" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Donkey Kong Bananza</text>
+<rect x="340.0" y="132" width="93.8" height="24" fill="#2563eb"/>
+<rect x="433.8" y="132" width="120.6" height="24" fill="#dc2626"/>
+<rect x="554.4" y="132" width="67.0" height="24" fill="#d97706"/>
+<text x="629.4" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">21</text>
+<text x="328" y="182" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Pokemon Pokopia</text>
+<rect x="340.0" y="166" width="53.6" height="24" fill="#2563eb"/>
+<rect x="393.6" y="166" width="26.8" height="24" fill="#dc2626"/>
+<rect x="420.4" y="166" width="26.8" height="24" fill="#16a34a"/>
+<rect x="447.2" y="166" width="67.0" height="24" fill="#d97706"/>
+<text x="522.2" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">13</text>
+<text x="328" y="216" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Zelda: Ocarina of Time remake</text>
+<rect x="340.0" y="200" width="40.2" height="24" fill="#2563eb"/>
+<rect x="380.2" y="200" width="67.0" height="24" fill="#dc2626"/>
+<rect x="447.2" y="200" width="13.4" height="24" fill="#d97706"/>
+<text x="468.6" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">9</text>
+<text x="328" y="250" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Yoshi and the Mysterious Book</text>
+<rect x="340.0" y="234" width="26.8" height="24" fill="#2563eb"/>
+<rect x="366.8" y="234" width="13.4" height="24" fill="#d97706"/>
+<text x="388.2" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
+<text x="328" y="284" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Splatoon Raiders</text>
+<rect x="340.0" y="268" width="13.4" height="24" fill="#dc2626"/>
+<rect x="353.4" y="268" width="13.4" height="24" fill="#16a34a"/>
+<text x="374.8" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="328" y="318" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Super Mario Bros. Wonder</text>
+<rect x="340.0" y="302" width="13.4" height="24" fill="#2563eb"/>
+<rect x="353.4" y="302" width="13.4" height="24" fill="#d97706"/>
+<text x="374.8" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="328" y="352" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Mario Tennis Fever</text>
+<rect x="340.0" y="336" width="13.4" height="24" fill="#2563eb"/>
+<text x="361.4" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="386" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Hyrule Warriors: Age of Imprisonment</text>
+<rect x="340.0" y="370" width="13.4" height="24" fill="#d97706"/>
+<text x="361.4" y="386" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="420" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Star Fox</text>
+<rect x="340.0" y="404" width="13.4" height="24" fill="#2563eb"/>
+<text x="361.4" y="420" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="454" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Fire Emblem Fortune's Weave</text>
+<rect x="340.0" y="438" width="13.4" height="24" fill="#2563eb"/>
+<text x="361.4" y="454" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="488" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Orbitals</text>
+<rect x="340.0" y="472" width="13.4" height="24" fill="#2563eb"/>
+<text x="361.4" y="488" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="522" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Switch Sports</text>
+<rect x="340.0" y="506" width="13.4" height="24" fill="#d97706"/>
+<text x="361.4" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="328" y="556" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Kirby Air Riders</text>
+<rect x="340.0" y="540" width="13.4" height="24" fill="#d97706"/>
+<text x="361.4" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+</svg>

@@ -1,4 +1,4 @@
-name: Validate reports
+name: Validate reports and data
 
 on:
   pull_request:
@@ -7,6 +7,14 @@ on:
       - "data/forks.json"
       - "scripts/reports.py"
       - "docs/REPORTS.md"
+      - "docs/MKW.md"
+      - "docs/DONKEY-KONG.md"
+      - "docs/POKOPIA.md"
+      - "docs/PERFORMANCE.md"
+      - "scripts/performance_data.py"
+      - "data/performance-reports.json"
+      - "docs/COVERAGE.md"
+      - "docs/charts/**"
   workflow_dispatch:
 
 permissions:
@@ -26,3 +34,7 @@ jobs:
         run: |
           python -I scripts/reports.py render --out /tmp/REPORTS.md
           diff -u docs/REPORTS.md /tmp/REPORTS.md
+      - name: Regenerate performance data and charts
+        run: python -I scripts/performance_data.py
+      - name: Check generated data and charts are up to date
+        run: git diff --exit-code -- data/performance-reports.json docs/COVERAGE.md docs/charts

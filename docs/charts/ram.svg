@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="414" viewBox="0 0 1100 414">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Reports by RAM</text>
+<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per RAM size, split by game.</text>
+<rect x="24" y="67" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Donkey Kong Bananza</text>
+<rect x="171.8" y="67" width="10" height="10" fill="#dc2626"/>
+<text x="186.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Fire Emblem Fortune's Weave</text>
+<rect x="369.20000000000005" y="67" width="10" height="10" fill="#16a34a"/>
+<text x="384.20000000000005" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Hyrule Warriors: Age of Imprisonment</text>
+<rect x="622.4000000000001" y="67" width="10" height="10" fill="#d97706"/>
+<text x="637.4000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Kirby Air Riders</text>
+<rect x="751.6000000000001" y="67" width="10" height="10" fill="#7c3aed"/>
+<text x="766.6000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Kart World</text>
+<rect x="880.8000000000002" y="67" width="10" height="10" fill="#0891b2"/>
+<text x="895.8000000000002" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Tennis Fever</text>
+<rect x="24" y="83" width="10" height="10" fill="#db2777"/>
+<text x="39" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Orbitals</text>
+<rect x="103.6" y="83" width="10" height="10" fill="#65a30d"/>
+<text x="118.6" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Pokemon Pokopia</text>
+<rect x="226.6" y="83" width="10" height="10" fill="#ea580c"/>
+<text x="241.6" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Splatoon Raiders</text>
+<rect x="355.79999999999995" y="83" width="10" height="10" fill="#4f46e5"/>
+<text x="370.79999999999995" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Star Fox</text>
+<rect x="435.4" y="83" width="10" height="10" fill="#2563eb"/>
+<text x="450.4" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Super Mario Bros. Wonder</text>
+<rect x="614.2" y="83" width="10" height="10" fill="#dc2626"/>
+<text x="629.2" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Switch Sports</text>
+<rect x="724.8000000000001" y="83" width="10" height="10" fill="#16a34a"/>
+<text x="739.8000000000001" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Yoshi and the Mysterious Book</text>
+<rect x="24" y="99" width="10" height="10" fill="#d97706"/>
+<text x="39" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Zelda: Ocarina of Time remake</text>
+<line x1="200.0" y1="122" x2="200.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="200.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
+<line x1="402.5" y1="122" x2="402.5" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="402.5" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
+<line x1="605.0" y1="122" x2="605.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="605.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">40</text>
+<line x1="807.5" y1="122" x2="807.5" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="807.5" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">60</text>
+<line x1="1010.0" y1="122" x2="1010.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
+<text x="1010.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">80</text>
+<text x="188" y="146" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Unknown</text>
+<rect x="200.0" y="130" width="131.6" height="24" fill="#2563eb"/>
+<rect x="331.6" y="130" width="10.1" height="24" fill="#dc2626"/>
+<rect x="341.8" y="130" width="10.1" height="24" fill="#16a34a"/>
+<rect x="351.9" y="130" width="10.1" height="24" fill="#d97706"/>
+<rect x="362.0" y="130" width="232.9" height="24" fill="#7c3aed"/>
+<rect x="594.9" y="130" width="10.1" height="24" fill="#db2777"/>
+<rect x="605.0" y="130" width="91.1" height="24" fill="#65a30d"/>
+<rect x="696.1" y="130" width="10.1" height="24" fill="#4f46e5"/>
+<rect x="706.2" y="130" width="10.1" height="24" fill="#2563eb"/>
+<rect x="716.4" y="130" width="10.1" height="24" fill="#dc2626"/>
+<rect x="726.5" y="130" width="30.4" height="24" fill="#16a34a"/>
+<rect x="756.9" y="130" width="60.8" height="24" fill="#d97706"/>
+<text x="825.6" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">61</text>
+<text x="188" y="180" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">16 GB</text>
+<rect x="200.0" y="164" width="30.4" height="24" fill="#2563eb"/>
+<rect x="230.4" y="164" width="121.5" height="24" fill="#7c3aed"/>
+<rect x="351.9" y="164" width="30.4" height="24" fill="#65a30d"/>
+<rect x="382.2" y="164" width="10.1" height="24" fill="#ea580c"/>
+<rect x="392.4" y="164" width="10.1" height="24" fill="#d97706"/>
+<text x="410.5" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">20</text>
+<text x="188" y="214" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">32 GB</text>
+<rect x="200.0" y="198" width="30.4" height="24" fill="#2563eb"/>
+<rect x="230.4" y="198" width="111.4" height="24" fill="#7c3aed"/>
+<rect x="341.8" y="198" width="10.1" height="24" fill="#0891b2"/>
+<rect x="351.9" y="198" width="10.1" height="24" fill="#ea580c"/>
+<rect x="362.0" y="198" width="10.1" height="24" fill="#2563eb"/>
+<rect x="372.1" y="198" width="10.1" height="24" fill="#d97706"/>
+<text x="390.2" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">18</text>
+<text x="188" y="248" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">24 GB</text>
+<rect x="200.0" y="232" width="10.1" height="24" fill="#2563eb"/>
+<rect x="210.1" y="232" width="10.1" height="24" fill="#d97706"/>
+<text x="228.2" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
+<text x="188" y="282" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">8 GB</text>
+<rect x="200.0" y="266" width="10.1" height="24" fill="#65a30d"/>
+<text x="218.1" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="188" y="316" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">20 GB</text>
+<rect x="200.0" y="300" width="10.1" height="24" fill="#7c3aed"/>
+<text x="218.1" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="188" y="350" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">40 GB</text>
+<rect x="200.0" y="334" width="10.1" height="24" fill="#7c3aed"/>
+<text x="218.1" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+</svg>
