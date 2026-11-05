@@ -8,6 +8,7 @@ Hardware, game, build and FPS reports collected from the Eglantine Discord, the 
 
 - CPU single-core speed matters a lot. OoT remake runs at 54-60 FPS on a 9800X3D, 20-24 FPS on an i3-10100, and an RTX 2070 with a 9800X3D beats a 7900 XTX with a 13400F.
 - Build choice can double performance. Mario Kart World went from about 23 FPS on build 122 to 40+ FPS on build 135 for one tester.
+- Compatibility fixes are not the same as speed. PokeDinner documents DK rendering fixes; ZendNevs documents higher average FPS with correct game speed.
 - 8 GB of RAM can boot a game, but it crashes when other apps use memory. 16 GB is a practical floor, 32 GB is safer.
 - 4 GB of VRAM can run games at low settings; 6 GB and up is more comfortable at higher resolution.
 - A fast GPU alone does not guarantee 60 FPS. Emulator builds and drivers decide a large part of the result.
@@ -16,6 +17,7 @@ Hardware, game, build and FPS reports collected from the Eglantine Discord, the 
 
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
+| v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 56 FPS average, 44-50 in the lowest 10% | 1x handheld, DynamicFPS; not locked 60 | ZendNevs release notes |
 | Orchid v0.7.2 | 5800X3D | RX 9070 XT | 32 GB | 30-40 FPS | Linux, Mesa RADV git; asset glitches | Orchid README |
 | build 122 to 135 | R5 7600 | RX 7800 XT | not stated | 23 average to 40+ FPS | Windows 11 | Discord, 2 Nov |
 | build 131 | not stated | GTX 1660 Ti 6 GB | not stated | 30-60 FPS | | Discord, 3 Nov |
@@ -41,6 +43,7 @@ Hardware, game, build and FPS reports collected from the Eglantine Discord, the 
 
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
+| v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 60 FPS game, 116-120 display with frame generation | startup test only, about one minute | ZendNevs release notes |
 | v0.1.0-rc1 PGO | 7700X | RX 7900 XTX | not stated | 60 FPS | Linux Nobara | Discord, 5 Nov |
 | PokeDinner, unspecified | not stated | RX 6700 XT | not stated | fully playable | author name lists RX 6700 XT | Discord, 2 Nov |
 | Steam Deck | Steam Deck APU | Steam Deck APU | 16 GB | 100% playable | | Discord, 1 Nov |
@@ -53,6 +56,7 @@ Hardware, game, build and FPS reports collected from the Eglantine Discord, the 
 
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
+| v2.0.5 | 5500X3D | RTX 4070 | 16 GB | 33 FPS average, 20.6 low, 99% game speed | 1x handheld; v2.0.1 gave 40 FPS at 83% speed | ZendNevs release notes |
 | v0.1.0-rc1 PGO | 7700X | RX 7900 XTX | not stated | 30+ FPS, purple screen absent, music and rumble present | Linux Nobara | Discord, 5 Nov |
 | PokeDinner, unspecified | 5800X | RX 6800 XT | 32 GB | about 30 FPS | | Discord, 3 Nov |
 | 202 | 7700X | RX 7900 XTX | not stated | choppy with texture glitches; purple screen fixed by Photo Mode | Linux Nobara | Discord, 4 Nov |
@@ -99,6 +103,14 @@ All rows use Lichii build 80 unless noted.
 | Switch Sports | unspecified | not stated | not stated | not stated | limited progress | | Discord, 1 Nov |
 | Kirby Air Riders | unspecified | not stated | not stated | not stated | unstable, runs | | Discord, 2 Nov |
 
+## Corrections
+
+- Donkey Kong Bananza: PokeDinner was the first pick because its release notes target DK rendering. That is compatibility work, not a performance result. ZendNevs documents about 33 FPS average at 99% game speed, and community feedback says it is the better DK pick. The first pick is now ZendNevs, with PokeDinner as the compatibility option.
+- ZendNevs was described as "only tested on Mario Kart World". The v2.0.5 notes also cover Donkey Kong Bananza and Pokopia startup.
+- "3 builds in 1" means Eglantine build-104, PokeDinner and Selevet Eglantine merged into one build, not three separate executables.
+- Mario Kart World: SmileyTatsu was the only first pick. ZendNevs now shares the pick because it documents about 56 FPS average. The results are not directly comparable: SmileyTatsu is a community claim, ZendNevs is a documented run on one PC.
+- Pokopia: a tester suspected PokeDinner is not the best, but said they did not test it. The first pick stays notsapinho.
+
 ## Missing data
 
 Most Discord reports do not include the GPU driver, game version or 1% lows. A row with `not stated` is incomplete, not a controlled result. Reports that only said "60 FPS" without a game or hardware were left out, as were messages about obtaining games or keys.
@@ -106,5 +118,6 @@ Most Discord reports do not include the GPU driver, game version or 1% lows. A r
 ## Sources
 
 - Eglantine Discord `#discussion`, 30 Oct to 5 Nov 2026. The export is local and is not committed.
+- [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - Ocarina of Time Reddit threads, 5 Nov 2026. Usernames are not reproduced here.
 - [Orchid README](https://github.com/MythosOfs/Orchid) for the documented 5800X3D and RX 9070 XT results.

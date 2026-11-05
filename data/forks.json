@@ -59,12 +59,12 @@
       "role": "game-specific lab",
       "platforms": ["Windows", "Linux", "macOS"],
       "gpu": ["NVIDIA", "AMD (author warns)"],
-      "best_for": ["Donkey Kong Bananza", "Pokemon Pokopia", "Splatoon Raiders", "Zelda OoT (initial)", "Mario Kart World"],
+      "best_for": ["Donkey Kong Bananza compatibility fixes", "Pokemon Pokopia", "Splatoon Raiders", "Zelda OoT (initial)", "Mario Kart World (ingame)"],
       "latest_release": { "tag": "2.7.7", "date": "2026-11-05", "prerelease": true },
       "license": "GPL-3.0",
       "stars_at_check": 89,
       "confidence": "documented",
-      "notes": "2.7.7 is Windows-only and explicitly experimental/broken. 1.x/2.0.0 tags include Linux AppImage and macOS arm64. Asks for 12 GB DRAM and a 32 GB pagefile/swap. Fire Emblem Fortune's Weave support is initial, not ready."
+      "notes": "2.7.7 is Windows-only and explicitly experimental/broken. 1.x/2.0.0 tags include Linux AppImage and macOS arm64. Asks for 12 GB DRAM and a 32 GB pagefile/swap. Fire Emblem Fortune's Weave support is initial, not ready. Compatibility fixes, not the default Donkey Kong Bananza performance pick; ZendNevs documents better DK speed."
     },
     {
       "id": "notsapinho-eglantine",
@@ -168,15 +168,15 @@
       "repo": "https://github.com/ZendNevs/Eglantine-ZendNevs",
       "releases": "https://github.com/ZendNevs/Eglantine-ZendNevs/releases",
       "host": "GitHub",
-      "role": "frame-generation build",
+      "role": "merged performance and frame-generation build",
       "platforms": ["Windows"],
       "gpu": ["NVIDIA", "AMD"],
-      "best_for": ["Mario Kart World", "frame generation", "30 FPS lock", "DynamicFPS"],
+      "best_for": ["Mario Kart World", "Donkey Kong Bananza", "frame generation", "30 FPS lock", "DynamicFPS"],
       "latest_release": { "tag": "zendnevs-v2.0.5", "date": "2026-11-03", "prerelease": false },
       "license": null,
       "stars_at_check": 94,
       "confidence": "documented",
-      "notes": "FSR 3 and LSFG frame generation plus DynamicFPS and a 30 FPS lock. Only tested on Mario Kart World. No license declared at check time."
+      "notes": "Merges Eglantine build-104, PokeDinner and Selevet Eglantine into one build (three codebases, not three executables). FSR 3/LSFG frame generation, DynamicFPS and a 30 FPS lock. v2.0.5 documents MKW at about 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070 with 16 GB, DK Bananza at about 33 FPS average and 20.6 low with 99% game speed, and Pokopia startup at 60 FPS. DK still has hitches up to 0.6 s. No license declared at check time."
     },
     {
       "id": "eglantine-ps5",

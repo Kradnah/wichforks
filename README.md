@@ -17,8 +17,8 @@ A use-case guide to Nintendo Switch 2 emulator forks: which build to pick for yo
 |---|---|---|
 | Windows/Linux, NVIDIA, first install | [Djihads80/Eglantine](https://github.com/Djihads80/Eglantine/releases) | The central upstream: most tested, most builds, all-round compatibility |
 | AMD GPU (RDNA2+) | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid/releases) | Independent fork with AMD-focused shader and GPU fixes; developed on an RX 9070 XT |
-| Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) | Dedicated MKW frame-rate, pipeline-cache and RAM fixes; AMD and NVIDIA |
-| Donkey Kong Bananza | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Release notes explicitly target DK terrain and rendering |
+| Mario Kart World above all | [SmileyTatsu](https://github.com/SmileyTatsu/Eglantine/releases) or [ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | SmileyTatsu is the community pick; ZendNevs documents about 56 FPS average with DynamicFPS |
+| Donkey Kong Bananza | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | Documented DK speed and DynamicFPS; PokeDinner for rendering fixes |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
@@ -43,10 +43,12 @@ flowchart TD
     B -->|Windows / Linux / macOS| E{GPU vendor}
     E -->|AMD| F{Main game?}
     F -->|Mario Kart World| G[SmileyTatsu or ZendNevs]
+    F -->|Donkey Kong Bananza| G2[ZendNevs]
     F -->|Everything else| H[Orchid]
     E -->|NVIDIA| I{Main game?}
-    I -->|Mario Kart World| J[SmileyTatsu]
-    I -->|Bananza / Pokopia / Splatoon| K[PokeDinner or notsapinho]
+    I -->|Mario Kart World| J[SmileyTatsu or ZendNevs]
+    I -->|Bananza| K[ZendNevs]
+    I -->|Pokopia / Splatoon| K2[PokeDinner or notsapinho]
     I -->|OoT remake / Star Fox / Tennis| L[Lichii]
     I -->|Hyrule Warriors| M[Djihads80 build 202+ or rdenno]
     I -->|Everything else| N[Djihads80 Eglantine]
@@ -103,7 +105,7 @@ Windows, Linux and macOS builds. The author warns about AMD GPUs. Documented.
 
 Hosted on the Eden Forgejo. Release notes read like a per-game changelog: initial OoT support, Splatoon Raiders textboxes, textures and HDR, MKW "now goes ingame", Donkey Kong terrain fixes, Pokopia invisible items, sky and reflections, and initial but not ready Fire Emblem Fortune's Weave support. Latest tag 2.7.7 is Windows-only and explicitly broken/experimental; 1.x and 2.0.0 tags include Linux AppImage and macOS arm64.
 
-Reach for PokeDinner if you're chasing one of the titles above. The catch: the author asks for a 32 GB pagefile or swap plus 12 GB DRAM, and only one dynamic or 30 FPS lock can be active at a time.
+PokeDinner is a compatibility lab, not the default performance pick. Use it when a game boots or renders better here; for Donkey Kong Bananza, ZendNevs reports better speed. The catch: the author asks for a 32 GB pagefile or swap plus 12 GB DRAM, and only one dynamic or 30 FPS lock can be active at a time.
 
 ### notsapinho/Eglantine: Pokopia build
 
@@ -163,13 +165,15 @@ A fork of Djihads80 with an `nx2-merged` branch and its own builds (build-8, 4 N
 
 Useful if you want a second build to compare against upstream for Hyrule Warriors. The catch: it is a tiny fork (4 stars) with no game list in the README.
 
-### ZendNevs/Eglantine: Mario Kart World and frame generation
+### ZendNevs/Eglantine: Mario Kart World, Bananza and frame generation
 
 Windows only, for NVIDIA and AMD. Documented.
 
-An Eglantine fork focused on perceived smoothness: FSR 3 and LSFG frame generation, DynamicFPS, and a 30 FPS lock. Latest at check: v2.0.5 (3 Nov 2026), 94 stars, Windows only. The author states it is only tested on Mario Kart World.
+An Eglantine fork that merges Eglantine build-104, PokeDinner and Selevet Eglantine into one build. The "3 builds in 1" label means those three codebases, not three executables. It adds FSR 3 and LSFG frame generation, DynamicFPS and a 30 FPS lock. Latest at check: v2.0.5 (3 Nov 2026), 94 stars, Windows only.
 
-Worth trying if MKW is your main game and you want frame generation or a locked 30 FPS profile on weaker hardware. One caveat: frame generation interpolates frames. It improves perceived smoothness, not the simulation rate, and adds latency, so don't use a frame-gen build to judge raw compatibility. No license is declared on the repo at check time, which matters if you redistribute or bundle it.
+The release notes document results on a Ryzen 5 5500X3D, RTX 4070 and 16 GB: MKW about 56 FPS average and 44-50 in the lowest 10% in 1x handheld with DynamicFPS; Donkey Kong Bananza about 33 FPS average, 20.6 low, with game speed at 99%. Pokopia startup reached 60 FPS, and frame generation took the display to 116-120 FPS.
+
+Use it for MKW or Donkey Kong Bananza if you want DynamicFPS or frame generation. For DK it is the current performance pick; PokeDinner remains the compatibility option. One caveat: DK still has hitches up to 0.6 seconds, frame generation adds latency, and the build shares settings with other Eden and Eglantine builds in `%APPDATA%\eden`. Back that folder up or use a separate user folder. No license is declared on the repo at check time, which matters if you redistribute it.
 
 ### moceure/eden-nx2-android: Android
 
@@ -197,9 +201,9 @@ A missing license matters if you plan to redistribute or bundle a build: ZendNev
 
 | Game | First pick | Also try | Evidence |
 |---|---|---|---|
-| Mario Kart World | SmileyTatsu | Djihads80; Orchid (AMD); ZendNevs (frame gen) | Documented MKW fixes; Orchid reports 30-40 FPS with asset glitches |
+| Mario Kart World | SmileyTatsu or ZendNevs | Djihads80; Orchid (AMD) | SmileyTatsu community pick; ZendNevs documents 56 FPS average on 5500X3D/4070 |
 | Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
-| Donkey Kong Bananza | PokeDinner | Lichii | PokeDinner release notes (terrain, black-hole rendering); Lichii community-reported |
+| Donkey Kong Bananza | ZendNevs v2.0.5 | PokeDinner; Lichii | ZendNevs: 33 FPS average, 20.6 low, 99% speed; PokeDinner for terrain fixes |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho README says playable; PokeDinner notes invisible items, sky and reflections |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
@@ -327,3 +331,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added Droplet and Reservoir for private online MKW and Splatoon Raiders, with build status and P2P caveats. |
 | 2026-11-05 | Added `docs/PROJECT-NOTES.md` from the project Discord: build timeline, NUP, DLSS, rumble, Android and game reports. Removed the old discovery-section text. |
 | 2026-11-05 | Added `docs/PERFORMANCE.md` with hardware, build and FPS reports for MKW, Splatoon Raiders, Pokopia, DK Bananza, Yoshi and OoT. |
+| 2026-11-05 | Corrected the DK Bananza pick: ZendNevs first for performance, PokeDinner for compatibility. Clarified ZendNevs' three merged codebases. |
