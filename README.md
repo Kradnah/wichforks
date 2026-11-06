@@ -63,7 +63,8 @@ flowchart TD
     I -->|Mario Kart World| J[SmileyTatsu]
     I -->|Bananza| K[Selevet or PokeDinner]
     I -->|Pokopia / Splatoon| K2[PokeDinner or notsapinho]
-    I -->|OoT remake / Star Fox / Tennis| L[Lichii]
+    I -->|OoT remake| L[Lichii or Frizti]
+    I -->|Star Fox / Tennis| L2[Lichii]
     I -->|Hyrule Warriors| M[Djihads80 build 202+ or rdenno]
     I -->|Everything else| N[Djihads80 Eglantine]
 ```
@@ -149,7 +150,7 @@ A community PSA from 5 Nov calls build-80 the most playable OoT remake build so 
 
 A second community report from 5 Nov pushes back on the 60 FPS clips. They are not sustained gameplay: they tend to come from specific areas on high-end hardware, and flicker or bloom can make 60 FPS unplayable anyway. An owner of a 4070 Ti and a 14th-gen i7 still describes the game as emulator-bound, and NVIDIA users report both good and bad results, so the GPU vendor is not a guarantee.
 
-Lichii is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
+Lichii is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. On Windows, Frizti v1 adds OoT visual fixes; see the next section. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
 
 ### Frizti/Lichii: Ocarina of Time visual fixes
 
