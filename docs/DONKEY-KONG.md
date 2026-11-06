@@ -1,6 +1,6 @@
 # Donkey Kong Bananza notes
 
-Reports from public community posts between 30 Oct and 5 Nov 2026. This page keeps the reports and workarounds that matter.
+Reports from public community posts between 30 Oct and 5 Nov 2026, plus the Anka README published 6 Nov 2026. This page keeps the reports and workarounds that matter.
 
 These are user reports, not benchmarks. A build that works on one GPU can show missing terrain, a purple screen or slow motion on another.
 
@@ -24,6 +24,7 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 - Zortos build 31 gave full AMD textures but only 20-25 FPS on an RX 6900 XT and had a memory leak. A 5700X3D and RTX 5070 Ti user hit 17 FPS looking north.
 - Selevet performance 3 and 4 became the stable pick for several users, especially with the 30 FPS cap and smooth motion.
 - ZendNevs v2.0.3 was called the best AMD build by one user, and v2.0.5 got positive comments. Its repo has 2 commits and no license; treat the release-note numbers as self-reported.
+- Anka, a new Windows performance fork, reports 42-53 FPS uncapped and 39-46 FPS with the dynamic frame rate patch on a Ryzen 7 5700X and RTX 4060 Ti, against 17.3 FPS for PokeDinner 2.0.0 in the heaviest view. This is one PC and one game, not a controlled A/B; there are no independent reports yet.
 - PokeDinner 2.5 with the 30 FPS option was the cleanest result for one full AMD system.
 - Build 202 and 204 had purple-screen, texture and stutter reports. Keep a known-good build.
 
@@ -79,5 +80,6 @@ These reports are missing the CPU, GPU, RAM or build. Treat them as rough signal
 ## Sources
 
 - Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
+- [Anka README](https://github.com/EddizEge/Anka) for the documented DK measurement published 6 Nov 2026.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented DK result.
 - [PokeDinner releases](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) and [Selevet releases](https://github.com/sylvieistaken/selevet-eglantine/releases).

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-05",
-  "note": "Machine-readable source for README.md. Release data checked via GitHub/Forgejo APIs on 2026-11-05. Game associations marked 'community-reported' come from the community update of the same date, not from upstream docs.",
+  "updated": "2026-11-06",
+  "note": "Machine-readable source for README.md. Release data checked via GitHub/Forgejo APIs on 2026-11-06. Game associations marked 'community-reported' come from the community update of the same date, not from upstream docs.",
   "forks": [
     {
       "id": "eglantine-upstream",
@@ -227,6 +227,27 @@
       "stars_at_check": 11,
       "confidence": "unverified",
       "notes": "Patch set plus a binary release, not a full emulator source tree. Named for one specific GPU. No independent verification of benefits."
+    },
+    {
+      "id": "anka",
+      "name": "Anka (EddizEge)",
+      "repo": "https://github.com/EddizEge/Anka",
+      "releases": "https://github.com/EddizEge/Anka/releases",
+      "host": "GitHub",
+      "role": "Windows performance fork (experimental)",
+      "platforms": ["Windows 10/11 x64"],
+      "gpu": ["NVIDIA", "AMD", "Intel"],
+      "best_for": ["Donkey Kong Bananza performance (self-reported)", "portable Windows setup"],
+      "latest_release": {
+        "tag": "anka-v1.0.0",
+        "date": "2026-11-06",
+        "prerelease": false
+      },
+      "license": "GPL-3.0",
+      "source_in_repo": true,
+      "stars_at_check": 7,
+      "confidence": "documented",
+      "notes": "New project created 5 Nov 2026, built on Eden, Eglantine/PokeDinner, yuzu and Sudachi. Full source in repo and source zips in the release, GPL-3.0. One release, 7 stars, AI-assisted commits disclosed. DK measured on one PC (Ryzen 7 5700X, 64 GB, RTX 4060 Ti, 1440p): 42-53 FPS uncapped and 39-46 FPS with the dynamic frame rate patch, against 17.3 FPS for PokeDinner 2.0.0 in the heaviest view. The README calls it a rough indication, not a controlled A/B. Only DK measured; AMD and Intel untested. Not a first pick yet."
     }
   ]
 }

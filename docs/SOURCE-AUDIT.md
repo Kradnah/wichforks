@@ -5,6 +5,7 @@ Checked 6 Nov 2026 against the GitHub, Forgejo and GitLab APIs. A project is aud
 | Project | License | Full source in repo | Release assets | History | Status |
 |---|---|---|---|---|---|
 | [Djihads80/Eglantine](https://github.com/Djihads80/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Large | Auditable |
+| [EddizEge/Anka](https://github.com/EddizEge/Anka) | GPL-3.0 | Yes, src and CMakeLists | Windows zip, PDB, three source zips, SHA256SUMS | New, one release | Auditable source; new project, self-reported DK result |
 | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Active fork | Auditable |
 | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Active fork | Auditable |
 | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork) | GPL-3.0 | Yes, LICENSE.txt and src | Binaries | Active Forgejo | Auditable |
@@ -30,5 +31,7 @@ Checked 6 Nov 2026 against the GitHub, Forgejo and GitLab APIs. A project is aud
 ## What this means for the guide
 
 All first picks publish source in the repository. Most are GPL-3.0: SmileyTatsu for Mario Kart World, Selevet or PokeDinner for Donkey Kong Bananza, notsapinho for Pokopia, Lichii, Frizti or Orchid for Ocarina of Time, and Droplet for online play. Banana Native covers Android as a native port, not an emulator; its repo is MIT while its release notes say GPL-3.0-or-later.
+
+Anka is source-complete and auditable, with source zips and a checksum file in its release. It stays out of the first picks for now because it has one release, 7 stars, and a DK result measured on one PC. Its code and commit messages are largely AI-assisted, which the project discloses.
 
 ZendNevs and the 3060Ti build are not first picks. ZendNevs ships a source zip but has no license and no source tree in the repo. The 3060Ti repo is a patch set with a binary release, not a full emulator fork.

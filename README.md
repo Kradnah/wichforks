@@ -81,7 +81,7 @@ Claims here are labelled, because the scene is full of "60 FPS trust me bro":
 |---|---|
 | Documented | The fork's README or release notes state it. |
 | Corroborated | Two or more independent [experience reports](docs/REPORTS.md) on the same game, fork and GPU class agree. |
-| Community-reported | Comes from the 5 Nov 2026 community update or third-party posts; not independently reproduced here. |
+| Community-reported | Comes from public community posts from 30 Oct to 6 Nov 2026 or third-party posts; not independently reproduced here. |
 | Source-only | No prebuilt binary at check time; build it yourself. |
 
 ---
@@ -206,6 +206,18 @@ Repo check: at the time of writing the GitHub repo has 2 commits, no license, an
 
 It is an alternative for MKW or DK if you want DynamicFPS or frame generation. Recent independent reports favor SmileyTatsu for MKW and Selevet or PokeDinner 2.5 for DK. One caveat: DK still has hitches up to 0.6 seconds, frame generation adds latency, and the build shares settings with other Eden and Eglantine builds in `%APPDATA%\eden`. Back that folder up or use a separate user folder. No license is declared, so check before redistributing.
 
+### Anka: Windows performance fork (experimental)
+
+Windows 10/11 x64, NVIDIA/AMD/Intel through Vulkan. GPL-3.0, full source in the repo.
+
+Anka is a new emulator built on Eden, Eglantine/PokeDinner, yuzu and Sudachi. It is not an official release of those projects, and the author asks for bug reports in its own tracker. Latest at check: anka-v1.0.0 (6 Nov 2026), 7 stars, one release. It is portable and ships its Qt and Visual C++ DLLs. The release also has three source zips, a PDB and SHA256SUMS.txt.
+
+The project measured Donkey Kong Bananza on one PC: Ryzen 7 5700X, 64 GB RAM, RTX 4060 Ti, 1440p 170 Hz. It reports 42-53 FPS uncapped and 39-46 FPS with the dynamic frame rate patch in the opening and open area, against 17.3 FPS for PokeDinner 2.0.0 in the heaviest view. The README calls this a rough indication, not a controlled A/B. Only DK was measured, and AMD, Intel and other CPUs were not tested.
+
+The presets are Recommended, Recommended + Reactive Flushing, Safe and Custom. GPU Mode starts at Fast (Low); use Accurate if a game shows image errors. Frame generation is FSR3 with Off, 2x and Dynamic choices. start-recommended.bat is the main launcher, start-safe.bat is for troubleshooting and other games.
+
+Caveats: one release, 7 stars, one measured game and one PC, and most code and commit messages are AI-assisted under the maintainer's direction. There are no independent reports yet. Treat the DK numbers as a promising self-report, not a verified first pick. The DK pick remains Selevet perf 3/4 or PokeDinner 2.5.
+
 ### Banana Native: Android native port
 
 Android 13+, Snapdragon/Adreno, 12 GB RAM. Source in repo. Not an emulator.
@@ -225,6 +237,7 @@ Lower confidence, but relevant depending on hardware:
 | Fork | Platform | Why it exists | Confidence |
 |---|---|---|---|
 | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | Windows/Linux | Zen 3-tuned, PGO + ThinLTO, faster GPU mapping. 121 stars. Build 6 (3 Nov). | Documented |
+| [EddizEge/Anka](https://github.com/EddizEge/Anka/releases) | Windows 10/11 | New DK-focused performance fork. 7 stars, one release; the DK result is a single-PC self-report. | Documented |
 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. Source only, no release assets at check. | Community-reported |
 | [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Patch set plus a binary release, not a full source tree. 11 stars. | Unverified |
 
@@ -404,3 +417,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added Frizti/Lichii v1 for OoT visual fixes, with Windows-only, 30 FPS and AMD caveats. |
 | 2026-11-06 | Added on-demand Reddit thread intake: one URL at a time, candidates in a gitignored inbox, human review before publishing. No background subreddit crawler. |
 | 2026-11-06 | Added six recent reports from the offline archive: low-end and laptop MKW configs, the DK build 212 crash, i5-12600K with RX 9070 XT, and Orchid on RX 6950 XT. |
+| 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
