@@ -19,6 +19,7 @@ Thanks for helping keep this list useful. The Switch 2 emulation scene changes h
 You don't need to write JSON to contribute a data point.
 
 - Fast path: open an [experience report](issues/new?template=experience-report.yml) issue. Use the exact build tag, game title, CPU, GPU and driver, RAM, settings and outcome.
+- From a public thread: run [the single-thread intake script](docs/INTAKE.md) on one URL, review the candidates in `data/reports/inbox/`, then move the edited file to `data/reports/`. The script does not crawl subreddits.
 - Structured path: add `data/reports/YYYY-MM-DD-<fork-id>-<slug>.json` following [data/reports/README.md](data/reports/README.md), then run:
 
 ```bash

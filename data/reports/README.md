@@ -77,6 +77,10 @@ python -I scripts/reports.py render
 
 `validate` checks required fields, the fork id, the status enum, the date and filename match, and numeric fields. `render` rewrites `docs/REPORTS.md`; commit the result.
 
+## Intake candidates
+
+`scripts/import_reddit.py` writes review candidates to `data/reports/inbox/`. That directory is gitignored, and the validator only reads the top level of `data/reports/`. Review a candidate, fill the required fields, give it a dated filename, and move it into `data/reports/` before running validate and render. See [the intake guide](../../docs/INTAKE.md) for the review steps.
+
 ## Review rules
 
 - Don't edit someone else's report. Add a new report or open an issue with a correction.

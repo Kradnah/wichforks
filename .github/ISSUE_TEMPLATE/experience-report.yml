@@ -22,10 +22,11 @@ body:
         - "PokeDinner (Franseven)"
         - "notsapinho/Eglantine (Pokopia)"
         - "zortos293/Lichii"
+        - "Frizti/Lichii (OoT visuals)"
         - "Droplet (online)"
         - "rdenno/Eglantine (nx2-merged)"
         - "ZendNevs/Eglantine (frame generation)"
-        - "moceure/eden-nx2-android"
+        - "moceure/Banana Native (Android)"
         - "sylvieistaken/selevet-eglantine"
         - "heydemoura/EglantinePS5"
         - "astralbeexd/Eglantine-3060Ti-16GB"
@@ -150,6 +151,13 @@ body:
       label: Notes
       description: Anything useful, such as how long you played, workarounds, or what changed between builds. Drag screenshots or logs here if relevant.
       placeholder: "Played 30 minutes after warm-up; stutter gone after the first track."
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Link to your public post (optional)
+      description: Reddit, forum or issue where you posted the same details. Do not link game files, keys or firmware.
+      placeholder: "https://..."
 
   - type: checkboxes
     id: confirm

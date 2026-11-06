@@ -17,21 +17,21 @@ The page is ordered by what people ask first: which fork to use, what has been t
 
 | Your situation | Start here | Why |
 |---|---|---|
-| Windows/Linux, NVIDIA, first install | [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine/releases) | The central upstream: most tested, most builds, all-round compatibility |
+| Windows/Linux, NVIDIA, first install | [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine/releases) ★ | The central upstream: most tested, most builds, all-round compatibility |
 | AMD GPU (RDNA2+) | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid/releases) | Independent fork with AMD-focused shader and GPU fixes; developed on an RX 9070 XT |
 | Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports |
 | Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
-| Zelda OoT remake, Star Fox, Mario Tennis | [**zortos293/Lichii**](https://github.com/zortos293/Lichii/releases) | Lichii for all three; Frizti v1 for OoT visual fixes on Windows |
+| Zelda OoT remake, Star Fox, Mario Tennis | [**zortos293/Lichii**](https://github.com/zortos293/Lichii/releases) ★ | Lichii for all three; Frizti v1 for OoT visual fixes on Windows |
 | Hyrule Warriors: Age of Imprisonment | [Djihads80 build 202+](https://github.com/Djihads80/Eglantine/releases) or [rdenno](https://github.com/rdenno/Eglantine/releases) | Build 202 was the Hyrule Warriors fix set (46-49 FPS median reported) |
 | Android 13+, Snapdragon 12 GB+ | [Banana Native](https://github.com/moceure/BananaNative/releases) | Native port, not an emulator; DK Bananza works, Pokopia about 60 FPS, MKW in progress |
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
 
-If you only read one line: install **Djihads80/Eglantine** first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
+If you only read one line: install **Djihads80/Eglantine** ★ first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
 
 ---
 
@@ -88,7 +88,7 @@ Claims here are labelled, because the scene is full of "60 FPS trust me bro":
 
 ## The forks
 
-### Djihads80/Eglantine: the central fork
+### Djihads80/Eglantine: the central fork ★
 
 Runs on Windows, Linux and macOS, with NVIDIA, AMD and Intel GPUs. Claims here are documented.
 
@@ -134,7 +134,7 @@ An independent Eglantine-based build. Every push to `main` is published. Latest 
 
 Choose it if Pokopia is the goal and you want a simpler build than PokeDinner. Downside: it is a very small project (5 stars), so expect crashes and glitches.
 
-### zortos293/Lichii: game-patch fork
+### zortos293/Lichii: game-patch fork ★
 
 Windows, Linux and macOS builds for NVIDIA and AMD. Community-reported.
 
@@ -265,10 +265,11 @@ For Pokopia settings and workarounds, see [Pokopia notes](docs/POKOPIA.md).
 
 The game matrix above is a snapshot of documentation and community claims. Reports from people who actually ran a build are what turn it into a ranking that can be trusted.
 
-There are two ways to contribute:
+There are three ways to contribute:
 
 1. Issue form (2 minutes): [open an experience report](../../issues/new?template=experience-report.yml). Dropdowns and fields cover fork, build, game, platform, CPU, GPU, driver, RAM, settings, FPS and outcome.
-2. Pull request: add a JSON file to [`data/reports/`](data/reports/README.md). CI validates it, and `scripts/reports.py render` refreshes [`docs/REPORTS.md`](docs/REPORTS.md).
+2. Public thread: run [the single-thread intake script](docs/INTAKE.md) on one Reddit URL. It writes review candidates to a gitignored inbox. There is no background subreddit crawler.
+3. Pull request: add a JSON file to [`data/reports/`](data/reports/README.md). CI validates it, and `scripts/reports.py render` refreshes [`docs/REPORTS.md`](docs/REPORTS.md).
 
 How reports change the ranking:
 
@@ -348,7 +349,7 @@ Forks also vanish overnight (DMCA, renames, account deletion). If a link 404s, s
 
 ## Sources
 
-All links checked 5 Nov 2026. Release metadata read from the GitHub and Forgejo APIs on the same date.
+All links checked 5-6 Nov 2026. Release metadata read from the GitHub and Forgejo APIs on the same dates.
 
 - Central fork: [Djihads80/Eglantine](https://github.com/Djihads80/Eglantine), [releases](https://github.com/Djihads80/Eglantine/releases)
 - MKW fork: [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine), [releases](https://github.com/SmileyTatsu/Eglantine/releases)
@@ -401,3 +402,4 @@ python -I scripts/reports.py validate
 | 2026-11-05 | Added recent community reports for Steam Deck, ROG Ally and low-end GPUs. |
 | 2026-11-06 | Replaced the unmaintained Android emulator with Banana Native, a native Android port, and documented its supported games and requirements. |
 | 2026-11-06 | Added Frizti/Lichii v1 for OoT visual fixes, with Windows-only, 30 FPS and AMD caveats. |
+| 2026-11-06 | Added on-demand Reddit thread intake: one URL at a time, candidates in a gitignored inbox, human review before publishing. No background subreddit crawler. |

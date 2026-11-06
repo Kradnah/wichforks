@@ -9,6 +9,9 @@ venv/
 *.tmp
 .cache/
 
+# Reddit intake candidates, reviewed before publishing
+data/reports/inbox/
+
 # OS
 .DS_Store
 Thumbs.db
