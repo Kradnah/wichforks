@@ -17,21 +17,21 @@ The page is ordered by what people ask first: which fork to use, what has been t
 
 | Your situation | Start here | Why |
 |---|---|---|
-| Windows/Linux, NVIDIA, first install | [Djihads80/Eglantine](https://github.com/Djihads80/Eglantine/releases) | The central upstream: most tested, most builds, all-round compatibility |
+| Windows/Linux, NVIDIA, first install | [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine/releases) | The central upstream: most tested, most builds, all-round compatibility |
 | AMD GPU (RDNA2+) | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid/releases) | Independent fork with AMD-focused shader and GPU fixes; developed on an RX 9070 XT |
 | Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports |
 | Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
-| Zelda OoT remake, Star Fox, Mario Tennis | [zortos293/Lichii](https://github.com/zortos293/Lichii/releases) | Lichii for all three; Frizti v1 for OoT visual fixes on Windows |
+| Zelda OoT remake, Star Fox, Mario Tennis | [**zortos293/Lichii**](https://github.com/zortos293/Lichii/releases) | Lichii for all three; Frizti v1 for OoT visual fixes on Windows |
 | Hyrule Warriors: Age of Imprisonment | [Djihads80 build 202+](https://github.com/Djihads80/Eglantine/releases) or [rdenno](https://github.com/rdenno/Eglantine/releases) | Build 202 was the Hyrule Warriors fix set (46-49 FPS median reported) |
 | Android 13+, Snapdragon 12 GB+ | [Banana Native](https://github.com/moceure/BananaNative/releases) | Native port, not an emulator; DK Bananza works, Pokopia about 60 FPS, MKW in progress |
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
 
-If you only read one line: install Djihads80/Eglantine first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
+If you only read one line: install **Djihads80/Eglantine** first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
 
 ---
 
@@ -92,7 +92,7 @@ Claims here are labelled, because the scene is full of "60 FPS trust me bro":
 
 Runs on Windows, Linux and macOS, with NVIDIA, AMD and Intel GPUs. Claims here are documented.
 
-The reference Eglantine build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
+The reference **Eglantine** build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
 
 Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. Build-by-build notes from community reports are in [project notes](docs/PROJECT-NOTES.md).
 
@@ -138,7 +138,7 @@ Choose it if Pokopia is the goal and you want a simpler build than PokeDinner. D
 
 Windows, Linux and macOS builds for NVIDIA and AMD. Community-reported.
 
-A large Eglantine-derived fork (~1.5k stars) that also handles Switch 1 titles. Latest at check: build-80 (5 Nov 2026, commit `7459f10`), published as GitHub Actions artifacts while the Releases page still showed build-75. Artifacts cover Windows x86_64 (PGO and non-PGO), Linux x86_64 and aarch64, and macOS arm64. You need a GitHub account to download them, and they expire.
+A large **Eglantine**-derived fork (~1.5k stars) that also handles Switch 1 titles. Latest at check: build-80 (5 Nov 2026, commit `7459f10`), published as GitHub Actions artifacts while the Releases page still showed build-75. Artifacts cover Windows x86_64 (PGO and non-PGO), Linux x86_64 and aarch64, and macOS arm64. You need a GitHub account to download them, and they expire.
 
 A community PSA from 5 Nov calls build-80 the most playable OoT remake build so far, with caveats. Field reports from the community:
 
@@ -150,7 +150,7 @@ A community PSA from 5 Nov calls build-80 the most playable OoT remake build so 
 
 A second community report from 5 Nov pushes back on the 60 FPS clips. They are not sustained gameplay: they tend to come from specific areas on high-end hardware, and flicker or bloom can make 60 FPS unplayable anyway. An owner of a 4070 Ti and a 14th-gen i7 still describes the game as emulator-bound, and NVIDIA users report both good and bad results, so the GPU vendor is not a guarantee.
 
-Lichii is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. On Windows, Frizti v1 adds OoT visual fixes; see the next section. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
+**Lichii** is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. On Windows, Frizti v1 adds OoT visual fixes; see the next section. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
 
 ### Frizti/Lichii: Ocarina of Time visual fixes
 
@@ -242,9 +242,9 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
-| Zelda: OoT remake | Lichii build-80 or Frizti v1 | Orchid v0.7.4; PokeDinner | Lichii for cross-platform; Frizti v1 for OoT visual fixes on Windows; 30 FPS cap and shader stutter remain |
-| Star Fox | Lichii | Djihads80 | Community-reported |
-| Mario Tennis Fever | Lichii | Orchid | Community-reported; Orchid measured 60 FPS |
+| Zelda: OoT remake | **Lichii build-80 or Frizti v1** | Orchid v0.7.4; PokeDinner | Lichii for cross-platform; Frizti v1 for OoT visual fixes on Windows; 30 FPS cap and shader stutter remain |
+| Star Fox | **Lichii** | Djihads80 | Community-reported |
+| Mario Tennis Fever | **Lichii** | Orchid | Community-reported; Orchid measured 60 FPS |
 | Hyrule Warriors: AoI | Djihads80 build 202+ | rdenno nx2-merged | Build 202 fix set; 46-49 FPS median reported |
 | Super Mario Bros. Wonder | Orchid | Djihads80 | Orchid reports 60 FPS (Switch 1 title) |
 | Fire Emblem Fortune's Weave | PokeDinner | None | Initial support, explicitly "not ready" |
