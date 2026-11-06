@@ -1,51 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="348" viewBox="0 0 1100 348">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="398" viewBox="0 0 1100 398">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="24" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" fill="#111827">Reports by date</text>
-<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per day, split by game. The 3-5 Nov window drives the first-pick recommendations.</text>
+<text x="24" y="52" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7280">Number of reports per day, split by game. The 3-6 Nov window drives the first-pick recommendations.</text>
 <rect x="24" y="67" width="10" height="10" fill="#2563eb"/>
 <text x="39" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Donkey Kong Bananza</text>
-<rect x="171.8" y="67" width="10" height="10" fill="#7c3aed"/>
-<text x="186.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Kart World</text>
-<rect x="301.0" y="67" width="10" height="10" fill="#65a30d"/>
-<text x="316.0" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Pokemon Pokopia</text>
-<line x1="180.0" y1="90" x2="180.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="180.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
-<line x1="346.0" y1="90" x2="346.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="346.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">5</text>
-<line x1="512.0" y1="90" x2="512.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="512.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">10</text>
-<line x1="678.0" y1="90" x2="678.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="678.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">15</text>
-<line x1="844.0" y1="90" x2="844.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="844.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
-<line x1="1010.0" y1="90" x2="1010.0" y2="306" stroke="#e5e7eb" stroke-width="1"/>
-<text x="1010.0" y="324" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">25</text>
-<text x="168" y="114" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">31 Oct</text>
-<rect x="180.0" y="98" width="33.2" height="24" fill="#2563eb"/>
-<rect x="213.2" y="98" width="531.2" height="24" fill="#7c3aed"/>
-<text x="752.4" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
-<text x="168" y="148" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">1 Nov</text>
-<rect x="180.0" y="132" width="265.6" height="24" fill="#2563eb"/>
-<rect x="445.6" y="132" width="265.6" height="24" fill="#7c3aed"/>
-<rect x="711.2" y="132" width="232.4" height="24" fill="#65a30d"/>
-<text x="951.6" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">23</text>
-<text x="168" y="182" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">2 Nov</text>
-<rect x="180.0" y="166" width="132.8" height="24" fill="#2563eb"/>
-<rect x="312.8" y="166" width="265.6" height="24" fill="#7c3aed"/>
-<rect x="578.4" y="166" width="66.4" height="24" fill="#65a30d"/>
-<text x="652.8" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">14</text>
-<text x="168" y="216" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">3 Nov</text>
-<rect x="180.0" y="200" width="166.0" height="24" fill="#2563eb"/>
-<rect x="346.0" y="200" width="398.4" height="24" fill="#7c3aed"/>
-<rect x="744.4" y="200" width="66.4" height="24" fill="#65a30d"/>
-<text x="818.8" y="216" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">19</text>
-<text x="168" y="250" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">4 Nov</text>
-<rect x="180.0" y="234" width="132.8" height="24" fill="#2563eb"/>
-<rect x="312.8" y="234" width="232.4" height="24" fill="#7c3aed"/>
-<rect x="545.2" y="234" width="99.6" height="24" fill="#65a30d"/>
-<text x="652.8" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">14</text>
-<text x="168" y="284" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">5 Nov</text>
-<rect x="180.0" y="268" width="99.6" height="24" fill="#7c3aed"/>
-<rect x="279.6" y="268" width="33.2" height="24" fill="#65a30d"/>
-<text x="320.8" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
+<rect x="171.8" y="67" width="10" height="10" fill="#16a34a"/>
+<text x="186.8" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Hyrule Warriors: Age of Imprisonment</text>
+<rect x="425.0" y="67" width="10" height="10" fill="#d97706"/>
+<text x="440.0" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Kirby Air Riders</text>
+<rect x="554.2" y="67" width="10" height="10" fill="#7c3aed"/>
+<text x="569.2" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Mario Kart World</text>
+<rect x="683.4000000000001" y="67" width="10" height="10" fill="#db2777"/>
+<text x="698.4000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Orbitals</text>
+<rect x="763.0000000000001" y="67" width="10" height="10" fill="#65a30d"/>
+<text x="778.0000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Pokemon Pokopia</text>
+<rect x="886.0000000000001" y="67" width="10" height="10" fill="#ea580c"/>
+<text x="901.0000000000001" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Splatoon Raiders</text>
+<rect x="24" y="83" width="10" height="10" fill="#2563eb"/>
+<text x="39" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Super Mario Bros. Wonder</text>
+<rect x="202.8" y="83" width="10" height="10" fill="#dc2626"/>
+<text x="217.8" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Switch Sports</text>
+<rect x="313.40000000000003" y="83" width="10" height="10" fill="#16a34a"/>
+<text x="328.40000000000003" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Yoshi and the Mysterious Book</text>
+<rect x="523.2" y="83" width="10" height="10" fill="#d97706"/>
+<text x="538.2" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#374151">Zelda: Ocarina of Time remake</text>
+<line x1="180.0" y1="106" x2="180.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="180.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">0</text>
+<line x1="346.0" y1="106" x2="346.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="346.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">5</text>
+<line x1="512.0" y1="106" x2="512.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="512.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">10</text>
+<line x1="678.0" y1="106" x2="678.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="678.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">15</text>
+<line x1="844.0" y1="106" x2="844.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="844.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">20</text>
+<line x1="1010.0" y1="106" x2="1010.0" y2="356" stroke="#e5e7eb" stroke-width="1"/>
+<text x="1010.0" y="374" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">25</text>
+<text x="168" y="130" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">31 Oct</text>
+<rect x="180.0" y="114" width="33.2" height="24" fill="#2563eb"/>
+<rect x="213.2" y="114" width="531.2" height="24" fill="#7c3aed"/>
+<text x="752.4" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
+<text x="168" y="164" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">1 Nov</text>
+<rect x="180.0" y="148" width="265.6" height="24" fill="#2563eb"/>
+<rect x="445.6" y="148" width="265.6" height="24" fill="#7c3aed"/>
+<rect x="711.2" y="148" width="232.4" height="24" fill="#65a30d"/>
+<rect x="943.6" y="148" width="33.2" height="24" fill="#dc2626"/>
+<text x="984.8" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">24</text>
+<text x="168" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">2 Nov</text>
+<rect x="180.0" y="182" width="132.8" height="24" fill="#2563eb"/>
+<rect x="312.8" y="182" width="33.2" height="24" fill="#16a34a"/>
+<rect x="346.0" y="182" width="33.2" height="24" fill="#d97706"/>
+<rect x="379.2" y="182" width="265.6" height="24" fill="#7c3aed"/>
+<rect x="644.8" y="182" width="66.4" height="24" fill="#65a30d"/>
+<rect x="711.2" y="182" width="33.2" height="24" fill="#2563eb"/>
+<text x="752.4" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">17</text>
+<text x="168" y="232" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">3 Nov</text>
+<rect x="180.0" y="216" width="166.0" height="24" fill="#2563eb"/>
+<rect x="346.0" y="216" width="398.4" height="24" fill="#7c3aed"/>
+<rect x="744.4" y="216" width="66.4" height="24" fill="#65a30d"/>
+<rect x="810.8" y="216" width="33.2" height="24" fill="#16a34a"/>
+<text x="852.0" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">20</text>
+<text x="168" y="266" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">4 Nov</text>
+<rect x="180.0" y="250" width="132.8" height="24" fill="#2563eb"/>
+<rect x="312.8" y="250" width="232.4" height="24" fill="#7c3aed"/>
+<rect x="545.2" y="250" width="99.6" height="24" fill="#65a30d"/>
+<rect x="644.8" y="250" width="33.2" height="24" fill="#16a34a"/>
+<text x="686.0" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">15</text>
+<text x="168" y="300" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">5 Nov</text>
+<rect x="180.0" y="284" width="99.6" height="24" fill="#7c3aed"/>
+<rect x="279.6" y="284" width="33.2" height="24" fill="#db2777"/>
+<rect x="312.8" y="284" width="33.2" height="24" fill="#65a30d"/>
+<rect x="346.0" y="284" width="33.2" height="24" fill="#ea580c"/>
+<rect x="379.2" y="284" width="33.2" height="24" fill="#16a34a"/>
+<rect x="412.4" y="284" width="298.8" height="24" fill="#d97706"/>
+<text x="719.2" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">16</text>
+<text x="168" y="334" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">6 Nov</text>
+<rect x="180.0" y="318" width="99.6" height="24" fill="#d97706"/>
+<text x="287.6" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
 </svg>

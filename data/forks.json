@@ -99,6 +99,22 @@
       "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. 60 FPS clips are area-specific, flicker can make them unplayable, and NVIDIA alone is not a guarantee. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
     },
     {
+      "id": "frizti-lichii",
+      "name": "Lichii (Frizti)",
+      "repo": "https://github.com/Frizti/Lichii",
+      "releases": "https://github.com/Frizti/Lichii/releases",
+      "host": "GitHub",
+      "role": "OoT visual-fix fork",
+      "platforms": ["Windows x64"],
+      "gpu": ["NVIDIA", "AMD"],
+      "best_for": ["Zelda OoT remake (visual fixes)"],
+      "latest_release": { "tag": "frizti-v1", "date": "2026-11-05", "prerelease": false },
+      "license": "GPL-3.0",
+      "stars_at_check": 465,
+      "confidence": "documented",
+      "notes": "Fork of zortos293/Lichii. Frizti v1 fixes OoT white flashes, adds a Max Resolution patch, and includes culling, vegetation, grass and fog fixes. Windows x64 only. 30 FPS cap and shader stutter remain; AMD black screens and driver crashes reported. Community workaround: EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3 in %APPDATA%\\eden\\nx2_switches.txt."
+    },
+    {
       "id": "droplet",
       "name": "Droplet",
       "repo": "https://gitlab.com/seighttt/droplet",

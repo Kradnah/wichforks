@@ -2,7 +2,7 @@
 
 Hardware, game, build and FPS reports collected from public community reports and the Orchid README. These are user reports, not benchmarks. The same GPU can produce very different numbers with another driver, game version, settings or shader cache.
 
-Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The normalized data is in [`data/performance-reports.json`](../data/performance-reports.json). The first-pick recommendations use the 3-5 Nov 2026 window and the newest builds; older rows are historical context.
+Charts and the game-by-setup coverage matrix are in [coverage](COVERAGE.md). The normalized data is in [`data/performance-reports.json`](../data/performance-reports.json). The first-pick recommendations use the 3-6 Nov 2026 window and the newest builds; older rows are historical context.
 
 `Not stated` means the report did not include that field. `Unspecified` means no build number was given. Rows are grouped by game, with the most complete configs first.
 
@@ -78,6 +78,9 @@ All rows use Lichii build 80 unless noted.
 
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
+| Frizti v1 | not stated | RTX 4070 | not stated | about 20 FPS, no graphical glitches | | Community, 6 Nov |
+| unspecified | Ryzen 5 5500 | RTX 3060 12 GB | not stated | 15-22 FPS | | Community, 6 Nov |
+| Frizti v1 / Lichii builds | 7800X3D | RX 9070 XT | not stated | crashes on load, GPU driver crash | AMD black screen | Community, 6 Nov |
 | Lichii build 80 | 9800X3D | not stated | not stated | 54-60 FPS | heavy bloom, sunrays, flicker | Community, 5 Nov |
 | Lichii build 80 | 9800X3D | RTX 2070 | not stated | 60 FPS | | Community, 5 Nov |
 | Lichii build 80 | not stated | RTX 3080 10 GB | not stated | 40-50 FPS in Kokiri, 40-60 in the Deku Tree | | Community, 5 Nov |
@@ -87,6 +90,8 @@ All rows use Lichii build 80 unless noted.
 | Lichii build 80 | 13400F | RX 7900 XTX | not stated | same low FPS as the 20-24 group | exact number not stated | Community, 5 Nov |
 | Lichii build 80 | 14th-gen i7 | RTX 4070 Ti | not stated | emulator-bound, no FPS given | | Community, 5 Nov |
 | Eglantine v0.1.0-rc1 | 7700X | RX 7900 XTX | not stated | infinite loading | | Community, 5 Nov |
+
+OoT remake is capped at 30 FPS on current builds. The dynamic FPS mod is used in several reports, and shader compilation is still the main cause of stutter.
 
 Orchid v0.7.3 and v0.7.4 fix OoT exposure, fog and vegetation. There is no OoT FPS report for Orchid yet. A community comment that called performance questionable also said the build had not been tried.
 

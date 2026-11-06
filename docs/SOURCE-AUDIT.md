@@ -10,6 +10,7 @@ Checked 6 Nov 2026 against the GitHub, Forgejo and GitLab APIs. A project is aud
 | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork) | GPL-3.0 | Yes, LICENSE.txt and src | Binaries | Active Forgejo | Auditable |
 | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Active | Auditable |
 | [zortos293/Lichii](https://github.com/zortos293/Lichii) | GPL-3.0 | Yes, src and CMakeLists | Binaries and Actions artifacts | Active | Auditable |
+| [Frizti/Lichii](https://github.com/Frizti/Lichii) | GPL-3.0 | Yes, src and CMakeLists | Windows binaries | Active fork | Auditable |
 | [rdenno/Eglantine](https://github.com/rdenno/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Small fork | Auditable |
 | [Selevet Eglantine](https://github.com/sylvieistaken/selevet-eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Tuned fork | Auditable |
 | [EglantinePS5](https://github.com/heydemoura/EglantinePS5) | GPL-3.0 | Yes, src and Makefile | No release assets at check | Port | Auditable source |
@@ -28,6 +29,6 @@ Checked 6 Nov 2026 against the GitHub, Forgejo and GitLab APIs. A project is aud
 
 ## What this means for the guide
 
-All first picks publish source in the repository. Most are GPL-3.0: SmileyTatsu for Mario Kart World, Selevet or PokeDinner for Donkey Kong Bananza, notsapinho for Pokopia, Lichii or Orchid for Ocarina of Time, and Droplet for online play. Banana Native covers Android as a native port, not an emulator; its repo is MIT while its release notes say GPL-3.0-or-later.
+All first picks publish source in the repository. Most are GPL-3.0: SmileyTatsu for Mario Kart World, Selevet or PokeDinner for Donkey Kong Bananza, notsapinho for Pokopia, Lichii, Frizti or Orchid for Ocarina of Time, and Droplet for online play. Banana Native covers Android as a native port, not an emulator; its repo is MIT while its release notes say GPL-3.0-or-later.
 
 ZendNevs and the 3060Ti build are not first picks. ZendNevs ships a source zip but has no license and no source tree in the repo. The 3060Ti repo is a patch set with a binary release, not a full emulator fork.

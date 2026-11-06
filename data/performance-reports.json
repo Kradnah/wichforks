@@ -1,7 +1,7 @@
 {
   "generated": "2026-11-05",
   "source": "Parsed from docs/MKW.md, docs/DONKEY-KONG.md, docs/POKOPIA.md and docs/PERFORMANCE.md",
-  "count": 114,
+  "count": 117,
   "reports": [
     {
       "game": "Mario Kart World",
@@ -1916,7 +1916,7 @@
     },
     {
       "game": "Splatoon Raiders",
-      "date": "",
+      "date": "5 Nov",
       "build": "v0.1.0-rc1 PGO",
       "cpu": "i7-4790K",
       "gpu": "GTX 980 4 GB",
@@ -1933,7 +1933,7 @@
       "fps_max": 50,
       "fps_mid": 50,
       "build_family": "Eglantine build",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Splatoon Raiders",
@@ -1958,7 +1958,7 @@
     },
     {
       "game": "Yoshi and the Mysterious Book",
-      "date": "",
+      "date": "5 Nov",
       "build": "v0.1.0-rc1 PGO",
       "cpu": "7700X",
       "gpu": "RX 7900 XTX",
@@ -1975,11 +1975,11 @@
       "fps_max": 60,
       "fps_mid": 52,
       "build_family": "Eglantine build",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Yoshi and the Mysterious Book",
-      "date": "",
+      "date": "4 Nov",
       "build": "202",
       "cpu": "7700X",
       "gpu": "RX 7900 XTX",
@@ -1996,11 +1996,11 @@
       "fps_max": null,
       "fps_mid": null,
       "build_family": "Eglantine build",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Yoshi and the Mysterious Book",
-      "date": "",
+      "date": "3 Nov",
       "build": "unspecified",
       "cpu": "not stated",
       "gpu": "not stated",
@@ -2017,11 +2017,74 @@
       "fps_max": 60,
       "fps_mid": 60,
       "build_family": "Unspecified",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "6 Nov",
+      "build": "Frizti v1",
+      "cpu": "not stated",
+      "gpu": "RTX 4070",
+      "ram": "not stated",
+      "performance": "about 20 FPS, no graphical glitches",
+      "notes": "",
+      "source": "Community, 6 Nov",
+      "gpu_vendor": "NVIDIA",
+      "cpu_vendor": "Unknown",
+      "gpu_model": "RTX 4070",
+      "cpu_model": "Unknown",
+      "ram_gb": null,
+      "fps_min": 20,
+      "fps_max": 20,
+      "fps_mid": 20,
+      "build_family": "Unspecified",
+      "recent": true
+    },
+    {
+      "game": "Zelda: Ocarina of Time remake",
+      "date": "6 Nov",
+      "build": "unspecified",
+      "cpu": "Ryzen 5 5500",
+      "gpu": "RTX 3060 12 GB",
+      "ram": "not stated",
+      "performance": "15-22 FPS",
+      "notes": "",
+      "source": "Community, 6 Nov",
+      "gpu_vendor": "NVIDIA",
+      "cpu_vendor": "AMD",
+      "gpu_model": "RTX 3060",
+      "cpu_model": "Ryzen 5 5500",
+      "ram_gb": null,
+      "fps_min": 15,
+      "fps_max": 22,
+      "fps_mid": 18,
+      "build_family": "Unspecified",
+      "recent": true
+    },
+    {
+      "game": "Zelda: Ocarina of Time remake",
+      "date": "6 Nov",
+      "build": "Frizti v1 / Lichii builds",
+      "cpu": "7800X3D",
+      "gpu": "RX 9070 XT",
+      "ram": "not stated",
+      "performance": "crashes on load, GPU driver crash",
+      "notes": "AMD black screen",
+      "source": "Community, 6 Nov",
+      "gpu_vendor": "AMD",
+      "cpu_vendor": "AMD",
+      "gpu_model": "RX 9070 XT",
+      "cpu_model": "Ryzen 7 7800X3D",
+      "ram_gb": null,
+      "fps_min": null,
+      "fps_max": null,
+      "fps_mid": null,
+      "build_family": "Other fork",
+      "recent": true
+    },
+    {
+      "game": "Zelda: Ocarina of Time remake",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "9800X3D",
       "gpu": "not stated",
@@ -2038,11 +2101,11 @@
       "fps_max": 60,
       "fps_mid": 57,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "9800X3D",
       "gpu": "RTX 2070",
@@ -2059,11 +2122,11 @@
       "fps_max": 60,
       "fps_mid": 60,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "not stated",
       "gpu": "RTX 3080 10 GB",
@@ -2080,11 +2143,11 @@
       "fps_max": 50,
       "fps_mid": 45,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "i3-10100",
       "gpu": "RTX 3060 12 GB",
@@ -2101,11 +2164,11 @@
       "fps_max": 24,
       "fps_mid": 22,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "i5-11400H",
       "gpu": "RTX 2050",
@@ -2122,11 +2185,11 @@
       "fps_max": 20,
       "fps_mid": 20,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "7800X3D",
       "gpu": "RX 580",
@@ -2143,11 +2206,11 @@
       "fps_max": 15,
       "fps_mid": 15,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "13400F",
       "gpu": "RX 7900 XTX",
@@ -2164,11 +2227,11 @@
       "fps_max": null,
       "fps_mid": null,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Lichii build 80",
       "cpu": "14th-gen i7",
       "gpu": "RTX 4070 Ti",
@@ -2185,11 +2248,11 @@
       "fps_max": null,
       "fps_mid": null,
       "build_family": "Other fork",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Zelda: Ocarina of Time remake",
-      "date": "",
+      "date": "5 Nov",
       "build": "Eglantine v0.1.0-rc1",
       "cpu": "7700X",
       "gpu": "RX 7900 XTX",
@@ -2206,7 +2269,7 @@
       "fps_max": null,
       "fps_mid": null,
       "build_family": "Eglantine build",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Mario Tennis Fever",
@@ -2252,7 +2315,7 @@
     },
     {
       "game": "Hyrule Warriors: Age of Imprisonment",
-      "date": "",
+      "date": "2 Nov",
       "build": "unspecified",
       "cpu": "not stated",
       "gpu": "not stated",
@@ -2315,7 +2378,7 @@
     },
     {
       "game": "Orbitals",
-      "date": "",
+      "date": "5 Nov",
       "build": "202, rc1",
       "cpu": "7700X",
       "gpu": "RX 7900 XTX",
@@ -2332,11 +2395,11 @@
       "fps_max": 10,
       "fps_mid": 6,
       "build_family": "Unspecified",
-      "recent": false
+      "recent": true
     },
     {
       "game": "Super Mario Bros. Wonder",
-      "date": "",
+      "date": "2 Nov",
       "build": "NUP",
       "cpu": "not stated",
       "gpu": "not stated",
@@ -2357,7 +2420,7 @@
     },
     {
       "game": "Switch Sports",
-      "date": "",
+      "date": "1 Nov",
       "build": "unspecified",
       "cpu": "not stated",
       "gpu": "not stated",
@@ -2378,7 +2441,7 @@
     },
     {
       "game": "Kirby Air Riders",
-      "date": "",
+      "date": "2 Nov",
       "build": "unspecified",
       "cpu": "not stated",
       "gpu": "not stated",

@@ -48,7 +48,8 @@
 <text x="318" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 7800X3D + RX 9070 XT</text>
 <rect x="330.0" y="182" width="340.0" height="24" fill="#2563eb"/>
 <rect x="670.0" y="182" width="113.3" height="24" fill="#7c3aed"/>
-<text x="791.3" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">4</text>
+<rect x="783.3" y="182" width="113.3" height="24" fill="#d97706"/>
+<text x="904.7" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">5</text>
 <text x="318" y="232" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 5800X3D + RX 9070 XT</text>
 <rect x="330.0" y="216" width="113.3" height="24" fill="#7c3aed"/>
 <rect x="443.3" y="216" width="113.3" height="24" fill="#0891b2"/>
