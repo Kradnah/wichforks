@@ -37,7 +37,7 @@ If you only read one line: install **Djihads80/Eglantine** ★ first. Switch for
 
 ## Stats at a glance
 
-117 reports, 14 games, 64 CPU/GPU pairs, and 54 reports in the 3-6 Nov window used for the first picks. 59 reports are NVIDIA, 35 AMD, 6 Steam Deck, and 17 have no named GPU.
+123 reports, 14 games, 68 CPU/GPU pairs, and 60 reports in the 3-6 Nov window used for the first picks. 63 reports are NVIDIA, 37 AMD, 6 Steam Deck, and 17 have no named GPU.
 
 ![Reports by date](docs/charts/dates.svg)
 
@@ -403,3 +403,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Replaced the unmaintained Android emulator with Banana Native, a native Android port, and documented its supported games and requirements. |
 | 2026-11-06 | Added Frizti/Lichii v1 for OoT visual fixes, with Windows-only, 30 FPS and AMD caveats. |
 | 2026-11-06 | Added on-demand Reddit thread intake: one URL at a time, candidates in a gitignored inbox, human review before publishing. No background subreddit crawler. |
+| 2026-11-06 | Added six recent reports from the offline archive: low-end and laptop MKW configs, the DK build 212 crash, i5-12600K with RX 9070 XT, and Orchid on RX 6950 XT. |

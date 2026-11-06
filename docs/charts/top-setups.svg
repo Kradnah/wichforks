@@ -79,16 +79,16 @@
 <text x="318" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i5-12400F + RTX 3060</text>
 <rect x="330.0" y="454" width="226.7" height="24" fill="#2563eb"/>
 <text x="564.7" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="318" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i7-14700K + RTX 5070</text>
+<text x="318" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 3600 + GTX 1650 Super</text>
 <rect x="330.0" y="488" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="504" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 3600 + GTX 1660 Super</text>
+<text x="318" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i7-12700H + RTX 3070</text>
 <rect x="330.0" y="522" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="538" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 7 2700 + RTX 4060</text>
+<text x="318" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">i7-14700K + RTX 5070</text>
 <rect x="330.0" y="556" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
-<text x="318" y="606" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 5500X3D + RTX 4070</text>
+<text x="318" y="606" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Ryzen 5 3600 + GTX 1660 Super</text>
 <rect x="330.0" y="590" width="113.3" height="24" fill="#7c3aed"/>
 <text x="451.3" y="606" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
 </svg>

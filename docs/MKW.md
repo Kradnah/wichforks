@@ -24,7 +24,7 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 - Builds 202 to 212: one tester reports force-closes and one third of the FPS; another says 212 works after a rebuild. Keep a known-good build.
 - SmileyTatsu build 11 and 12: build 11 gave 45-50 FPS average on an RX 7800 XT; build 12 was almost locked 60 on AMD when docked for another user.
 - ZendNevs v2.0.5: 56 FPS average and 44-50 in the lowest 10% on a 5500X3D and RTX 4070. This is a release-note claim from a 2-commit, unlicensed repo.
-- PokeDinner: 60 FPS at 270p on an RX 9070 XT in one report; 25-30 FPS in races on an RTX 3050 laptop in another.
+- PokeDinner: 60 FPS at 270p on an RX 9070 XT in one report; 25-30 FPS in races on an RTX 3050 laptop in another. A Ryzen 5 3600 and GTX 1650 Super user on 8 GB called PokeDinner 2.5.0 the most stable build, with no crashes in two hours, without giving an FPS figure.
 - Selevet Eglantine: one user on an older Zen CPU gained about 8 FPS over the build in community reports.
 
 ## Complete configs
@@ -32,6 +32,8 @@ These are user reports, not benchmarks. A build that works for one GPU can fail 
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
 | 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | unplayable, very bad stutter | community; did not start a race |
+| 4 Nov | PokeDinner 2.5.0 | Ryzen 5 3600 | GTX 1650 Super | 8 GB | most stable version, no crashes in 2 hours | community; 1 hour races, 1 hour free roam |
+| 4 Nov | unspecified | i7-12700H | RTX 3070 Laptop 8 GB | 16 GB | 30 FPS racing, 20 FPS lows, 60 in menus | community; laptop |
 | 3 Nov | unspecified | i7-14700K | RTX 5070 | 32 GB | 60 FPS 98% of the time | community; no flicker or dropped frames; fork not named |
 | 3 Nov | unspecified | Ryzen 5 3600 | GTX 1660 Super | 16 GB | 34-45 FPS | community; Mario Circuit; fork not named |
 | 3 Nov | unspecified | Ryzen 7 2700 | RTX 4060 8 GB | 32 GB | close to 30 FPS, unstable frametimes | community; fork not named |
@@ -92,6 +94,7 @@ These reports are missing the CPU, RAM, build or a combination. They are still u
 | 4 Nov | unspecified | i7-14700KF | RTX 5080 | not stated | about 60 time trial, 30 in water races |  |
 | 5 Nov | unspecified | Ryzen 7 7840HS | RTX 4060 Laptop | not stated | 20 FPS |  |
 | 5 Nov | unspecified | Ryzen 5 5600X | RTX 5070 | not stated | 30 FPS |  |
+| 5 Nov | unspecified | not stated | GTX 1080 | not stated | 30-40 FPS at launch, later 30 then 20 | community; no CPU given |
 
 ## Known issues
 

@@ -123,7 +123,7 @@ Most community reports do not include the GPU driver, game version or 1% lows. A
 
 ## Sources
 
-- Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
+- Public community reports, 30 Oct to 6 Nov 2026. Usernames are not reproduced.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - [Mario Kart World notes](MKW.md) for the full MKW table, settings and build notes.
 - [Donkey Kong Bananza notes](DONKEY-KONG.md) for the full DK table, 30 FPS and DynamicFPS workarounds, and terrain issues.

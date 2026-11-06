@@ -641,7 +641,7 @@ def main() -> None:
     reports = dedupe(reports)
 
     data = {
-        "generated": "2026-11-05",
+        "generated": "2026-11-06",
         "source": "Parsed from docs/MKW.md, docs/DONKEY-KONG.md, docs/POKOPIA.md and docs/PERFORMANCE.md",
         "count": len(reports),
         "reports": reports,

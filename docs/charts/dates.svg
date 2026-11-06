@@ -61,19 +61,20 @@
 <rect x="810.8" y="216" width="33.2" height="24" fill="#16a34a"/>
 <text x="852.0" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">20</text>
 <text x="168" y="266" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">4 Nov</text>
-<rect x="180.0" y="250" width="132.8" height="24" fill="#2563eb"/>
-<rect x="312.8" y="250" width="232.4" height="24" fill="#7c3aed"/>
-<rect x="545.2" y="250" width="99.6" height="24" fill="#65a30d"/>
-<rect x="644.8" y="250" width="33.2" height="24" fill="#16a34a"/>
-<text x="686.0" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">15</text>
+<rect x="180.0" y="250" width="199.2" height="24" fill="#2563eb"/>
+<rect x="379.2" y="250" width="298.8" height="24" fill="#7c3aed"/>
+<rect x="678.0" y="250" width="99.6" height="24" fill="#65a30d"/>
+<rect x="777.6" y="250" width="33.2" height="24" fill="#16a34a"/>
+<text x="818.8" y="266" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">19</text>
 <text x="168" y="300" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">5 Nov</text>
-<rect x="180.0" y="284" width="99.6" height="24" fill="#7c3aed"/>
-<rect x="279.6" y="284" width="33.2" height="24" fill="#db2777"/>
-<rect x="312.8" y="284" width="33.2" height="24" fill="#65a30d"/>
-<rect x="346.0" y="284" width="33.2" height="24" fill="#ea580c"/>
-<rect x="379.2" y="284" width="33.2" height="24" fill="#16a34a"/>
-<rect x="412.4" y="284" width="298.8" height="24" fill="#d97706"/>
-<text x="719.2" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">16</text>
+<rect x="180.0" y="284" width="33.2" height="24" fill="#2563eb"/>
+<rect x="213.2" y="284" width="132.8" height="24" fill="#7c3aed"/>
+<rect x="346.0" y="284" width="33.2" height="24" fill="#db2777"/>
+<rect x="379.2" y="284" width="33.2" height="24" fill="#65a30d"/>
+<rect x="412.4" y="284" width="33.2" height="24" fill="#ea580c"/>
+<rect x="445.6" y="284" width="33.2" height="24" fill="#16a34a"/>
+<rect x="478.8" y="284" width="298.8" height="24" fill="#d97706"/>
+<text x="785.6" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">18</text>
 <text x="168" y="334" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">6 Nov</text>
 <rect x="180.0" y="318" width="99.6" height="24" fill="#d97706"/>
 <text x="287.6" y="334" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>

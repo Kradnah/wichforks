@@ -41,41 +41,42 @@
 <line x1="1010.0" y1="122" x2="1010.0" y2="372" stroke="#e5e7eb" stroke-width="1"/>
 <text x="1010.0" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">80</text>
 <text x="188" y="146" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Unknown</text>
-<rect x="200.0" y="130" width="131.6" height="24" fill="#2563eb"/>
-<rect x="331.6" y="130" width="10.1" height="24" fill="#dc2626"/>
-<rect x="341.8" y="130" width="10.1" height="24" fill="#16a34a"/>
-<rect x="351.9" y="130" width="10.1" height="24" fill="#d97706"/>
-<rect x="362.0" y="130" width="253.1" height="24" fill="#7c3aed"/>
-<rect x="615.1" y="130" width="10.1" height="24" fill="#db2777"/>
-<rect x="625.2" y="130" width="101.2" height="24" fill="#65a30d"/>
-<rect x="726.5" y="130" width="10.1" height="24" fill="#4f46e5"/>
-<rect x="736.6" y="130" width="10.1" height="24" fill="#2563eb"/>
-<rect x="746.8" y="130" width="10.1" height="24" fill="#dc2626"/>
-<rect x="756.9" y="130" width="30.4" height="24" fill="#16a34a"/>
-<rect x="787.2" y="130" width="91.1" height="24" fill="#d97706"/>
-<text x="886.4" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">67</text>
+<rect x="200.0" y="130" width="151.9" height="24" fill="#2563eb"/>
+<rect x="351.9" y="130" width="10.1" height="24" fill="#dc2626"/>
+<rect x="362.0" y="130" width="10.1" height="24" fill="#16a34a"/>
+<rect x="372.1" y="130" width="10.1" height="24" fill="#d97706"/>
+<rect x="382.2" y="130" width="263.2" height="24" fill="#7c3aed"/>
+<rect x="645.5" y="130" width="10.1" height="24" fill="#db2777"/>
+<rect x="655.6" y="130" width="101.2" height="24" fill="#65a30d"/>
+<rect x="756.9" y="130" width="10.1" height="24" fill="#4f46e5"/>
+<rect x="767.0" y="130" width="10.1" height="24" fill="#2563eb"/>
+<rect x="777.1" y="130" width="10.1" height="24" fill="#dc2626"/>
+<rect x="787.2" y="130" width="30.4" height="24" fill="#16a34a"/>
+<rect x="817.6" y="130" width="91.1" height="24" fill="#d97706"/>
+<text x="916.8" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">70</text>
 <text x="188" y="180" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">16 GB</text>
 <rect x="200.0" y="164" width="40.5" height="24" fill="#2563eb"/>
-<rect x="240.5" y="164" width="141.8" height="24" fill="#7c3aed"/>
-<rect x="382.2" y="164" width="40.5" height="24" fill="#65a30d"/>
-<rect x="422.8" y="164" width="10.1" height="24" fill="#ea580c"/>
-<rect x="432.9" y="164" width="10.1" height="24" fill="#d97706"/>
-<text x="451.0" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">24</text>
+<rect x="240.5" y="164" width="151.9" height="24" fill="#7c3aed"/>
+<rect x="392.4" y="164" width="40.5" height="24" fill="#65a30d"/>
+<rect x="432.9" y="164" width="10.1" height="24" fill="#ea580c"/>
+<rect x="443.0" y="164" width="10.1" height="24" fill="#d97706"/>
+<text x="461.1" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">25</text>
 <text x="188" y="214" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">32 GB</text>
-<rect x="200.0" y="198" width="30.4" height="24" fill="#2563eb"/>
-<rect x="230.4" y="198" width="131.6" height="24" fill="#7c3aed"/>
-<rect x="362.0" y="198" width="10.1" height="24" fill="#0891b2"/>
-<rect x="372.1" y="198" width="10.1" height="24" fill="#ea580c"/>
-<rect x="382.2" y="198" width="10.1" height="24" fill="#2563eb"/>
-<rect x="392.4" y="198" width="10.1" height="24" fill="#d97706"/>
-<text x="410.5" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">20</text>
-<text x="188" y="248" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">24 GB</text>
-<rect x="200.0" y="232" width="10.1" height="24" fill="#2563eb"/>
-<rect x="210.1" y="232" width="10.1" height="24" fill="#d97706"/>
+<rect x="200.0" y="198" width="40.5" height="24" fill="#2563eb"/>
+<rect x="240.5" y="198" width="131.6" height="24" fill="#7c3aed"/>
+<rect x="372.1" y="198" width="10.1" height="24" fill="#0891b2"/>
+<rect x="382.2" y="198" width="10.1" height="24" fill="#ea580c"/>
+<rect x="392.4" y="198" width="10.1" height="24" fill="#2563eb"/>
+<rect x="402.5" y="198" width="10.1" height="24" fill="#d97706"/>
+<text x="420.6" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">21</text>
+<text x="188" y="248" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">8 GB</text>
+<rect x="200.0" y="232" width="10.1" height="24" fill="#7c3aed"/>
+<rect x="210.1" y="232" width="10.1" height="24" fill="#65a30d"/>
 <text x="228.2" y="248" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="188" y="282" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">8 GB</text>
-<rect x="200.0" y="266" width="10.1" height="24" fill="#65a30d"/>
-<text x="218.1" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>
+<text x="188" y="282" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">24 GB</text>
+<rect x="200.0" y="266" width="10.1" height="24" fill="#2563eb"/>
+<rect x="210.1" y="266" width="10.1" height="24" fill="#d97706"/>
+<text x="228.2" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
 <text x="188" y="316" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">20 GB</text>
 <rect x="200.0" y="300" width="10.1" height="24" fill="#7c3aed"/>
 <text x="218.1" y="316" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">1</text>

@@ -32,6 +32,8 @@ These are user reports, not benchmarks. A build that works on one GPU can show m
 | Date | Build | CPU | GPU | RAM | Performance | Notes |
 |---|---|---|---|---|---|---|
 | 4 Nov | Eglantine build 212 PGO | Steam Deck APU | Steam Deck APU | 16 GB | 10-15 FPS | community; otherwise seems okay |
+| 4 Nov | Eglantine build 212 | Ryzen 7 3700X | RTX 3060 12 GB | 32 GB DDR4 | crashes on GPU Fast during first cutscene | community; Arch Linux; also random when switching from Accurate; log attached |
+| 4 Nov | unspecified | i5-12600K | RX 9070 XT | not stated | no hitches except shader compilation, 540p | community; resolution 540p |
 | 31 Oct | unspecified | Ryzen 7 7700X | RX 6700 XT | not stated | 30-40 FPS accurate, 40-50 fast, 60 in corners | area dependent |
 | 1 Nov | zortos build 31 | 5700X3D | RTX 5070 Ti | 32 GB | 17 FPS looking north | before Selevet |
 | 1 Nov | Selevet perf 3 | 5700X3D | RTX 5070 Ti | 32 GB | 30 FPS cap, 60 with smooth motion | default 0.5x, 1x works |
@@ -60,6 +62,7 @@ These reports are missing the CPU, GPU, RAM or build. Treat them as rough signal
 | 3 Nov | unspecified | Ryzen 7 5700X | RTX 5060 | 24 GB | 14 FPS after the first area |  |
 | 3 Nov | unspecified | not stated | not stated | not stated | 12 FPS |  |
 | 1 Nov | unspecified | not stated | not stated | not stated | 20-30 FPS |  |
+| 5 Nov | Orchid | not stated | RX 6950 XT | not stated | playable with some freezes | community; better than ZendNevs on Linux |
 
 ## Known issues
 
@@ -67,6 +70,8 @@ These reports are missing the CPU, GPU, RAM or build. Treat them as rough signal
 - Purple screen on some builds; Photo Mode or d-pad down can clear it.
 - Game speed follows FPS; 30 FPS cap or DynamicFPS is required for normal speed.
 - Build 204's d-pad fix introduced stutters and black texture flicker for one user.
+- Build 212 can crash on GPU Fast during the first cutscene and at random when switching from Accurate. One Ryzen 7 3700X and RTX 3060 user on Arch Linux reported it.
+- Orchid on an RX 6950 XT works but freezes occasionally; one user preferred it to ZendNevs on Linux.
 - Memory leaks and OOM on early builds and the Zortos fork.
 - Frame drops during destruction and in large rooms, even when standing still is fine.
 - Some users see 60 FPS in tunnels or small rooms and 20-30 FPS in open areas, so area matters more than the average.

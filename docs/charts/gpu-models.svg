@@ -33,17 +33,17 @@
 <line x1="1010.0" y1="106" x2="1010.0" y2="594" stroke="#e5e7eb" stroke-width="1"/>
 <text x="1010.0" y="612" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">15</text>
 <text x="288" y="130" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 9070 XT</text>
-<rect x="300.0" y="114" width="189.3" height="24" fill="#2563eb"/>
-<rect x="489.3" y="114" width="236.7" height="24" fill="#7c3aed"/>
-<rect x="726.0" y="114" width="47.3" height="24" fill="#0891b2"/>
-<rect x="773.3" y="114" width="47.3" height="24" fill="#2563eb"/>
-<rect x="820.7" y="114" width="47.3" height="24" fill="#d97706"/>
-<text x="876.0" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">12</text>
+<rect x="300.0" y="114" width="236.7" height="24" fill="#2563eb"/>
+<rect x="536.7" y="114" width="236.7" height="24" fill="#7c3aed"/>
+<rect x="773.3" y="114" width="47.3" height="24" fill="#0891b2"/>
+<rect x="820.7" y="114" width="47.3" height="24" fill="#2563eb"/>
+<rect x="868.0" y="114" width="47.3" height="24" fill="#d97706"/>
+<text x="923.3" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">13</text>
 <text x="288" y="164" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 3060</text>
-<rect x="300.0" y="148" width="94.7" height="24" fill="#2563eb"/>
-<rect x="394.7" y="148" width="189.3" height="24" fill="#7c3aed"/>
-<rect x="584.0" y="148" width="94.7" height="24" fill="#d97706"/>
-<text x="686.7" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">8</text>
+<rect x="300.0" y="148" width="142.0" height="24" fill="#2563eb"/>
+<rect x="442.0" y="148" width="189.3" height="24" fill="#7c3aed"/>
+<rect x="631.3" y="148" width="94.7" height="24" fill="#d97706"/>
+<text x="734.0" y="164" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">9</text>
 <text x="288" y="198" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 7900 XTX</text>
 <rect x="300.0" y="182" width="47.3" height="24" fill="#dc2626"/>
 <rect x="347.3" y="182" width="47.3" height="24" fill="#db2777"/>
@@ -79,18 +79,18 @@
 <rect x="300.0" y="420" width="94.7" height="24" fill="#2563eb"/>
 <rect x="394.7" y="420" width="47.3" height="24" fill="#7c3aed"/>
 <text x="450.0" y="436" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">3</text>
-<text x="288" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">GTX 1660 Super</text>
-<rect x="300.0" y="454" width="47.3" height="24" fill="#7c3aed"/>
-<rect x="347.3" y="454" width="47.3" height="24" fill="#65a30d"/>
+<text x="288" y="470" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 3070</text>
+<rect x="300.0" y="454" width="94.7" height="24" fill="#7c3aed"/>
 <text x="402.7" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="288" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 5060</text>
-<rect x="300.0" y="488" width="47.3" height="24" fill="#2563eb"/>
-<rect x="347.3" y="488" width="47.3" height="24" fill="#7c3aed"/>
+<text x="288" y="504" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">GTX 1660 Super</text>
+<rect x="300.0" y="488" width="47.3" height="24" fill="#7c3aed"/>
+<rect x="347.3" y="488" width="47.3" height="24" fill="#65a30d"/>
 <text x="402.7" y="504" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="288" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 6650 XT</text>
-<rect x="300.0" y="522" width="94.7" height="24" fill="#7c3aed"/>
+<text x="288" y="538" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 5060</text>
+<rect x="300.0" y="522" width="47.3" height="24" fill="#2563eb"/>
+<rect x="347.3" y="522" width="47.3" height="24" fill="#7c3aed"/>
 <text x="402.7" y="538" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
-<text x="288" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RTX 4070 Super</text>
+<text x="288" y="572" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">RX 6650 XT</text>
 <rect x="300.0" y="556" width="94.7" height="24" fill="#7c3aed"/>
 <text x="402.7" y="572" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">2</text>
 </svg>

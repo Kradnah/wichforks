@@ -20,16 +20,16 @@
 <text x="1010.0" y="596" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#9ca3af">60</text>
 <text x="328" y="114" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Mario Kart World</text>
 <rect x="340.0" y="98" width="145.2" height="24" fill="#2563eb"/>
-<rect x="485.2" y="98" width="435.5" height="24" fill="#dc2626"/>
-<rect x="920.7" y="98" width="11.2" height="24" fill="#16a34a"/>
-<rect x="931.8" y="98" width="11.2" height="24" fill="#d97706"/>
-<text x="951.0" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">54</text>
+<rect x="485.2" y="98" width="469.0" height="24" fill="#dc2626"/>
+<rect x="954.2" y="98" width="11.2" height="24" fill="#16a34a"/>
+<rect x="965.3" y="98" width="11.2" height="24" fill="#d97706"/>
+<text x="984.5" y="114" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">57</text>
 <text x="328" y="148" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Donkey Kong Bananza</text>
-<rect x="340.0" y="132" width="78.2" height="24" fill="#2563eb"/>
-<rect x="418.2" y="132" width="100.5" height="24" fill="#dc2626"/>
-<rect x="518.7" y="132" width="11.2" height="24" fill="#16a34a"/>
-<rect x="529.8" y="132" width="55.8" height="24" fill="#d97706"/>
-<text x="593.7" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">22</text>
+<rect x="340.0" y="132" width="100.5" height="24" fill="#2563eb"/>
+<rect x="440.5" y="132" width="111.7" height="24" fill="#dc2626"/>
+<rect x="552.2" y="132" width="11.2" height="24" fill="#16a34a"/>
+<rect x="563.3" y="132" width="55.8" height="24" fill="#d97706"/>
+<text x="627.2" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#4b5563">25</text>
 <text x="328" y="182" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#111827">Pokemon Pokopia</text>
 <rect x="340.0" y="166" width="44.7" height="24" fill="#2563eb"/>
 <rect x="384.7" y="166" width="33.5" height="24" fill="#dc2626"/>
