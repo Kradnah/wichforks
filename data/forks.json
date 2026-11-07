@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06",
-  "note": "Machine-readable source for README.md. Release data checked via GitHub/Forgejo APIs on 2026-11-06. Game associations marked 'community-reported' come from the community update of the same date, not from upstream docs.",
+  "updated": "2026-11-07",
+  "note": "Machine-readable source for README.md. Release data checked via GitHub/Forgejo APIs on 2026-11-07. Game associations marked 'community-reported' come from the community update of the same date, not from upstream docs.",
   "forks": [
     {
       "id": "eglantine-upstream",
@@ -12,11 +12,11 @@
       "platforms": ["Windows", "Linux", "macOS"],
       "gpu": ["NVIDIA", "AMD", "Intel"],
       "best_for": ["first install", "all-round compatibility", "Mario Kart World", "Splatoon Raiders", "Hyrule Warriors (build 202+)"],
-      "latest_release": { "tag": "build-212", "date": "2026-11-04", "prerelease": true },
+      "latest_release": { "tag": "daily-20261107", "date": "2026-11-07", "prerelease": true },
       "license": "GPL-3.0",
-      "stars_at_check": 4116,
+      "stars_at_check": 5068,
       "confidence": "documented",
-      "notes": "Derived from Eden, Yuzu and Sudachi; started by Camille LaVey. Daily builds and v0.1.0-rc1. Build 135 added NUP metadata, 168 rumble, 189 DLSS/Streamline. Stability varies: 196 last stable for one tester, 202-212 regressions for another, 212 works after rebuild. Build 202 was the Hyrule Warriors fix set."
+      "notes": "Derived from Eden, Yuzu and Sudachi; started by Camille LaVey. Daily builds, v0.1.0-rc1 and numbered builds. Build 135 added NUP metadata, 168 rumble, 189 DLSS/Streamline. Daily 7 Nov has OoT startup, rendering and recommended-settings work, but OoT still showed a black 3D world for some testers and the newest fixes are not in a stable release. Stability varies: 196 last stable for one tester, 202-212 regressions for another, 212 works after rebuild. rc1 is slower than 212 for several testers; Fire Emblem dropped from 50+ to 8-10 FPS on an RTX 30 card. Star Fox still fails to load (issue #533); a fix merged on 6 Nov was reverted."
     },
     {
       "id": "smileytatsu-eglantine",
@@ -91,12 +91,12 @@
       "role": "game-patch fork",
       "platforms": ["Windows", "Linux", "macOS"],
       "gpu": ["NVIDIA", "AMD"],
-      "best_for": ["Zelda OoT remake (build-80+)", "Donkey Kong Bananza", "Star Fox", "Mario Tennis Fever"],
-      "latest_release": { "tag": "build-80 (Actions)", "date": "2026-11-05", "prerelease": true },
+      "best_for": ["Zelda OoT remake (build-88+)", "Donkey Kong Bananza", "Star Fox", "Mario Tennis Fever"],
+      "latest_release": { "tag": "build-94", "date": "2026-11-07", "prerelease": true },
       "license": "GPL-3.0",
-      "stars_at_check": 1500,
+      "stars_at_check": 4738,
       "confidence": "community-reported",
-      "notes": "Build-80 is a GitHub Actions artifact (commit 7459f10); Releases lag at build-75. Windows x86_64 PGO/non-PGO, Linux x86_64/aarch64, macOS arm64. Non-PGO avoids a black-screen issue reported with PGO. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060; pattern suggests a single-core CPU bottleneck. 60 FPS clips are area-specific, flicker can make them unplayable, and NVIDIA alone is not a guarantee. Handles Switch 1 and Switch 2 titles; README does not publish a title list."
+      "notes": "Latest release is tag build-94, called build-95 in-app; the workflow numbers runs, not tags, and both point to the same build. Releases now include Windows, Linux x86_64/aarch64 and macOS arm64 assets. Build 80 was an Actions artifact while Releases lagged at 75; build 88 added Frizti performance ports, pipeline preparation, FSR3 fixes and a bundled Dynamic FPS mod for OoT. Build 93 added AMD shader and Vulkan synchronization fixes, not yet verified in AMD gameplay. Build 94/95 fixes OoT foliage, white flashes, terrain overdraw, reticle and shaders, with limited gameplay testing. OoT field reports: 54-60 FPS on 9800X3D, 20-24 on i3-10100/RTX 3060, 12-22 on 5900X/RTX 3080 for build 75. 60 FPS claims are opening-area results on RTX 4080/5080/5090. Radeon black screens and driver crashes remain. Shares Eglantine data folders and shader cache; README still points downloads to the old zortos293/Eglantine releases page and asks for crypto donations."
     },
     {
       "id": "frizti-lichii",
@@ -110,9 +110,9 @@
       "best_for": ["Zelda OoT remake (visual fixes)"],
       "latest_release": { "tag": "frizti-v1", "date": "2026-11-05", "prerelease": false },
       "license": "GPL-3.0",
-      "stars_at_check": 465,
+      "stars_at_check": 1168,
       "confidence": "documented",
-      "notes": "Fork of zortos293/Lichii. Frizti v1 fixes OoT white flashes, adds a Max Resolution patch, and includes culling, vegetation, grass and fog fixes. Windows x64 only. 30 FPS cap and shader stutter remain; AMD black screens and driver crashes reported. Community workaround: EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3 in %APPDATA%\\eden\\nx2_switches.txt."
+      "notes": "Fork of zortos293/Lichii. Frizti v1 fixes OoT white flashes, adds a Max Resolution patch, and includes culling, vegetation, grass and fog fixes. Lichii build 88 credits Frizti for cached storage-buffer bindings, direct uniform uploads, batched readbacks and Dark's Dynamic FPS integration; some 60 FPS OoT footage comes from Frizti's own builds. Windows x64 only. 30 FPS without the Dynamic FPS mod; shader stutter remains; AMD black screens and driver crashes reported. Community workaround: EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3 in %APPDATA%\\eden\\nx2_switches.txt."
     },
     {
       "id": "droplet",
@@ -248,6 +248,23 @@
       "stars_at_check": 7,
       "confidence": "documented",
       "notes": "New project created 5 Nov 2026, built on Eden, Eglantine/PokeDinner, yuzu and Sudachi. Full source in repo and source zips in the release, GPL-3.0. One release, 7 stars, AI-assisted commits disclosed. DK measured on one PC (Ryzen 7 5700X, 64 GB, RTX 4060 Ti, 1440p): 42-53 FPS uncapped and 39-46 FPS with the dynamic frame rate patch, against 17.3 FPS for PokeDinner 2.0.0 in the heaviest view. The README calls it a rough indication, not a controlled A/B. Only DK measured; AMD and Intel untested. Not a first pick yet."
+    },
+    {
+      "id": "nxnative",
+      "name": "nxnative (seedds)",
+      "repo": "https://github.com/seedds/nxnative",
+      "releases": "https://github.com/seedds/nxnative/releases",
+      "host": "GitHub",
+      "role": "macOS native port (not an emulator)",
+      "platforms": ["macOS 26.6+ / Apple silicon"],
+      "gpu": ["Apple silicon"],
+      "best_for": ["Mario Kart World on Mac", "Donkey Kong Bananza on Mac", "Pokemon Pokopia on Mac", "native Mac apps"],
+      "latest_release": null,
+      "license": "MIT",
+      "source_in_repo": true,
+      "stars_at_check": 13207,
+      "confidence": "source-only",
+      "notes": "Not an emulator: the game's own code runs on Apple silicon and NVN is rebuilt on Metal. Switch 2 support since 31 Oct; seven games listed: DK Bananza, Splatoon Raiders, Fire Emblem Fortune's Weave, Pokemon Pokopia, Hyrule Warriors, Mario Kart World and Mario Tennis Fever. Mac only; iPhone and iPad are untested for Switch 2. Builds a Mac app from one .nup file or a game folder; the NUP path does not need prod.keys. Requires macOS 26.6+, Xcode 27.2, Homebrew and Python 3.12+; first build is 30-60 minutes. No release assets at check. macOS counterpart to Banana Native."
     }
   ]
 }

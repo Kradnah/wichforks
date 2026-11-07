@@ -2,12 +2,14 @@
 
 A use-case guide to Nintendo Switch 2 emulator forks and adjacent native ports: which build to pick for your GPU, OS, and the game you want to play.
 
-[![Last verified](https://img.shields.io/badge/last%20verified-2026--11--06-blue)](#update-log)
+[![Last verified](https://img.shields.io/badge/last%20verified-2026--11--07-blue)](#update-log)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 > [!WARNING]
-> Everything here is experimental. Builds land several times a day, regress without notice, and fork rankings depend on the game and driver. "Best" below means "best documented starting point for that use case on 6 Nov 2026", nothing more.
+> Everything here is experimental. Builds land several times a day, regress without notice, and fork rankings depend on the game and driver. "Best" below means "best documented starting point for that use case on 7 Nov 2026", nothing more.
+
+Official Eden does not support Switch 2 in its stable release. The Switch 2 builds here are community forks, not Eden team releases.
 
 The page is ordered by what people ask first: which fork to use, what has been tested, then setup and trust checks.
 
@@ -27,6 +29,7 @@ The page is ordered by what people ask first: which fork to use, what has been t
 | Zelda OoT remake, Star Fox, Mario Tennis | [**zortos293/Lichii**](https://github.com/zortos293/Lichii/releases) ★ | Lichii for all three; Frizti v1 for OoT visual fixes on Windows |
 | Hyrule Warriors: Age of Imprisonment | [Djihads80 build 202+](https://github.com/Djihads80/Eglantine/releases) or [rdenno](https://github.com/rdenno/Eglantine/releases) | Build 202 was the Hyrule Warriors fix set (46-49 FPS median reported) |
 | Android 13+, Snapdragon 12 GB+ | [Banana Native](https://github.com/moceure/BananaNative/releases) | Native port, not an emulator; DK Bananza works, Pokopia about 60 FPS, MKW in progress |
+| macOS, native port | [nxnative](https://github.com/seedds/nxnative) | Switch 2 games as Mac apps from a NUP; no emulator; source-only build |
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
@@ -53,8 +56,9 @@ The full [coverage page](docs/COVERAGE.md) has the game-by-GPU, game-by-CPU, bui
 flowchart TD
     A[Where are you playing?] --> B{Platform}
     B -->|Android| C[Banana Native]
+    B -->|macOS native| C2[nxnative]
     B -->|PS5| D[EglantinePS5]
-    B -->|Windows / Linux / macOS| E{GPU vendor}
+    B -->|Windows / Linux / emulator on macOS| E{GPU vendor}
     E -->|AMD| F{Main game?}
     F -->|Mario Kart World| G[SmileyTatsu]
     F -->|Donkey Kong Bananza| G2[Selevet or PokeDinner]
@@ -63,7 +67,7 @@ flowchart TD
     I -->|Mario Kart World| J[SmileyTatsu]
     I -->|Bananza| K[Selevet or PokeDinner]
     I -->|Pokopia / Splatoon| K2[PokeDinner or notsapinho]
-    I -->|OoT remake| L[Lichii or Frizti]
+    I -->|OoT remake| L[Lichii build 88+ or Frizti]
     I -->|Star Fox / Tennis| L2[Lichii]
     I -->|Hyrule Warriors| M[Djihads80 build 202+ or rdenno]
     I -->|Everything else| N[Djihads80 Eglantine]
@@ -92,9 +96,11 @@ Claims here are labelled, because the scene is full of "60 FPS trust me bro":
 
 Runs on Windows, Linux and macOS, with NVIDIA, AMD and Intel GPUs. Claims here are documented.
 
-The reference **Eglantine** build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 4.1k stars, GPL-3.0, pre-release build-212 (4 Nov 2026), a daily-20261105 build and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
+The reference **Eglantine** build, derived from Eden, Yuzu and Sudachi and started by Camille LaVey. At check time it had 5.1k stars, GPL-3.0, the daily-20261107 build (7 Nov 2026), pre-release build-212 (4 Nov) and a v0.1.0-rc1 tag. Recent builds added NUP packaging (135), rumble (168) and DLSS through Streamline (189).
 
-Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. Build-by-build notes from community reports are in [project notes](docs/PROJECT-NOTES.md).
+The daily branch now has the OoT startup fix (PR #567, merged 4 Nov) plus a large set of OoT rendering, shader and recommended-settings commits. Daily builds still showed a black 3D world for some testers, and the newest fixes are not in a stable release. Do not treat Eglantine as the OoT pick yet; Lichii has the longer released-build record.
+
+Stability is split. One tester reports 202 to 212 force-closing and calls 196 their last stable, while another reports 212 working after a rebuild. Build 202 was the Hyrule Warriors fix set. The rc1 tag is slower than build 212 for several testers; Fire Emblem went from 50+ to 8-10 FPS on an RTX 30 card. Star Fox still fails to load on Eglantine (issue #533); a compatibility fix merged on 6 Nov was reverted seconds later. Build-by-build notes are in [project notes](docs/PROJECT-NOTES.md).
 
 Start here if you want the default, the widest game coverage, and the build most forks rebase on. One caveat: "stable" is relative here. These are pre-releases, so pin a build that works for your game and don't update mid-playthrough.
 
@@ -138,19 +144,23 @@ Choose it if Pokopia is the goal and you want a simpler build than PokeDinner. D
 
 Windows, Linux and macOS builds for NVIDIA and AMD. Community-reported.
 
-A large **Eglantine**-derived fork (~1.5k stars) that also handles Switch 1 titles. Latest at check: build-80 (5 Nov 2026, commit `7459f10`), published as GitHub Actions artifacts while the Releases page still showed build-75. Artifacts cover Windows x86_64 (PGO and non-PGO), Linux x86_64 and aarch64, and macOS arm64. You need a GitHub account to download them, and they expire.
+A large **Eglantine**-derived fork (4.7k stars) that also handles Switch 1 titles. Latest at check: release tag build-94, called build-95 in the app (7 Nov 2026). The tag and the in-app number disagree because the workflow numbers runs, not tags; they are the same build. The Releases page now has Windows, Linux x86_64/aarch64 and macOS arm64 assets. The README still points downloads to the old zortos293/Eglantine releases page, so use the Lichii releases tab.
 
-A community PSA from 5 Nov calls build-80 the most playable OoT remake build so far, with caveats. Field reports from the community:
+Build 80 (5 Nov) was the first build with wide OoT community reports. It was published as an Actions artifact while Releases still showed build-75. These field reports describe build 80:
 
 - On a 9800X3D, players report about 54-60 FPS, with heavy bloom, sunrays, texture flicker and intermittent black-screen flashes.
 - An i3-10100 with an RTX 3060 12 GB and 24 GB RAM gets 20-24 FPS in Kokiri Forest.
 - A 3080 10 GB gets 40-50 FPS in Kokiri Forest and 40-60 inside the Deku Tree, with CPU and GPU both under 50%. That points to the emulator, not settings.
 - An RTX 2070 with a 9800X3D reportedly holds 60 FPS, while a 7900 XTX with a 13400F does not. CPU single-core speed looks like the limiting factor.
-- For black screens, try the non-PGO Windows artifact first; the PGO build caused black screens for several users. Docked mode helped some setups. Some cutscenes stay black with audio only.
+- For black screens, try the non-PGO Windows build first; the PGO build caused black screens for several users. Docked mode helped some setups. Some cutscenes stay black with audio only.
 
-A second community report from 5 Nov pushes back on the 60 FPS clips. They are not sustained gameplay: they tend to come from specific areas on high-end hardware, and flicker or bloom can make 60 FPS unplayable anyway. An owner of a 4070 Ti and a 14th-gen i7 still describes the game as emulator-bound, and NVIDIA users report both good and bad results, so the GPU vendor is not a guarantee.
+Build 88 (6 Nov) integrated Frizti's performance ports, added background pipeline preparation, fixed FSR3 frame generation and bundled Dark's Dynamic FPS mod for OoT, enabled by default. The developer reports 60 FPS; outlets and users saw 60 FPS in opening areas on RTX 4080/5080/5090-class cards. The only i3-10100 and RTX 3060 number available is from build 80: 20-24 FPS. Build 93 (6 Nov) added AMD shader and Vulkan synchronization fixes, but they have not been verified in affected AMD gameplay. Build 94/95 (7 Nov) fixes OoT near foliage, white flashes, terrain drawn over the scene, the Z-target reticle and several rejected shaders; the release notes say these changes had limited gameplay testing.
 
-**Lichii** is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. On Windows, Frizti v1 adds OoT visual fixes; see the next section. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
+Radeon remains the weak spot. Build 93 targeted AMD shader and Vulkan issues, but its release notes still list black textures, haze, HUD flicker and cutscene audio as open investigations. A 60 FPS clip is usually a high-end RTX card in an opening area, not a sustained result.
+
+Lichii keeps Eden/Eglantine data folders, so saves are shared. The shader cache is shared too; if a build hangs at "Loading Shaders" after switching forks, delete that game's shader cache folder. The README asks for crypto donations, so only use addresses copied from the real repo.
+
+**Lichii** is the pick if you want OoT remake or the other titles attributed to it, and you have a fast CPU. Use build 88 or newer; build 94/95 has the latest visual fixes. On Windows, Frizti v1 adds another set of OoT visual fixes; see the next section. Before you download: check the release or commit notes of the build, and remember that Actions artifacts are not releases. Keep the zip if a build works. The project still uses the historical "Eglantine" name internally.
 
 ### Frizti/Lichii: Ocarina of Time visual fixes
 
@@ -158,9 +168,11 @@ Windows x64 only. GPL-3.0, source in repo. Community-reported performance.
 
 A fork of zortos293/Lichii focused on OoT. Frizti v1 (5 Nov 2026) removes the one-frame white flashes on Link and the scene, adds a built-in Max Resolution patch so the 3D no longer sits at the 854x480 dynamic-resolution floor, and includes culling, vegetation, grass and fog fixes.
 
-It is Windows x64 only; there is no Linux or macOS build. The game is still capped at 30 FPS on current builds, and shader compilation causes heavy stutter. AMD users report black screens and GPU driver crashes; one community workaround is to add `EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3` to `%APPDATA%\eden\nx2_switches.txt` and restart.
+It is Windows x64 only; there is no Linux or macOS build. The game is capped at 30 FPS without the Dynamic FPS mod, and shader compilation causes heavy stutter. Build 88 bundles the mod, but frame pacing and game speed are not fully verified. AMD users report black screens and GPU driver crashes; one community workaround is to add `EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3` to `%APPDATA%\eden\nx2_switches.txt` and restart.
 
-Pick it for OoT on Windows if visuals matter more than cross-platform support. Use Lichii build 80 for Linux or macOS, or Orchid v0.7.4 for its exposure and fog work.
+Frizti's performance work is now part of Lichii build 88: cached storage-buffer bindings, direct uniform uploads, batched readbacks and Dark's Dynamic FPS mod. Lichii credits Frizti for those ports, and some 60 FPS OoT footage comes from Frizti's own builds. Frizti v1 remains the Windows visual-fix build, not the main performance fork.
+
+Pick it for OoT on Windows if visuals matter more than cross-platform support. Use Lichii build 88 or newer for Linux or macOS, or Orchid v0.7.4 for its exposure and fog work.
 
 ### Droplet: private online servers
 
@@ -218,6 +230,16 @@ The presets are Recommended, Recommended + Reactive Flushing, Safe and Custom. G
 
 Caveats: one release, 7 stars, one measured game and one PC, and most code and commit messages are AI-assisted under the maintainer's direction. There are no independent reports yet. Treat the DK numbers as a promising self-report, not a verified first pick. The DK pick remains Selevet perf 3/4 or PokeDinner 2.5.
 
+### nxnative: macOS native port
+
+macOS 26.6+ on Apple silicon. MIT, source in repo. Not an emulator.
+
+nxnative runs the game's own code on the Apple chip and rebuilds NVN on Metal. It is the macOS counterpart to Banana Native. Switch 2 support started on 31 Oct; the README lists Donkey Kong Bananza, Splatoon Raiders, Fire Emblem Fortune's Weave, Pokemon Pokopia, Hyrule Warriors: Age of Imprisonment, Mario Kart World and Mario Tennis Fever. Mac only.
+
+It builds a Mac app from one .nup file or a game folder, and the NUP path does not need prod.keys. Requirements are macOS 26.6+, Xcode 27.2, Homebrew and Python 3.12+. The first build takes 30-60 minutes and needs about twice the game size plus 10 GB free. There are no prebuilt releases; build it yourself.
+
+Pick it if you have an Apple silicon Mac and want a native app. The catch: source-only, one platform, seven Switch 2 games listed, and iPhone/iPad are untested for Switch 2. For a normal emulator on macOS, use an Eglantine-based fork such as Lichii.
+
 ### Banana Native: Android native port
 
 Android 13+, Snapdragon/Adreno, 12 GB RAM. Source in repo. Not an emulator.
@@ -255,7 +277,7 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
-| Zelda: OoT remake | **Lichii build-80 or Frizti v1** | Orchid v0.7.4; PokeDinner | Lichii for cross-platform; Frizti v1 for OoT visual fixes on Windows; 30 FPS cap and shader stutter remain |
+| Zelda: OoT remake | **Lichii build-88+ or Frizti v1** | Orchid v0.7.4; PokeDinner | Lichii for cross-platform; Frizti v1 for OoT visual fixes on Windows; Dynamic FPS mod, frame pacing and shader stutter still need testing |
 | Star Fox | **Lichii** | Djihads80 | Community-reported |
 | Mario Tennis Fever | **Lichii** | Orchid | Community-reported; Orchid measured 60 FPS |
 | Hyrule Warriors: AoI | Djihads80 build 202+ | rdenno nx2-merged | Build 202 fix set; 46-49 FPS median reported |
@@ -320,6 +342,7 @@ Forks are full emulator copies, not plugins. Before trusting one:
 - Does it link upstream? A fork should name its base (Eglantine, Eden, Yuzu, Sudachi) and publish source in the repo if it is GPL.
 - Does it publish real release notes? "Performance boost" with no commit or build detail is noise.
 - Does it have public history? Check the commit count, license and source. A release-only repo with two commits can still ship a working build, but its claims need independent confirmation.
+- Are AI-assisted commits disclosed? AI-assisted code is common here. It is not a security verdict by itself, but ask for tests, review the diffs and prefer projects that say which parts were generated.
 - Is the full source in the repo? A source zip attached to a release is not a public source tree. Check `LICENSE`, `src/` and `CMakeLists.txt` or `Makefile`.
 - Does it bundle keys, firmware or games? That is a red flag. Don't use it.
 - Is it current? Compare its last push or release date with upstream. A fork that stopped a week ago is already stale in this scene.
@@ -362,7 +385,7 @@ Forks also vanish overnight (DMCA, renames, account deletion). If a link 404s, s
 
 ## Sources
 
-All links checked 5-6 Nov 2026. Release metadata read from the GitHub and Forgejo APIs on the same dates.
+All links checked 5-7 Nov 2026. Release metadata read from the GitHub and Forgejo APIs on the same dates.
 
 - Central fork: [Djihads80/Eglantine](https://github.com/Djihads80/Eglantine), [releases](https://github.com/Djihads80/Eglantine/releases)
 - MKW fork: [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine), [releases](https://github.com/SmileyTatsu/Eglantine/releases)
@@ -374,6 +397,7 @@ All links checked 5-6 Nov 2026. Release metadata read from the GitHub and Forgej
 - Private online: [Droplet](https://gitlab.com/seighttt/droplet), [releases](https://gitlab.com/seighttt/droplet/-/releases), [Reservoir server branch](https://gitlab.com/seighttt/droplet/-/tree/server)
 - Hyrule Warriors and nx2-merged: [rdenno/Eglantine](https://github.com/rdenno/Eglantine), [releases](https://github.com/rdenno/Eglantine/releases)
 - Android: [Banana Native](https://github.com/moceure/BananaNative), [releases](https://github.com/moceure/BananaNative/releases). The old [eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android) is unmaintained and points here.
+- macOS native: [nxnative](https://github.com/seedds/nxnative)
 - Zen 3 build: [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine), [releases](https://github.com/sylvieistaken/selevet-eglantine/releases)
 - Frame-gen build: [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs), [releases](https://github.com/ZendNevs/Eglantine-ZendNevs/releases)
 - PS5 port: [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5)
@@ -418,3 +442,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added on-demand Reddit thread intake: one URL at a time, candidates in a gitignored inbox, human review before publishing. No background subreddit crawler. |
 | 2026-11-06 | Added six recent reports from the offline archive: low-end and laptop MKW configs, the DK build 212 crash, i5-12600K with RX 9070 XT, and Orchid on RX 6950 XT. |
 | 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
+| 2026-11-07 | Updated Lichii to build 88+ and build 94/95, added the Eglantine OoT and rc1 regressions, and added nxnative for macOS native builds. |

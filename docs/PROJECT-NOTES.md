@@ -1,6 +1,6 @@
 # Project notes
 
-Notes pulled from public community reports between 30 Oct and 5 Nov 2026. This is not official documentation. Reports are unverified, build numbers move fast, and results change with the GPU, driver and game version.
+Notes pulled from public community reports between 30 Oct and 7 Nov 2026. This is not official documentation. Reports are unverified, build numbers move fast, and results change with the GPU, driver and game version.
 
 This page keeps the technical claims that affect which fork or build to use. For the fork shortlist, go back to the [main guide](../README.md).
 
@@ -20,6 +20,12 @@ This page keeps the technical claims that affect which fork or build to use. For
 | 212 | 4 Nov | Commit `d6efc8e`; performs normally again for one tester. Another reports 202 to 212 force-closing with one third of the FPS |
 | 219 | 4 Nov | DLSS and Streamline fix FPS and lighting, but the build force-closes for one tester |
 | v0.1.0-rc1 / 11-5 | 5 Nov | One third of the FPS for one tester; second game-status report |
+| Lichii 75 | 5 Nov | First released Lichii build with OoT in-game; 12-22 FPS on a 5900X and RTX 3080, heavy fog and glow |
+| Lichii 80 | 5 Nov | Actions-only artifact; OoT 54-60 FPS on 9800X3D, 20-24 on i3-10100 and RTX 3060 |
+| Lichii 88 | 6 Nov | Frizti performance ports, shader cache work, FSR3 fixes, Dynamic FPS for OoT; developer reports 60 FPS |
+| Lichii 93 | 6 Nov | AMD shader and Vulkan synchronization fixes; not verified in affected AMD gameplay |
+| Lichii 94/95 | 7 Nov | OoT foliage, white flashes, terrain, reticle and shader fixes; limited gameplay testing |
+| Eglantine daily | 7 Nov | OoT startup, rendering and recommended-settings work; AMD compute fixes; no independent OoT test yet |
 
 Dates are the day the build was discussed, not necessarily the release date. A build that is stable for one GPU can fail on another.
 
@@ -90,7 +96,7 @@ These are single-user reports from build 202 and the 0.1.0-rc1 build on 4 and 5 
 | Star Fox | 202, rc1 | Infinite loading |
 | Yoshi | 202, rc1 | Choppy but loads; rc1 has a green glitch at 45-60 FPS, skips the cutscene and hard-crashes on Plasma and X11 |
 | Fire Emblem Fortune's Weave | 202, rc1 | Black screen and crash; on AMD the crash log shows a DLSS attempt and a failed FSR fallback |
-| Zelda: OoT remake | rc1 | Infinite loading on Eglantine; use Lichii build 80. Frizti v1 adds OoT visual fixes on Windows. Orchid v0.7.4 fixes exposure, fog and vegetation, but OoT performance there is unmeasured |
+| Zelda: OoT remake | Lichii 75 to 94/95; Eglantine daily | Lichii build 88+ is the current pick. Build 75 got 12-22 FPS on a 5900X and RTX 3080. Build 88's 60 FPS claims are high-end RTX 4080/5080/5090 opening-area results; a low-end i3-10100 and RTX 3060 got 20-24. Build 94/95 fixes foliage, white flashes, terrain and shaders, with limited testing. Eglantine daily builds have OoT fixes but no independent test. Radeon black screens and crashes remain. Frizti v1 adds visual fixes on Windows. Orchid v0.7.4 fixes exposure, fog and vegetation, but OoT performance there is unmeasured |
 | Orbitals | 202, rc1 | Black screen; 3-10 FPS with no shader-building indicator |
 | Super Mario Bros. Wonder | NUP | DLC did not work after converting the game to NUP |
 | Yoshi | 3 Nov | Full game boots, not just the demo |
@@ -118,6 +124,7 @@ A different GPU, driver or game version can change every result in this table.
 
 ## Sources
 
-- Public community reports, 30 Oct to 5 Nov 2026. Usernames are not reproduced.
+- Public community reports, 30 Oct to 7 Nov 2026. Usernames are not reproduced.
 - [Eglantine releases](https://github.com/Djihads80/Eglantine/releases) for build tags and release notes.
+- [Lichii releases](https://github.com/zortos293/Lichii/releases) for build 75 to 94/95 release notes.
 - [Droplet and Reservoir](https://gitlab.com/seighttt/droplet) for the documented online path.

@@ -74,7 +74,7 @@ A few representative rows:
 
 ## Zelda: Ocarina of Time remake
 
-All rows use Lichii build 80 unless noted.
+The field reports below use Lichii build 80 unless noted. Build 88 or newer is the current recommendation, but most community numbers still come from build 80.
 
 | Build | CPU | GPU | RAM | Performance | Notes | Source |
 |---|---|---|---|---|---|---|
@@ -91,7 +91,9 @@ All rows use Lichii build 80 unless noted.
 | Lichii build 80 | 14th-gen i7 | RTX 4070 Ti | not stated | emulator-bound, no FPS given | | Community, 5 Nov |
 | Eglantine v0.1.0-rc1 | 7700X | RX 7900 XTX | not stated | infinite loading | | Community, 5 Nov |
 
-OoT remake is capped at 30 FPS on current builds. The dynamic FPS mod is used in several reports, and shader compilation is still the main cause of stutter.
+OoT is capped at 30 FPS without the Dynamic FPS mod. Build 88 bundles Dark's Dynamic FPS mod for OoT, enabled by default; frame pacing and game speed still need testing, and shader compilation remains the main cause of stutter.
+
+Build 75 first got OoT in-game at 12-22 FPS on a Ryzen 9 5900X and RTX 3080, with heavy fog and glow. Build 88 integrated Frizti's performance ports and a bundled Dynamic FPS mod; the developer reports 60 FPS, and outlets and users saw 60 FPS in opening areas on RTX 4080/5080/5090. Build 93 added AMD shader and Vulkan synchronization fixes, but they have not been verified in affected AMD gameplay. Build 94/95 fixes OoT foliage, white flashes, terrain overdraw, the reticle and several rejected shaders, with limited gameplay testing. Radeon black screens and driver crashes remain the main blocker.
 
 Orchid v0.7.3 and v0.7.4 fix OoT exposure, fog and vegetation. There is no OoT FPS report for Orchid yet. A community comment that called performance questionable also said the build had not been tried.
 
@@ -123,7 +125,7 @@ Most community reports do not include the GPU driver, game version or 1% lows. A
 
 ## Sources
 
-- Public community reports, 30 Oct to 6 Nov 2026. Usernames are not reproduced.
+- Public community reports, 30 Oct to 7 Nov 2026. Usernames are not reproduced.
 - [ZendNevs v2.0.5 release notes](https://github.com/ZendNevs/Eglantine-ZendNevs/releases/tag/zendnevs-v2.0.5) for the documented MKW, DK and Pokopia results.
 - [Mario Kart World notes](MKW.md) for the full MKW table, settings and build notes.
 - [Donkey Kong Bananza notes](DONKEY-KONG.md) for the full DK table, 30 FPS and DynamicFPS workarounds, and terrain issues.
