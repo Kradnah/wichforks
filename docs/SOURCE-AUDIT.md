@@ -12,6 +12,7 @@ Checked 7 Nov 2026 against the GitHub, Forgejo and GitLab APIs. A project is aud
 | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Active | Auditable |
 | [zortos293/Lichii](https://github.com/zortos293/Lichii) | GPL-3.0 | Yes, src and CMakeLists | Binaries (build 94/95) and Actions artifacts | Active | Auditable |
 | [Frizti/Lichii](https://github.com/Frizti/Lichii) | GPL-3.0 | Yes, src and CMakeLists | Windows binaries | Active fork | Auditable |
+| [Kradnah/Firefly](https://github.com/Kradnah/Firefly) | GPL-3.0 | Yes, src and CMakeLists | Windows zip (prereleases) | New fork, Lichii history | Auditable source; self-reported OoT results |
 | [rdenno/Eglantine](https://github.com/rdenno/Eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Small fork | Auditable |
 | [Selevet Eglantine](https://github.com/sylvieistaken/selevet-eglantine) | GPL-3.0 | Yes, src and CMakeLists | Binaries | Tuned fork | Auditable |
 | [EglantinePS5](https://github.com/heydemoura/EglantinePS5) | GPL-3.0 | Yes, src and Makefile | No release assets at check | Port | Auditable source |

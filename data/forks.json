@@ -115,6 +115,23 @@
       "notes": "Fork of zortos293/Lichii. Frizti v1 fixes OoT white flashes, adds a Max Resolution patch, and includes culling, vegetation, grass and fog fixes. Lichii build 88 credits Frizti for cached storage-buffer bindings, direct uniform uploads, batched readbacks and Dark's Dynamic FPS integration; some 60 FPS OoT footage comes from Frizti's own builds. Windows x64 only. 30 FPS without the Dynamic FPS mod; shader stutter remains; AMD black screens and driver crashes reported. Community workaround: EDEN_NX2_REJECT_HASH=e40561a7a0f7a0b3 in %APPDATA%\\eden\\nx2_switches.txt."
     },
     {
+      "id": "firefly",
+      "name": "Firefly (Kradnah)",
+      "repo": "https://github.com/Kradnah/Firefly",
+      "releases": "https://github.com/Kradnah/Firefly/releases",
+      "host": "GitHub",
+      "role": "OoT-focused Lichii fork with performance profiles for laptops and mid-range PCs",
+      "platforms": ["Windows 10/11 x64"],
+      "gpu": ["NVIDIA"],
+      "best_for": ["Zelda OoT remake on laptops and mid-range PCs (self-reported)", "a steady 30 FPS profile at normal game speed"],
+      "latest_release": { "tag": "build-18", "date": "2026-11-07", "prerelease": true },
+      "license": "GPL-3.0",
+      "source_in_repo": true,
+      "stars_at_check": 0,
+      "confidence": "documented",
+      "notes": "Fork of zortos293/Lichii focused on the OoT remake, created 5 Nov 2026. Full source in repo, GPL-3.0; three prereleases (build-6, build-14, build-18), Windows only. AI-assisted commits disclosed (co-authored with Claude). Build 18 adds performance profiles picked from GPU memory and CPU threads on first start: 60 FPS, 30 FPS (docked, low-end mode, the game's step held to 30 FPS so it keeps its speed) and maximum performance (the same in handheld). It also ports Frizti v3's work and Eglantine PR 538, and fixes a low-end-mode black screen and a texture-cache deadlock on 4 GB GPUs. Self-reported on a Ryzen 5 4600H with an RTX 3050 Laptop 4 GB at the 30 FPS profile: steady 30 FPS indoors, 15-22 FPS in the busiest outdoor areas, with the GPU thermal throttling. Only NVIDIA tested, no independent reports yet. Not a first pick."
+    },
+    {
       "id": "droplet",
       "name": "Droplet",
       "repo": "https://gitlab.com/seighttt/droplet",

@@ -260,6 +260,7 @@ Lower confidence, but relevant depending on hardware:
 |---|---|---|---|
 | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | Windows/Linux | Zen 3-tuned, PGO + ThinLTO, faster GPU mapping. 121 stars. Build 6 (3 Nov). | Documented |
 | [EddizEge/Anka](https://github.com/EddizEge/Anka/releases) | Windows 10/11 | New DK-focused performance fork. 7 stars, one release; the DK result is a single-PC self-report. | Documented |
+| [Kradnah/Firefly](https://github.com/Kradnah/Firefly/releases) | Windows 10/11 | OoT-focused Lichii fork. Build 18 (7 Nov) picks a 60 FPS, 30 FPS or maximum-performance profile from your GPU memory and CPU; the 30 FPS profiles keep the game at normal speed. Self-reported on a 4600H with an RTX 3050 Laptop 4 GB: steady 30 indoors, 15-22 FPS in the busiest areas. NVIDIA only, 0 stars, AI-assisted commits disclosed. | Documented |
 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. Source only, no release assets at check. | Community-reported |
 | [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Patch set plus a binary release, not a full source tree. 11 stars. | Unverified |
 
@@ -394,6 +395,7 @@ All links checked 5-7 Nov 2026. Release metadata read from the GitHub and Forgej
 - Pokopia build: [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine), [releases](https://github.com/notsapinho/Eglantine/releases)
 - Game patches: [zortos293/Lichii](https://github.com/zortos293/Lichii), [releases](https://github.com/zortos293/Lichii/releases), [build-80 Actions run](https://github.com/zortos293/Lichii/actions/runs/42021953813)
 - OoT visual fixes: [Frizti/Lichii](https://github.com/Frizti/Lichii), [frizti-v1](https://github.com/Frizti/Lichii/releases/tag/frizti-v1)
+- OoT performance profiles: [Kradnah/Firefly](https://github.com/Kradnah/Firefly), [build-18](https://github.com/Kradnah/Firefly/releases/tag/build-18)
 - Private online: [Droplet](https://gitlab.com/seighttt/droplet), [releases](https://gitlab.com/seighttt/droplet/-/releases), [Reservoir server branch](https://gitlab.com/seighttt/droplet/-/tree/server)
 - Hyrule Warriors and nx2-merged: [rdenno/Eglantine](https://github.com/rdenno/Eglantine), [releases](https://github.com/rdenno/Eglantine/releases)
 - Android: [Banana Native](https://github.com/moceure/BananaNative), [releases](https://github.com/moceure/BananaNative/releases). The old [eden-nx2-android](https://git.eden-emu.dev/moceure/eden-nx2-android) is unmaintained and points here.
@@ -443,3 +445,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added six recent reports from the offline archive: low-end and laptop MKW configs, the DK build 212 crash, i5-12600K with RX 9070 XT, and Orchid on RX 6950 XT. |
 | 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
 | 2026-11-07 | Updated Lichii to build 88+ and build 94/95, added the Eglantine OoT and rc1 regressions, and added nxnative for macOS native builds. |
+| 2026-11-07 | Added Kradnah/Firefly, an OoT-focused Lichii fork with performance profiles for laptops, with its self-reported RTX 3050 Laptop result and caveats. Not a first pick. |
